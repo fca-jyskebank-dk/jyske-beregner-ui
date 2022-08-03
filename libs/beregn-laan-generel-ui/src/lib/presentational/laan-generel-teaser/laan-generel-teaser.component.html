@@ -1,0 +1,45 @@
+<div class="teaserComponentDiv">
+  <h1 class="kirby-text-display-3">
+    Hvad koster det at låne 500.000 kr. i banken?
+  </h1>
+  <div class="wrapperContainer">
+    <div class="teaserDiv">
+      <p>
+        Se priseksempler på 500.000 kr. på Jyske Banks bankboliglån og Jyske
+        Realkredits realkreditlån.
+      </p>
+      <p>
+        Beregningen er vejledende og tallene kan være afrundede. Et eventuelt
+        lånetilbud forudsætter en kreditgodkendelse, og din bolig skal vurderes,
+        inden du kan få et lån.
+      </p>
+      <div class="buttonWrapper">
+        <button class="buttonLink"
+          attentionLevel="1"
+          kirby-button
+          (click)="onBeregnLaanIFrivaerdi.emit(true)"
+        >
+          Beregn lån i friværdi
+        </button>
+        <button class="buttonLink"
+          attentionLevel="1"
+          kirby-button
+          (click)="onBeregnLaanTilKoebAfbolig.emit(true)"
+        >
+          Beregn lån til ny bolig
+        </button>
+      </div>
+    </div>
+    <div class="donutWithOverlay">
+      <div class="donutDiv">
+        <jyske-beregner-doughnut-chart [chartData]="chartData">
+        </jyske-beregner-doughnut-chart>
+      </div>
+      <div class="donutOverlay">
+        <div class="centered">Belåningsgrad</div>
+        <div class="centered big">80%</div>
+        <div class="centered">i helårsbolig</div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+@import '../../../../../shared/src/lib/scss/base';
+
+section {
+  margin-bottom: size('m');
+}
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: size('m');
+  h2 {
+    margin-bottom: size('xxs');
+    font-size: font-size('xxl');
+    span {
+      font-weight: normal;
+      display: block;
+      margin-bottom: size('xxs');
+    }
+  }
+}
+
+.section-header {
+  padding: 0 size('s');
+  margin-bottom: size('xxs');
+  h3,
+  p {
+    margin-bottom: 0;
+  }
+  p {
+    font-size: font-size('s');
+    font-weight: font-weight('light');
+    text-align: right;
+    white-space: nowrap;
+  }
+  .grid {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.info-text {
+  font-weight: font-weight('light');
+  font-size: font-size('xs');
+  line-height: 18px;
+  padding: size('xxs') size('s') 0 size('s');
+  color: get-color('semi-dark');
+}

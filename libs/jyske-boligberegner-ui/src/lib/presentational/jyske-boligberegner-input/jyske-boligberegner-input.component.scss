@@ -1,0 +1,63 @@
+@import '../../../../../shared/src/lib/scss/wcm';
+
+.inputComponentDiv {
+  max-width: 976px;
+  padding: size('m') 20px;
+  margin-bottom: 0; // WCM fix
+  margin: auto;
+}
+
+.wrapperContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: size('m');
+}
+.inputDiv,
+.donutDiv {
+  width: 50%;
+}
+
+@media (max-width: 666px) {
+  .inputDiv {
+    width: 100%;
+  }
+  .donutDiv {
+    display: none;
+  }
+}
+
+h2 {
+  margin-left: size('s');
+  color: get-color('white');
+}
+
+p {
+  margin-left: size('s');
+  max-width: $desktop-max-width;
+}
+
+.beregnButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.input-field {
+  height: 96px;
+  margin-bottom: size('xs');
+}
+kirby-form-field {
+  color: get-color('white');
+  --kirby-text-color-black: get-color('white');
+}
+kirby-segmented-control {
+  margin-bottom: size('m');
+}
+
+.kirby-text-xlarge {
+  color: get-color('white');
+  font-size: font-size('xl');
+  font-weight: font-weight('black');
+  margin: 0;
+  margin-bottom: size('s');
+}

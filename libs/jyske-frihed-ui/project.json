@@ -1,0 +1,24 @@
+{
+  "projectType": "library",
+  "root": "libs/jyske-frihed-ui",
+  "sourceRoot": "libs/jyske-frihed-ui/src",
+  "prefix": "jyske-frihed-ui",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/jyske-frihed-ui/src/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/jyske-frihed-ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "generators": {},
+  "tags": [],
+  "implicitDependencies": ["jyske-beregner-api", "shared"]
+}

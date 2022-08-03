@@ -1,0 +1,23 @@
+@import '~@kirbydesign/designsystem/scss/utils';
+
+.container {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+kirby-item {
+  --kirby-item-background: transparent;
+}
+
+hr {
+  margin-left: size('s');
+  margin-right: size('s');
+  border: 0;
+  border-top: 1px solid var(--kirby-divider-color, get-color('medium'));
+}

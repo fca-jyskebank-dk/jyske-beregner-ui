@@ -1,0 +1,30 @@
+<section class="jbb-container">
+  <div class="jbb-container__segment">
+    <kirby-segmented-control
+      [items]="segmentItems"
+      [selectedIndex]="selectedIndex"
+      (segmentSelect)="onSegmentSelect($event)"
+      mode="default"
+      size="sm"
+    ></kirby-segmented-control>
+  </div>
+
+  <div class="jbb-list" *ngIf="selectedIndex === 0">
+    <jyske-beregner-transparent-item-list
+      title="Hovedtal"
+      [items]="(resultat$ | async)?.hovedtal"
+    ></jyske-beregner-transparent-item-list>
+  </div>
+
+  <div class="jbb-plan" *ngIf="selectedIndex === 1">
+    <jyske-frihed-beregner-tilbagebetalingplan
+      [data$]="resultat$"
+    ></jyske-frihed-beregner-tilbagebetalingplan>
+  </div>
+
+  <div class="" *ngIf="selectedIndex === 2">
+    <jyske-frihed-beregner-graf
+      [data$]="resultat$"
+    ></jyske-frihed-beregner-graf>
+  </div>
+</section>

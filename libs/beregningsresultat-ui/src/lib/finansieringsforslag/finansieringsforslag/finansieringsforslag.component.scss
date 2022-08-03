@@ -1,0 +1,32 @@
+@import '../../../../../shared/src/lib/scss/base';
+
+.jbb-scene {
+  perspective: 16000px;
+  margin: size('xs');
+  padding: size('xxs') 0;
+  overflow-y: hidden;
+
+  &:first-child {
+    margin-left: size('s');
+  }
+
+  &:last-child {
+    margin-right: size('s');
+  }
+}
+
+.jbb-card {
+  // transform-style: preserve-3d;
+
+  .jbb-card__front {
+    z-index: 100;
+  }
+
+  .jbb-card__back {
+    transform: rotateY(180deg);
+  }
+}
+
+.card-content {
+  padding-bottom: size('xs');
+}

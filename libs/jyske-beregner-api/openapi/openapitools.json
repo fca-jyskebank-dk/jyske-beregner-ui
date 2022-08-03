@@ -1,0 +1,25 @@
+{
+  "$schema": "node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "4.3.1",
+    "generators": {
+      "JYSKE-BEREGNER-UI CLIENT API GENERATOR": {
+        "generatorName": "typescript-angular",
+        "output": "../src/lib",
+        "glob": "swagger-api.yml",
+        "additionalProperties": {
+          "ngVersion": "12.0.5",
+          "supportsES6": true,
+          "providedInRoot": false,
+          "withInterfaces": true,
+          "stringEnums": true,
+          "configurationClassName": "Configuration",
+          "configurationParametersInterfaceName": "ConfigurationInterfaceName",
+          "serviceFileSuffix": ".service",
+          "fileNaming": "kebab-case"
+        }
+      }
+    }
+  }
+}

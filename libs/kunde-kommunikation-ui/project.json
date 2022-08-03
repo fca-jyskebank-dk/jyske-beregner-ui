@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/kunde-kommunikation-ui",
+  "sourceRoot": "libs/kunde-kommunikation-ui/src",
+  "prefix": "jyske-beregner-ui",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/kunde-kommunikation-ui"],
+      "options": {
+        "jestConfig": "libs/kunde-kommunikation-ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/kunde-kommunikation-ui/src/**/*.ts",
+          "libs/kunde-kommunikation-ui/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

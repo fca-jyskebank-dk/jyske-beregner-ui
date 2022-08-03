@@ -1,0 +1,186 @@
+<ng-container
+  *ngTemplateOutlet="
+    infoModal.kurslisteType === kurslisteTypeFastrente
+      ? fastRenteHero
+      : variableRenteHero
+  "
+></ng-container>
+
+<ng-template #fastRenteHero>
+  <div data-testid="fastRenteHero">
+    <kirby-page-title>
+      Jyske Fast Rente
+    </kirby-page-title>
+    <div class="hero">
+      <h2>
+        <span class="kirby-text-xsmall">Tilbudskurs</span>
+        {{ data.tabelRaekke[3] }}
+      </h2>
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #variableRenteHero>
+  <div data-testid="variableRenteHero">
+    <kirby-page-title>
+      Jyske Rentetilpasningslån
+    </kirby-page-title>
+    <div class="hero">
+      <h2>
+        <span class="kirby-text-xsmall">Tilbud kontantlånsrente</span>
+        {{ data.tabelRaekke[2] }}
+      </h2>
+    </div>
+  </div>
+</ng-template>
+
+<!-- Aktuel kurs
+********************************************************************-->
+<section
+  *ngIf="infoModal.kurslisteType === kurslisteTypeFastrente"
+  data-testid="aktuelkurs"
+>
+  <div class="section-header">
+    <div class="grid">
+      <h3 class="kirby-text-small-light">Aktuel kurs</h3>
+      <p class="kirby-text-small-light">Opdateret kl. {{ infoModal.kursTid }}</p>
+    </div>
+  </div>
+
+  <kirby-card mode="flat">
+    <kirby-item>
+      <p style="font-size: 16px;">I dag</p>
+      <data slot="end">{{ data.aktuelKurs }}</data>
+    </kirby-item>
+  </kirby-card>
+  <p class="info-text">
+    Aktuel kurs er den seneste spotkurs og afspejler, hvad obligationen bliver
+    handlet til lige nu. Kursen vises med fradrag på 0,20 kurspoint i
+    kurstillæg/kursfradrag.
+  </p>
+</section>
+
+<!-- Fastkursaftale
+********************************************************************-->
+<section>
+  <ng-container
+    *ngTemplateOutlet="
+      infoModal.kurslisteType === kurslisteTypeFastrente
+        ? fastkursaftaleTemplate
+        : kontantlaansrenteTemplete
+    "
+  ></ng-container>
+
+
+</section>
+
+<ng-template #fastkursaftaleTemplate>
+  <div data-testid="fastkursaftaleTemplate" class="section-header">
+    <div class="grid">
+      <h3 class="kirby-text-small-light">Udbetalingskurs med fastkursaftale</h3>
+      <p class="kirby-text-small-light">Opdateret kl. {{ infoModal.kursTid }}</p>
+    </div>
+  </div>
+  <kirby-card mode="flat">
+    <ol>
+      <li data-testid="fkaKurserRenter" *ngFor="let fka of data.fkaKurser">
+        <kirby-item>
+          <p style="font-size: 16px;">{{ fka[0] }}</p>
+          <data slot="end">{{ fka[1] }}</data>
+        </kirby-item>
+      </li>
+    </ol>
+  </kirby-card>
+  <p class="info-text">
+    Udbetalingskurs er den kurs, vi aktuelt kan tilbyde at tegne fastkursaftaler til, ved udbetaling den pågældende dato (gælder for lån op til 3 mio. kr.). Den viste udbetalingskurs er efter fradrag på 0,20 kurspoint i kurstillæg/kursfradrag (0,35 kurspoint udenfor Børsens åbningstid kl. 9-17) og reguleret med et terminstillæg/-fradrag, der afhænger af den aftalte udbetalingsdato.
+  </p>
+</ng-template>
+
+<ng-template #kontantlaansrenteTemplete>
+  <div data-testid="kontantlaansrenteTemplete" class="section-header">
+    <div class="grid">
+      <h3 class="kirby-text-small-light">
+        Kontantlånsrente med fastkursaftale
+      </h3>
+      <p class="kirby-text-small-light">Opdateret kl. {{ infoModal.kursTid }}</p>
+    </div>
+  </div>
+  <kirby-card mode="flat">
+    <ol>
+      <li data-testid="fkaKurserRenter" *ngFor="let fka of data.fkaKurser">
+        <kirby-item>
+          <p style="font-size: 16px;">{{ fka[0] }}</p>
+          <data slot="end">{{ fka[1] }}</data>
+        </kirby-item>
+      </li>
+    </ol>
+  </kirby-card>
+  <p class="info-text">
+    “Kontantlånsrente ved fastkursaftale” er udtryk for kontantlånsrenten, hvis der tegnes fastkursaftale med udbetaling den pågældende dato. Kurstillæg/kursfradrag (0,20 kurspoint for F2-F6 og ingen kurstillæg/kursfradrag for F1) samt terminstillæg/-fradrag er indregnet i viste kontantlånsrente.
+    </p>
+</ng-template>
+
+<!-- Detaljer
+********************************************************************-->
+<section>
+  <div class="section-header">
+    <h3 class="kirby-text-small-light">Detaljer</h3>
+  </div>
+  <ng-container
+    *ngTemplateOutlet="
+      infoModal.kurslisteType === kurslisteTypeFastrente
+        ? fastRenteTemplate
+        : variabelRenteTemplate
+    "
+  ></ng-container>
+</section>
+
+<ng-template #fastRenteTemplate>
+  <kirby-card mode="flat" data-testid="fastRenteTemplate">
+    <ol>
+      <li>
+        <kirby-item>
+          <p style="font-size: 16px;">Løbetid</p>
+          <data slot="end">{{ data.tabelRaekke[0] }}</data>
+        </kirby-item>
+      </li>
+      <li>
+        <kirby-item>
+          <p style="font-size: 16px;">Mulighed for afdragsfrihed</p>
+          <data slot="end">{{ data.tabelRaekke[2] }}</data>
+        </kirby-item>
+      </li>
+      <li>
+        <kirby-item>
+          <p style="font-size: 16px;">Rente</p>
+          <data slot="end">{{ data.tabelRaekke[1] }}</data>
+        </kirby-item>
+      </li>
+      <li>
+        <kirby-item>
+          <p style="font-size: 16px;">ISIN-fondskode</p>
+          <data slot="end">{{ data.tabelRaekke[6] }}</data>
+        </kirby-item>
+      </li>
+    </ol>
+  </kirby-card>
+</ng-template>
+
+<ng-template #variabelRenteTemplate>
+  <kirby-card mode="flat" data-testid="variabelRenteTemplate">
+    <ol>
+      <li>
+        <kirby-item>
+          <p style="font-size: 16px;">Fastrenteperiode</p>
+          <data slot="end">{{ data.tabelRaekke[0] }}</data>
+        </kirby-item>
+      </li>
+      <li>
+        <kirby-item>
+          <p style="font-size: 16px;">Mulighed for afdragsfrihed</p>
+          <data slot="end">{{ data.tabelRaekke[1] }}</data>
+        </kirby-item>
+      </li>
+    </ol>
+  </kirby-card>
+</ng-template>

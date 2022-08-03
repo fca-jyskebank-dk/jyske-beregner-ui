@@ -1,0 +1,27 @@
+@import '../../../../../shared/src/lib/scss/wcm';
+
+.jbb-container {
+  border-radius: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.jbb-container__segment {
+  padding: size('s');
+}
+
+.jbb-list {
+  height: calc(100% - 92px);
+}
+
+.jbb-plan {
+  height: calc(100% - 92px);
+}
+
+// Desktop layout
+@media (min-width: $desktop-breakpoint) {
+  .jbb-container {
+    border-radius: 0 size('s') size('s') 0;
+    background-color: get-color('light');
+  }
+}

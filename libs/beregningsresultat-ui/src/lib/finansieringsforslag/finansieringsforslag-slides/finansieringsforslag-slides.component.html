@@ -1,0 +1,10 @@
+<kirby-slides [slidesOptions]="slidesOptions" [slides]="finansieringsforslag">
+  <finansieringsforslag
+    class="jbb-container__card"
+    [visDetaljer$]="visDetaljer$"
+    [beregningsresultat]="slide"
+    *kirbySlide="let slide"
+    (onKontaktMig)="onKontaktMig.emit(slide)"
+  >
+  </finansieringsforslag>
+</kirby-slides>

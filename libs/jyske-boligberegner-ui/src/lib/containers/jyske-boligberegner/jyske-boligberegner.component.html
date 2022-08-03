@@ -1,0 +1,56 @@
+<div class="jbb-container">
+  <kirby-loading-overlay
+    [isLoading]="jyskeBoligberegnerFacade.JyskeBoligberegnerIsLoading$ | async"
+    [showBackdrop]="false"
+    ><div class="jbb-background">
+      <jyske-boligberegner-ui-jyske-boligberegner-input
+        class="jbb-container__form"
+        (beregn)="onBeregn($event)"
+        (disableAfdragsfrihedToggle)="disableToggle($event)"
+      ></jyske-boligberegner-ui-jyske-boligberegner-input>
+      <jyske-boligberegner-ui-jyske-boligberegner-produkter
+        *ngIf="jyskeBoligberegnerFacade.JyskeBoligberegner$ | async"
+        class="jbb-produkter__form"
+        [disabled$]="
+          jyskeBoligberegnerFacade.JyskeBoligberegnerDisabledToggles$
+        "
+        [visDetaljerChecked$]="
+          jyskeBoligberegnerFacade.JyskeBoligberegnerVisDetaljer$
+        "
+        [visAfdragsfrihedChecked$]="
+          jyskeBoligberegnerFacade.JyskeBoligberegnerVisAfdragsfrihed$
+        "
+        (onVisDetaljerChanged)="onVisDetaljer($event)"
+        (onVisAfdragsfrihedChanged)="onVisAfdragsfrihed($event)"
+      ></jyske-boligberegner-ui-jyske-boligberegner-produkter>
+    </div>
+    <ng-container
+      *ngIf="
+        jyskeBoligberegnerFacade.JyskeBoligberegner$
+          | async as finansieringsforslag
+      "
+    >
+      <finansieringsforslag-slides
+        class="jbb-container__slides"
+        [finansieringsforslag]="finansieringsforslag"
+        [visDetaljer$]="jyskeBoligberegnerFacade.JyskeBoligberegnerVisDetaljer$"
+        (onKontaktMig)="onKontaktMig($event)"
+      ></finansieringsforslag-slides>
+      <p>
+        Beregningen forudsætter pant i ejendommen samt brandforsikring. Jyske
+        Realkredit-lån formidles af Jyske Bank. Beregningen er vejledende, og
+        tallene kan være afrundede. Et eventuelt lånetilbud forudsætter en
+        kreditgodkendelse, og boligen skal vurderes, inden du kan få et lån.
+      </p>
+      <div class="kontaktButton">
+        <button
+          attentionLevel="1"
+          kirby-button
+          (click)="onKontaktMigGenerel()"
+        >
+          Hvilket lån er det bedste for dig?
+        </button>
+      </div>
+    </ng-container>
+  </kirby-loading-overlay>
+</div>

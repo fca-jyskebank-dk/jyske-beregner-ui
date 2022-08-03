@@ -1,0 +1,69 @@
+<kirby-item>
+  <kirby-label>
+    <h3 *ngIf="visDetaljer">{{ beregningsresultat.pakkenavn }}</h3>
+    <h3 *ngIf="!visDetaljer">{{ beregningsresultat.pakkenavnKortVisning }}</h3>
+  </kirby-label>
+</kirby-item>
+
+<div class="call2action">
+  <div
+    class="ydelsePrMd"
+    *ngIf="beregningsresultat?.sekundaertNoegletal === null"
+  >
+    <kirby-flag
+      themeColor="success"
+      size="xs"
+      *ngIf="beregningsresultat?.primaertNoegletalAfdragsfri"
+    >
+      {{ beregningsresultat?.primaertNoegletalDetalje }}
+    </kirby-flag>
+    <p
+      *ngIf="!beregningsresultat?.primaertNoegletalAfdragsfri"
+      style="color: white;"
+      detail
+    >
+      headerdetalje fx. med 'afdragsfri'
+    </p>
+    <p class="kirby-text-xlarge ">
+      {{ beregningsresultat?.primaertNoegletal }}
+    </p>
+    <p class="kirby-text-xsmall">{{ beregningsresultat?.primaertNoegletalBeskrivelse }}</p>
+  </div>
+
+  <div
+    class="jbb-container__ydelser ydelsePrMd"
+    *ngIf="beregningsresultat?.sekundaertNoegletal !== null"
+  >
+    <div class="left">
+      <kirby-flag themeColor="warning" size="xs">{{
+        beregningsresultat?.primaertNoegletalDetalje
+      }}</kirby-flag>
+      <p class="kirby-text-large" style="margin-right: 8px;">
+        {{ beregningsresultat?.primaertNoegletal }}
+      </p>
+      <p class="kirby-text-xsmall" style="margin-right: 8px;">
+        {{ beregningsresultat?.primaertNoegletalBeskrivelse }}
+      </p>
+    </div>
+    <div class="right">
+      <kirby-flag themeColor="success" size="xs">{{
+        beregningsresultat?.sekundaertNoegletalDetalje
+      }}</kirby-flag>
+      <p class="kirby-text-large" style="margin-left: 8px;">
+        {{ beregningsresultat?.sekundaertNoegletal }}
+      </p>
+      <p class="kirby-text-xsmall" style="margin-left: 8px;">
+        {{ beregningsresultat?.sekundaertNoegletalBeskrivelse }}
+      </p>
+    </div>
+  </div>
+
+  <button
+    attentionLevel="3"
+    [size]="buttonSize"
+    (click)="onKontaktMig.emit()"
+    kirby-button
+  >
+    Modtag beregning
+  </button>
+</div>

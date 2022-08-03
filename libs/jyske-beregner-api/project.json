@@ -1,0 +1,24 @@
+{
+  "projectType": "library",
+  "root": "libs/jyske-beregner-api",
+  "sourceRoot": "libs/jyske-beregner-api/src",
+  "prefix": "jyske-beregner-api",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/jyske-beregner-api/src/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/jyske-beregner-api/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "generators": {},
+  "tags": [],
+  "implicitDependencies": []
+}

@@ -1,0 +1,384 @@
+{
+  "opdateringstidspunkt": "2021-04-14T10:15:06.130072",
+  "fastRenteProdukterGyldigDato": "2021-04-14T00:00:00",
+  "variabelRenteProdukterGyldigDato": "2021-04-14T00:00:00",
+  "fastRenteProdukter": [
+    {
+      "isin": "DK_Isin_kode_1",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 10,
+      "aktuelKurs": 95.15,
+      "tilbudsKurs": 95.162,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": -0.5,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 95.1, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 95, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 94.85, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_2",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 10,
+      "aktuelKurs": 97.532,
+      "tilbudsKurs": 97.675,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": 0,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 97.45, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 97.3, "dato": "2021-06-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_3",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 15,
+      "aktuelKurs": 94.854,
+      "tilbudsKurs": 95.1,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": 0,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 94.75, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 94.6, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 94.35, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_4",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 15,
+      "aktuelKurs": 97.802,
+      "tilbudsKurs": 97.767,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": 0.5,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 97.7, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 97.45, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 97.05, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_4",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 20,
+      "aktuelKurs": 91.95,
+      "tilbudsKurs": 92.095,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": 0,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 91.85, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 91.7, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 91.45, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_4",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 20,
+      "aktuelKurs": 95.308,
+      "tilbudsKurs": 96.25,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": 0.5,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 95.2, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 94.95, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 94.55, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_5",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 20,
+      "aktuelKurs": 98.825,
+      "tilbudsKurs": 98.925,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": 1,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 98.7, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 98.35, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 97.85, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_6",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 30,
+      "aktuelKurs": 91.978,
+      "tilbudsKurs": 92.093,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": 0.5,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 91.85, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 91.65, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 91.25, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_7",
+      "produktnavn": "Jyske Fast Rente (OA)",
+      "loebetidAar": 30,
+      "aktuelKurs": 91.117,
+      "tilbudsKurs": 91.248,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 10,
+      "kuponrenteProcent": 0.5,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 91, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 90.8, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 90.4, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_8",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 30,
+      "aktuelKurs": 96.217,
+      "tilbudsKurs": 96.619,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": 1,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 96.1, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 95.75, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 95.25, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_9",
+      "produktnavn": "Jyske Fast Rente (OA)",
+      "loebetidAar": 30,
+      "aktuelKurs": 95.167,
+      "tilbudsKurs": 95.107,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 10,
+      "kuponrenteProcent": 1,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 95.05, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 94.7, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 94.2, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_10",
+      "produktnavn": "Jyske Fast Rente (OA)",
+      "loebetidAar": 30,
+      "aktuelKurs": 92.967,
+      "tilbudsKurs": 92.885,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 30,
+      "kuponrenteProcent": 1,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 92.85, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 92.5, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 92, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_11",
+      "produktnavn": "Jyske Fast Rente",
+      "loebetidAar": 30,
+      "aktuelKurs": 99.65,
+      "tilbudsKurs": 99.95,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 0,
+      "kuponrenteProcent": 1.5,
+      "aabenForTilbud": false,
+      "fastkursAftaleKurser": [
+        { "kurs": 99.5, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 99.1, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 98.45, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_12",
+      "produktnavn": "Jyske Fast Rente (OA)",
+      "loebetidAar": 30,
+      "aktuelKurs": 98.935,
+      "tilbudsKurs": 99.111,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 10,
+      "kuponrenteProcent": 1.5,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 98.75, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 98.35, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 97.7, "dato": "2021-09-30T00:00:00" }
+      ]
+    },
+    {
+      "isin": "DK_Isin_kode_13",
+      "produktnavn": "Jyske Fast Rente (OA)",
+      "loebetidAar": 30,
+      "aktuelKurs": 96.95,
+      "tilbudsKurs": 96.973,
+      "tilbudsKursDato": "2021-04-14T00:00:00",
+      "maxAntalAfdragsfrieAar": 30,
+      "kuponrenteProcent": 1.5,
+      "aabenForTilbud": true,
+      "fastkursAftaleKurser": [
+        { "kurs": 96.8, "dato": "2021-05-06T00:00:00" },
+        { "kurs": 96.4, "dato": "2021-06-30T00:00:00" },
+        { "kurs": 95.75, "dato": "2021-09-30T00:00:00" }
+      ]
+    }
+  ],
+  "variabelRenteProdukter": [
+    {
+      "produktnavn": "Jyske Rentetilpasning",
+      "fastrenteperiode": 1,
+      "vaegtetTilbudskursDato": "2021-04-14T00:00:00",
+      "vaegtetTilbudskursProcent": -0.50316,
+      "maxAntalAfdragsfrieAar": [0, 10, 30],
+      "vaegtetUdbetalingskurser": [
+        {
+          "kurs": 100,
+          "dato": "2021-05-06T00:00:00",
+          "renteProcent": -0.11012
+        },
+        { "kurs": 100, "dato": "2021-06-30T00:00:00", "renteProcent": 0.61184 },
+        { "kurs": 100, "dato": "2021-09-30T00:00:00", "renteProcent": 0.05276 }
+      ]
+    },
+    {
+      "produktnavn": "Jyske Rentetilpasning",
+      "fastrenteperiode": 2,
+      "vaegtetTilbudskursDato": "2021-04-14T00:00:00",
+      "vaegtetTilbudskursProcent": -0.33032,
+      "maxAntalAfdragsfrieAar": [0, 10, 30],
+      "vaegtetUdbetalingskurser": [
+        {
+          "kurs": 102.07439,
+          "dato": "2021-05-06T00:00:00",
+          "renteProcent": -0.10148
+        },
+        {
+          "kurs": 101.728137,
+          "dato": "2021-06-30T00:00:00",
+          "renteProcent": 0.00408
+        },
+        {
+          "kurs": 101.18533,
+          "dato": "2021-09-30T00:00:00",
+          "renteProcent": 0.20364
+        }
+      ]
+    },
+    {
+      "produktnavn": "Jyske Rentetilpasning",
+      "fastrenteperiode": 3,
+      "vaegtetTilbudskursDato": "2021-04-14T00:00:00",
+      "vaegtetTilbudskursProcent": -0.33012,
+      "maxAntalAfdragsfrieAar": [0, 10, 30],
+      "vaegtetUdbetalingskurser": [
+        {
+          "kurs": 103.459419,
+          "dato": "2021-05-06T00:00:00",
+          "renteProcent": -0.2168
+        },
+        {
+          "kurs": 103.165755,
+          "dato": "2021-06-30T00:00:00",
+          "renteProcent": -0.17372
+        },
+        {
+          "kurs": 102.630635,
+          "dato": "2021-09-30T00:00:00",
+          "renteProcent": -0.07224
+        }
+      ]
+    },
+    {
+      "produktnavn": "Jyske Rentetilpasning",
+      "fastrenteperiode": 4,
+      "vaegtetTilbudskursDato": "2021-04-14T00:00:00",
+      "vaegtetTilbudskursProcent": -0.21676,
+      "maxAntalAfdragsfrieAar": [0, 10, 30],
+      "vaegtetUdbetalingskurser": [
+        {
+          "kurs": 104.339853,
+          "dato": "2021-05-06T00:00:00",
+          "renteProcent": -0.1504
+        },
+        {
+          "kurs": 104.002448,
+          "dato": "2021-06-30T00:00:00",
+          "renteProcent": -0.10304
+        },
+        {
+          "kurs": 103.472482,
+          "dato": "2021-09-30T00:00:00",
+          "renteProcent": -0.0246
+        }
+      ]
+    },
+    {
+      "produktnavn": "Jyske Rentetilpasning",
+      "fastrenteperiode": 5,
+      "vaegtetTilbudskursDato": "2021-04-14T00:00:00",
+      "vaegtetTilbudskursProcent": -0.0956,
+      "maxAntalAfdragsfrieAar": [0, 10, 30],
+      "vaegtetUdbetalingskurser": [
+        {
+          "kurs": 104.921399,
+          "dato": "2021-05-06T00:00:00",
+          "renteProcent": -0.05444
+        },
+        {
+          "kurs": 104.631942,
+          "dato": "2021-06-30T00:00:00",
+          "renteProcent": -0.02312
+        },
+        {
+          "kurs": 104.106181,
+          "dato": "2021-09-30T00:00:00",
+          "renteProcent": 0.0434
+        }
+      ]
+    },
+    {
+      "produktnavn": "Jyske Rentetilpasning",
+      "fastrenteperiode": 6,
+      "vaegtetTilbudskursDato": "2021-04-14T00:00:00",
+      "vaegtetTilbudskursProcent": -0.00588,
+      "maxAntalAfdragsfrieAar": [0, 10, 30],
+      "vaegtetUdbetalingskurser": [
+        {
+          "kurs": 105.13273,
+          "dato": "2021-05-06T00:00:00",
+          "renteProcent": 0.07036
+        },
+        {
+          "kurs": 104.844413,
+          "dato": "2021-06-30T00:00:00",
+          "renteProcent": 0.10032
+        },
+        {
+          "kurs": 104.320797,
+          "dato": "2021-09-30T00:00:00",
+          "renteProcent": 0.16192
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<div *ngFor="let item of data">
+  <kirby-item [size]="size">
+    <label class="item__label">{{ item.tekst }}</label>
+    <data slot="end"
+      ><jyske-beregner-star-rating
+        [value]="item.vaerdi"
+        [starsPrefilled]="1"
+      ></jyske-beregner-star-rating
+    ></data>
+  </kirby-item>
+</div>

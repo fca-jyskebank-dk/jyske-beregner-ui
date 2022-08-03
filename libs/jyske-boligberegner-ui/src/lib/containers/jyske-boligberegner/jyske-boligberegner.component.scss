@@ -1,0 +1,43 @@
+@import '../../../../../shared/src/lib/scss/base';
+@import './jyske-boligberegner.background.scss';
+
+:host {
+  width: 100%;
+}
+
+.jbb-container {
+  background-color: get-color('background-color');
+}
+
+.jbb-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.jbb-produkter__form {
+  display: block;
+  margin: 0 size('m');
+  padding-bottom: size('xxl');
+}
+
+.jbb-container__slides {
+  display: block;
+  margin-top: -48px;
+}
+
+p {
+  padding: size('xs') size('s') size('m') size('s');
+  margin: auto;
+  max-width: $desktop-max-width;
+  font-size: size('s');
+  color: get-color('semi-dark')
+}
+.kontaktButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: size('l');
+  margin: auto;
+  max-width: $desktop-max-width;
+}

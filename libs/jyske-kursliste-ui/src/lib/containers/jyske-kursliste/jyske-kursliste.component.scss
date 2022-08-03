@@ -1,0 +1,16 @@
+@import '../../../../../shared/src/lib/scss/base';
+
+.jbb-container {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: size('m');
+  min-height: 100%;
+
+  div {
+    margin: 0 size('s');
+  }
+  jyske-kursliste-ui-jyske-kursliste-tabel{
+    width: 100%;
+  }
+}

@@ -1,0 +1,46 @@
+@import '../../../../../shared/src/lib/scss/wcm';
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: size('s');
+  margin-bottom: 0; // WCM fix
+
+  label span {
+    position: relative !important; // WCM fix
+  }
+}
+
+h2 {
+  margin-left: size('s');
+}
+
+.boligvaerdi {
+  height: 98px;
+}
+
+kirby-divider {
+  margin: 0 !important;
+}
+
+.jbb-container__dropdown {
+  display: grid;
+  margin-bottom: size('s');
+
+  grid-template-columns: calc((100% - #{size('m')}) / 2) calc(
+      (100% - #{size('m')}) / 2
+    );
+  grid-column-gap: size('m');
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      margin: 0 0 size('xxxs') size('s');
+      font-size: font-size('s');
+      font-weight: font-weight('light');
+      line-height: 20px;
+    }
+  }
+}

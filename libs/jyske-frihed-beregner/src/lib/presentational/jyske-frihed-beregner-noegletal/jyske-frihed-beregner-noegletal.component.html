@@ -1,0 +1,8 @@
+<div class="container" *ngIf="loaded$ | async">
+  <span class="label">{{ textService.getJyskeFrihedBeregnerNoegletalText.afdragsfriYdelse.label }}</span>
+  <span class="value" [ngClass]="{ 'value-privat' : area === 0, 'value-erhverv' : area === 1 }">{{ (noegletal$ | async)?.ydelseFoerSkatUdenAfdrag || '0 kr.' }}</span>
+  <ng-container *ngIf="(noegletal$ | async)?.visYdelseEfterSkatMedAfdrag">
+    <span class="label">{{ textService.getJyskeFrihedBeregnerNoegletalText.ydelse.label }}</span>
+    <span class="value" [ngClass]="{ 'value-privat' : area === 0, 'value-erhverv' : area === 1 }">{{ (noegletal$ | async)?.ydelseFoerSkatMedAfdrag || '0 kr.' }}</span>
+  </ng-container>
+</div>

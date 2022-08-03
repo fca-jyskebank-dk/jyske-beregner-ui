@@ -1,0 +1,27 @@
+<div class="labels">
+  <span>
+    {{ label }}
+  </span>
+  <span> {{ valuePct | customNumber: '' }}%</span>
+</div>
+
+<div class="inputs">
+  <kirby-form-field>
+    <input
+      kirby-input
+      [ngModel]="value"
+      (ngModelChange)="setInputValue($event)"
+      [disabled]="inputDisabled"
+      inputmode="numeric"
+      currencyMask
+    />
+  </kirby-form-field>
+
+  <ion-range
+    color="primary"
+    [max]="sliderMax"
+    [value]="value"
+    [step]="stepValue"
+    (ionChange)="setSliderValue($event.detail.value)"
+  ></ion-range>
+</div>

@@ -1,0 +1,70 @@
+@import '../../../../../shared/src/lib/scss/wcm';
+
+.inputComponentDiv {
+  max-width: $desktop-max-width;
+  padding: size('m') 20px;
+  padding-bottom: size('xs');
+  margin-bottom: 0; // WCM fix
+  margin: auto;
+}
+
+.wrapperContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.inputDiv,
+.donutDiv {
+  width: 50%;
+}
+
+@media (max-width: 666px) {
+  .inputDiv {
+    width: 100%;
+  }
+  .donutDiv {
+    display: none;
+  }
+}
+
+.input-field {
+  height: 96px;
+  margin-bottom: size('xs');
+}
+kirby-form-field {
+  color: get-color('white');
+  --kirby-text-color-black: get-color('white');
+}
+kirby-segmented-control {
+  margin-bottom: size('m');
+}
+
+.kirby-text-xlarge {
+  color: get-color('white');
+  font-size: font-size('xl');
+  font-weight: font-weight('black');
+  margin: 0;
+  margin-bottom: size('s');
+}
+.text-white {
+  color: get-color('white');
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 16px;
+  margin-bottom: 4px;
+}
+
+.jbb-container__dropdown {
+  display: flex;
+  align-items: center;
+  margin-bottom: size('s');
+  justify-content: space-between;
+  .invisible-button {
+    // usynlig knap til at styre at der beregnes når der klikkes Enter
+    display: none;
+    height: auto;
+    border: 0px;
+    padding: 0px;
+  }
+}

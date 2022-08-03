@@ -1,0 +1,100 @@
+<div class="inputComponentDiv">
+  <h1 class="kirby-text-xlarge">Jyske Frihed - 30 års afdragsfrihed</h1>
+  <div class="wrapperContainer">
+    <div class="inputDiv">
+      <form [formGroup]="formGroup" novalidate>
+        <div class="input-field">
+          <kirby-form-field
+            [label]="laaneoenskeLabel"
+            [message]="laaneoenskeValidationMessage"
+          >
+            <input
+              kirby-input
+              autofocus
+              type="number"
+              kirby-decimal-mask
+              [max]="MAXIMUM_BOLIGPRIS_UI"
+              [precision]="0"
+              id="laaneoenske"
+              (keyup)="onKeyUpLaaneoenske($event)"
+              formControlName="laaneoenske"
+              [hasError]="laaneoenske.invalid"
+            />
+          </kirby-form-field>
+        </div>
+
+        <div class="input-field">
+          <kirby-form-field
+            [label]="boligvaerdiLabel"
+            [message]="
+              boligvaerdi.invalid
+                ? boligvaerdiValidationMessage
+                : beskedOmManglendeBoligvaerdi
+            "
+          >
+            <input
+              kirby-input
+              type="number"
+              kirby-decimal-mask
+              [max]="MAXIMUM_BOLIGPRIS_UI"
+              [precision]="0"
+              id="boligvaerdi"
+              (keyup)="onKeyUpBoligvaerdi($event)"
+              formControlName="boligvaerdi"
+              [hasError]="boligvaerdi.invalid"
+            />
+          </kirby-form-field>
+        </div>
+        <div class="beregnButton">
+          <button
+            [disabled]="formGroup.invalid || (isMaxProvenuLoading$ | async) || (isBeregningLoading$ | async)"
+            attentionLevel="1"
+            kirby-button
+            (click)="onBeregn()"
+          >
+            Beregn
+          </button>
+          <a id="afdragsperiode"></a>
+        </div>
+      </form>
+    </div>
+    <div class="inputDiv">
+      <div>
+        <p>
+          Hvis du låner op til 60% af din boligs værdi, kan du få op til 30 års
+          afdragsfrihed - men du bestemmer selv, hvor mange års afdragsfrihed du
+          bruger.
+        </p>
+        <p>
+          Hvis du låner mere end 60% af din boligs værdi (maks. 75%), kan du få
+          Jyske Frihed på individuelle vilkår. Du kan få fuld afdragsfrihed, når
+          du har nedbragt din boliggæld til 60%.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <kirby-card class="afdragstid" *ngIf="visVaelgAfdragsperiode">
+      <div class="wrapperContainer normal">
+        <div class="inputDiv">
+          <h2>
+            <strong>
+              Dit lån bliver på mere end 60% af din boligs værdi.
+            </strong>
+          </h2>
+          <p>
+            Du skal ned på 60% for at få fuld afdragsfrihed.<br />Hvor mange år
+            vil du bruge på at få boliglånet ned på 60%?
+          </p>
+        </div>
+        <div class="inputDiv">
+          <jyske-frihed-bar-chart
+            (afdragstidChanged)="onSelectAntalAarMedAfdrag($event)"
+            [barChartData]="barChartData"
+          >
+          </jyske-frihed-bar-chart>
+        </div>
+      </div>
+    </kirby-card>
+  </div>
+</div>

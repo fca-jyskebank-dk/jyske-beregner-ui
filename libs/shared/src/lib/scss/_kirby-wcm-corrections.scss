@@ -1,0 +1,17 @@
+// ***** hack for at korrigere for fejl kirby stylesheets introducerer i WCM
+
+:link{
+  text-decoration: none;
+}
+li li, li + li {
+  margin-block-start: 0em;
+}
+ul {
+  line-height: inherit;
+}
+
+ul,
+ol {
+  margin-inline-start: 0em;
+  padding-inline-start: 0em;
+}

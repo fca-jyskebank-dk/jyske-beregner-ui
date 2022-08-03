@@ -1,0 +1,28 @@
+{
+  "root": "apps/jyske-boligberegner-e2e",
+  "sourceRoot": "apps/jyske-boligberegner-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/jyske-boligberegner-e2e/cypress.json",
+        "tsConfig": "apps/jyske-boligberegner-e2e/tsconfig.e2e.json",
+        "devServerTarget": "jyske-boligberegner:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "jyske-boligberegner:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/jyske-boligberegner-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["jyske-boligberegner-app"]
+}

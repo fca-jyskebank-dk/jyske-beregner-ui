@@ -1,0 +1,93 @@
+@import '~@kirbydesign/designsystem/scss/utils';
+@import '../../../../../shared/src/lib/scss/wcm';
+
+#chartContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.rangeslider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 96%; /* Skal kun dække 28 af 30 år */
+  background: transparent; //#d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+  cursor: ew-resize;
+  background: transparent;
+  position: absolute;
+  bottom: -22px;
+  left: 0 ;
+  z-index: 10;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.rangeslider[type='range']::-webkit-slider-runnable-track {
+  -webkit-appearance: none;
+  background-color: transparent;
+  // width: 100%;
+}
+
+.rangeslider[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: white;
+  cursor: ew-resize;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+kirby-flag {
+  position: absolute;
+  bottom: 75%;
+  left: 50% ;
+  z-index: 20;
+}
+
+.range-wrap {
+  position: relative;
+  width: 100%;
+  top: 12px;
+
+  }
+
+  .bubble {
+  background: white;
+  color: black;
+  padding: 4px 6px;
+  position: absolute;
+  border-radius: 4px;
+  left: 50%;
+  top:-60px;
+  transform: translateX(-50%);
+  -webkit-box-shadow: 0px 9px 18px -11px #000000;
+  box-shadow: 0px 9px 18px -11px #000000;
+  min-width: 40px;
+  text-align: center;
+  font-size: 12px;
+  }
+
+  .bubble::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: white;
+  bottom: -4px;
+  left: 50%;
+  transform: rotate(45deg);
+  margin-left:-4px;
+  }

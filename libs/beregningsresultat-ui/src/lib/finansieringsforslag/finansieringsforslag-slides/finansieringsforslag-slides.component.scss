@@ -1,0 +1,7 @@
+.jbb-container__card {
+  // to prevent margins collapsing
+  display: inline-block;
+  width: 100%;
+  margin: size('s') 0;
+  overflow: visible;
+}

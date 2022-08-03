@@ -1,0 +1,24 @@
+@import '../../../../../shared/src/lib/scss/wcm';
+
+.jbb-container {
+  background-color: transparent;
+  padding: 0;
+  text-align: center;
+
+  h3 {
+    margin-top: size('s');
+    margin-bottom: size('xxxs');
+    max-width: 100%;
+  }
+
+  p {
+    margin-bottom: size('xxs');
+    font-weight: font-weight('light');
+  }
+
+  a {
+    color: get-color('black');
+    font-size: font-size('n');
+    font-weight: font-weight('normal');
+  }
+}

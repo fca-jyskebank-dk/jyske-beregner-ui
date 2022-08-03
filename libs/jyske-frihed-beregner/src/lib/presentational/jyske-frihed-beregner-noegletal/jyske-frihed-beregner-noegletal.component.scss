@@ -1,0 +1,42 @@
+@import '../../../../../shared/src/lib/scss/wcm';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  background-color: transparent;
+  padding: 0 size('m') 0 size('m');
+  align-items: start;
+
+  .label {
+    color: get-color('semi-dark');
+    font-weight: font-weight('light');
+  }
+
+  .value {
+    display: block;
+    margin-top: size('xxxs');
+    margin-bottom: size('xxxs');
+    color: get-color('dark');
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 100%;
+  }
+}
+
+// Desktop layout
+@media (min-width: $desktop-breakpoint) {
+  .container {
+    align-items: center;
+
+    .value-privat {
+      font-size: 72px;
+      margin-bottom: size('xxs');
+    }
+
+    .value-erhverv {
+      font-size: 48px;
+      margin-bottom: size('xxs');
+    }
+  }
+}

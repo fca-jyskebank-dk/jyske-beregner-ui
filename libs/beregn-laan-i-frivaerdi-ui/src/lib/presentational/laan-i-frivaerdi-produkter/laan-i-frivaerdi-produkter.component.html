@@ -1,0 +1,21 @@
+<a  id="produkter"></a>
+<section class="jbb-container">
+  <h2 class="kirby-text-large">
+    Produkter
+  </h2>
+  <div class="jbb-container_toogle">
+    <p>Detaljer</p>
+    <kirby-toggle
+      [disabled]="disabled$ | async"
+      [checked]="visDetaljerChecked$ | async"
+      (checkedChange)="onVisDetaljerChanged.emit($event)"
+    ></kirby-toggle>
+
+    <p>Afdragsfrihed</p>
+    <kirby-toggle
+      [disabled]="disabled$ | async"
+      [checked]="visAfdragsfrihedChecked$ | async"
+      (checkedChange)="onVisAfdragsfrihedChanged.emit($event)"
+    ></kirby-toggle>
+  </div>
+</section>

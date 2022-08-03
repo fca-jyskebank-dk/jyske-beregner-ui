@@ -1,0 +1,117 @@
+{
+  "projectType": "application",
+  "generators": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
+  "root": "apps/jyske-frihed",
+  "sourceRoot": "apps/jyske-frihed/src",
+  "prefix": "jyske-frihed",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "options": {
+        "outputPath": "dist/apps/jyske-frihed",
+        "index": "apps/jyske-frihed/src/index.html",
+        "main": "apps/jyske-frihed/src/main.ts",
+        "polyfills": "apps/jyske-frihed/src/polyfills.ts",
+        "tsConfig": "apps/jyske-frihed/tsconfig.app.json",
+        "assets": [
+          "apps/jyske-frihed/src/favicon.ico",
+          "apps/jyske-frihed/src/assets",
+          {
+            "glob": "**",
+            "input": "apps/jyske-frihed/src/assets/mocks",
+            "output": "./assets/mocks"
+          },
+          {
+            "glob": "**/*.svg",
+            "input": "node_modules/ionicons/dist/ionicons/svg",
+            "output": "./svg"
+          },
+          {
+            "glob": "**/*.svg",
+            "input": "node_modules/@kirbydesign/designsystem/icons/svg",
+            "output": "./assets/kirby/icons/svg"
+          },
+          {
+            "glob": "**/*",
+            "input": "node_modules/@kirbydesign/designsystem/polyfills",
+            "output": "./kirby/polyfills"
+          }
+        ],
+        "styles": ["apps/jyske-frihed/src/styles.scss"],
+        "scripts": [],
+        "vendorChunk": true,
+        "extractLicenses": false,
+        "buildOptimizer": false,
+        "sourceMap": true,
+        "optimization": false,
+        "namedChunks": true
+      },
+      "configurations": {
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/jyske-frihed/src/environments/environment.ts",
+              "with": "apps/jyske-frihed/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "buildOptimizer": true,
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "2mb",
+              "maximumError": "5mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "30kb",
+              "maximumError": "36kb"
+            }
+          ]
+        }
+      },
+      "defaultConfiguration": ""
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "options": {
+        "browserTarget": "jyske-frihed:build"
+      },
+      "configurations": {
+        "production": {
+          "browserTarget": "jyske-frihed:build:production"
+        }
+      }
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "jyske-frihed:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/jyske-frihed/src/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/jyske-frihed/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["jyske-frihed-beregner"]
+}

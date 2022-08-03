@@ -1,0 +1,57 @@
+<form [formGroup]="formGroup" novalidate>
+  <h2>{{ textService.getJyskeFrihedBeregnerFormText.overskrift }}</h2>
+
+  <kirby-form-field
+    [label]="textService.getJyskeFrihedBeregnerFormText.boligvaerdi.label"
+    [message]="boligvaerdiValidationMessage"
+    class="boligvaerdi"
+  >
+    <input
+      kirby-input
+      id="boligvaerdi"
+      formControlName="boligvaerdi"
+      placeholder="Eks. 3.450.000 kr."
+      inputmode="numeric"
+      currencyMask
+      [hasError]="boligvaerdiValidationMessage"
+    />
+  </kirby-form-field>
+
+  <jyske-beregner-input-slider
+    formControlName="eksisterendeBoliggaeld"
+    [label]="textService.getJyskeFrihedBeregnerFormText.eksisterendeBoliggaeld.label"
+    [maxValue]="boligvaerdi.value"
+    [sliderMaxPercent]="EKSISTERENDE_BOLLIGGAELD_FAKTOR_MAX"
+    [stepValue]="SLIDER_STEP"
+    [inputDisabled]="false"
+  ></jyske-beregner-input-slider>
+
+  <div class="jbb-container__dropdown">
+    <div>
+      <span>{{
+        textService.getJyskeFrihedBeregnerFormText.afdragsfrihed.label
+      }}</span>
+      <kirby-dropdown
+        itemTextProperty="value"
+        [items]="afdragsFrihedItems"
+        attentionLevel="2"
+        [selectedIndex]="getAfdragsFrihedSelectedIndex()"
+        [disabled]="afdragsFrihedEnabled"
+        (change)="onChangeAfdragsFrihed($event)"
+      ></kirby-dropdown>
+    </div>
+    <div>
+      <span>{{
+        textService.getJyskeFrihedBeregnerFormText.fastrenteperiode.label
+      }}</span>
+      <kirby-dropdown
+        formControlName="fastrenteperiode"
+        itemTextProperty="value"
+        [items]="fastrenteperiodeItems"
+        attentionLevel="2"
+      ></kirby-dropdown>
+    </div>
+  </div>
+
+  <kirby-divider></kirby-divider>
+</form>

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "projects": {
+    "beregn-laan-generel-app": "apps/beregn-laan-generel-app",
+    "beregn-laan-generel-app-e2e": "apps/beregn-laan-generel-app-e2e",
+    "beregn-laan-generel-ui": "libs/beregn-laan-generel-ui",
+    "beregn-laan-i-frivaerdi-app": "apps/beregn-laan-i-frivaerdi-app",
+    "beregn-laan-i-frivaerdi-app-e2e": "apps/beregn-laan-i-frivaerdi-app-e2e",
+    "beregn-laan-i-frivaerdi-ui": "libs/beregn-laan-i-frivaerdi-ui",
+    "beregningsresultat-ui": "libs/beregningsresultat-ui",
+    "jyske-beregner-api": "libs/jyske-beregner-api",
+    "jyske-boligberegner-app": "apps/jyske-boligberegner-app",
+    "jyske-boligberegner-e2e": "apps/jyske-boligberegner-e2e",
+    "jyske-boligberegner-ui": "libs/jyske-boligberegner-ui",
+    "jyske-frihed": "apps/jyske-frihed",
+    "jyske-frihed-app": "apps/jyske-frihed-app",
+    "jyske-frihed-app-e2e": "apps/jyske-frihed-app-e2e",
+    "jyske-frihed-beregner": "libs/jyske-frihed-beregner",
+    "jyske-frihed-e2e": "apps/jyske-frihed-e2e",
+    "jyske-frihed-ui": "libs/jyske-frihed-ui",
+    "jyske-kursliste-app": "apps/jyske-kursliste-app",
+    "jyske-kursliste-e2e": "apps/jyske-kursliste-e2e",
+    "jyske-kursliste-ui": "libs/jyske-kursliste-ui",
+    "kunde-kommunikation-ui": "libs/kunde-kommunikation-ui",
+    "nyt-laan-erhverv-app": "apps/nyt-laan-erhverv-app",
+    "nyt-laan-erhverv-app-e2e": "apps/nyt-laan-erhverv-app-e2e",
+    "nyt-laan-erhverv-ui": "libs/nyt-laan-erhverv-ui",
+    "shared": "libs/shared"
+  }
+}

@@ -1,0 +1,50 @@
+<div class="jbb-container">
+  <kirby-loading-overlay
+    [isLoading]="jyskeFrihedFacade.JyskeFrihedIsLoading$ | async"
+    [showBackdrop]="false"
+    ><div class="jbb-background">
+      <jyske-frihed-input
+        class="jbb-container__form"
+        [maximaltProvenu$]="jyskeFrihedFacade.MaxProvenu$"
+        [ejendomsvaerdi$]="jyskeFrihedFacade.Ejendomsvaerdi$"
+        (beregnNytMaxLaaneoenske)="onBeregnNytMaxLaaneoenske($event)"
+        (beregn)="onBeregn($event)"
+        [isMaxProvenuLoading$]="jyskeFrihedFacade.MaxProvenuIsLoading$"
+        [isBeregningLoading$]="jyskeFrihedFacade.JyskeFrihedIsLoading$"
+      ></jyske-frihed-input>
+    <jyske-frihed-produkter
+      *ngIf="jyskeFrihedFacade.JyskeFrihed$ | async"
+        class="jbb-produkter__form"
+        [disabled$]="jyskeFrihedFacade.JyskeFrihedDisabledToggles$"
+        [visDetaljerChecked$]="jyskeFrihedFacade.JyskeFrihedVisDetaljer$"
+        (onVisDetaljerChanged)="onVisDetaljer($event)"
+      ></jyske-frihed-produkter>
+    </div>
+    <ng-container
+      *ngIf="
+      jyskeFrihedFacade.JyskeFrihed$ | async as finansieringsforslag
+      "
+    >
+      <finansieringsforslag-slides
+        class="jbb-container__slides"
+        [finansieringsforslag]="finansieringsforslag"
+        [visDetaljer$]="jyskeFrihedFacade.JyskeFrihedVisDetaljer$"
+        (onKontaktMig)="onKontaktMig($event)"
+      ></finansieringsforslag-slides>
+      <p>
+        Beregningen forudsætter pant i ejendommen samt brandforsikring. Jyske
+        Realkredit-lån formidles af Jyske Bank. Beregningen er vejledende, og
+        tallene kan være afrundede. Et eventuelt lånetilbud forudsætter en
+        kreditgodkendelse, og boligen skal vurderes, inden du kan få et lån.
+      </p>
+      <div class="kontaktButton">
+        <button
+          attentionLevel="1"
+          kirby-button (click)="onKontaktMigGenerel()"
+        >
+          Hvilket lån er det bedste for dig?
+        </button>
+      </div>
+    </ng-container>
+  </kirby-loading-overlay>
+</div>

@@ -1,0 +1,66 @@
+@import '../../../../../shared/src/lib/scss/base';
+
+.jbb-container {
+  background-color: transparent;
+  max-width: $desktop-breakpoint;
+}
+
+.jbb-container__form {
+  display: flex;
+  flex-direction: column;
+  background-color: get-color('background-color');
+}
+
+.jbb-container__detaljer {
+  margin: 0;
+}
+
+.jbb-container__cta {
+  margin-bottom: size('m');
+}
+
+kirby-divider {
+  margin: size('s');
+}
+
+// Desktop layout
+@media (min-width: $desktop-breakpoint) {
+  .jbb-container {
+    padding: 5px;
+    border-radius: size('s');
+  }
+
+  .jbb-container__form {
+    position: relative;
+    border-radius: size('s');
+    box-shadow: get-elevation(4);
+    width: $desktop-breakpoint;
+  }
+
+  .jbb-container__noegletal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 215px;
+  }
+
+  .jbb-container__detaljer {
+    position: absolute;
+    top: size('s');
+    bottom: size('s');
+    border-radius: 0 size('s') size('s') 0;
+    box-shadow: get-elevation(2);
+    width: 545px;
+    left: 378px;
+  }
+
+  .jbb-container__cta {
+    background-color: get-color('background-color');
+    border-radius: 0 0 size('s') size('s');
+    text-align: center;
+  }
+
+  kirby-divider {
+    display: none;
+  }
+}

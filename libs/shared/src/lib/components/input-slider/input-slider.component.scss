@@ -1,0 +1,32 @@
+@import '../../scss/wcm';
+
+:host {
+  display: flex;
+  flex-direction: column;
+
+  .labels {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: font-size('s');
+    font-weight: font-weight('light');
+    margin: 0 size('s') size('xxxs') size('s');
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: row;
+
+    input {
+      width: 126px;
+      border-radius: size('s') size('xs') size('xs') size('s');
+    }
+
+    ion-range {
+      margin: 0;
+      padding: 0;
+      margin: 0 24px;
+      height: 56px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "root": "apps/beregn-laan-i-frivaerdi-app-e2e",
+  "sourceRoot": "apps/beregn-laan-i-frivaerdi-app-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/beregn-laan-i-frivaerdi-app-e2e/cypress.json",
+        "devServerTarget": "beregn-laan-i-frivaerdi-app:serve:development",
+        "tsConfig": "apps/beregn-laan-i-frivaerdi-app-e2e/tsconfig.json"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "beregn-laan-i-frivaerdi-app:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": [
+          "apps/beregn-laan-i-frivaerdi-app-e2e/**/*.{js,ts}"
+        ]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["beregn-laan-i-frivaerdi-app"]
+}

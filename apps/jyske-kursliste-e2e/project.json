@@ -1,0 +1,28 @@
+{
+  "root": "apps/jyske-kursliste-e2e",
+  "sourceRoot": "apps/jyske-kursliste-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/jyske-kursliste-e2e/cypress.json",
+        "tsConfig": "apps/jyske-kursliste-e2e/tsconfig.e2e.json",
+        "devServerTarget": "jyske-kursliste:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "jyske-kursliste:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/jyske-kursliste-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["jyske-kursliste-app"]
+}

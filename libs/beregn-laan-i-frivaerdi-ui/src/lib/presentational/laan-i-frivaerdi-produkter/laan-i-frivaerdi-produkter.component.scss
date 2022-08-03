@@ -1,0 +1,49 @@
+@import '../../../../../shared/src/lib/scss/wcm';
+
+.jbb-container {
+  padding-top: size('xxs');
+  display: flex;
+  align-items: center;
+  color: get-color('white');
+
+  .kirby-text-large {
+    margin: 0 auto 0 0;
+    font-weight: font-weight('light');
+
+    font-size: font-size("l");
+  }
+
+  .jbb-container_toogle {
+    display: flex;
+    align-items: center;
+
+    // Hack for toggle background
+    kirby-toggle {
+      background: white;
+      height: 32px;
+      border-radius: 16px;
+    }
+
+    p {
+      margin: 0 size('s') 0 size('s');
+      font-weight: font-weight('normal');
+    }
+
+    div {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    display: block;
+
+    .jbb-container_toogle {
+      display: flex;
+
+      p:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

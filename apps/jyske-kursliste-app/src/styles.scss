@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@kirbydesign/designsystem/scss/global-styles';
+@import '~@kirbydesign/designsystem/scss/utils';
+@import '../../../libs/shared/src/lib/scss/kirby-wcm-corrections';
+
+.jbb-main-container {
+  display: flex;
+  margin: auto;
+  max-width: 970px;
+
+  jyske-kursliste {
+    margin: 0 10px 0 10px;
+  }
+
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+    jyske-kursliste {
+      margin: 0;
+    }
+  }
+}

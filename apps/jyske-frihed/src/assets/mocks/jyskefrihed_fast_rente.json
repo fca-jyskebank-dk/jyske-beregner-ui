@@ -1,0 +1,353 @@
+{
+  "aaopFoerSkat": 0.0173,
+  "aaopFoerSkatPct": 1.73,
+  "aarTilUdloeb": 30.25,
+  "antalBetalingsterminer": 121,
+  "antalAfdragsfrieAar": 30,
+  "bevillingOmkostninger": 7500,
+  "fastrentePeriode": 30,
+  "foersteAarsBidragssats": 0.0052,
+  "foersteAarsBidragssatsPct": 0.52,
+  "foersteAarsDebitorRente": 0.01,
+  "foersteAarsDebitorRentePct": 1,
+  "foersteAarsMaanedligeYdelseFoerSkatMedAfdrag": 1364,
+  "foersteAarsMaanedligeYdelseEfterSkatMedAfdrag": 1019,
+  "foersteAarsMaanedligeYdelseFoerSkatUdenAfdrag": 1364,
+  "foersteAarsMaanedligeYdelseEfterSkatUdenAfdrag": 1019,
+  "hovedstol": 1073000,
+  "kreditor": "Jyske Realkredit",
+  "kursskaering": 2186,
+  "kurtage": 1577,
+  "laanNavn": "Jyske frihed (Fast Rente)",
+  "renteType": "fast",
+  "samledeKreditomkostninger": 518727,
+  "stiftelseProvision": 0,
+  "tinglysningAfgift": 17330.0,
+  "totalRenterOgBidrag": 492321,
+  "totalTilbagebetaling": 1565321,
+  "udbetalingsdato": "2020-11-30",
+  "udbetalingskurs": 97.924,
+  "udbetaltBeloeb": 1024319,
+  "tilbagebetalingsplan": [
+    {
+      "betalingsaar": 2020,
+      "betalingsdato": "2020-11-30",
+      "ydelseFoerSkat": 0,
+      "ydelseEfterSkat": 0,
+      "afdrag": 0,
+      "rente": 0,
+      "bidrag": 0,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2021,
+      "betalingsdato": "2021-01-01",
+      "ydelseFoerSkat": 8981,
+      "ydelseEfterSkat": 6706,
+      "afdrag": 0,
+      "rente": 8981,
+      "bidrag": 4715,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2022,
+      "betalingsdato": "2022-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2023,
+      "betalingsdato": "2023-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2024,
+      "betalingsdato": "2024-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2025,
+      "betalingsdato": "2025-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2026,
+      "betalingsdato": "2026-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2027,
+      "betalingsdato": "2027-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2028,
+      "betalingsdato": "2028-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2029,
+      "betalingsdato": "2029-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2030,
+      "betalingsdato": "2030-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2031,
+      "betalingsdato": "2031-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2032,
+      "betalingsdato": "2032-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2033,
+      "betalingsdato": "2033-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2034,
+      "betalingsdato": "2034-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2035,
+      "betalingsdato": "2035-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2036,
+      "betalingsdato": "2036-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2037,
+      "betalingsdato": "2037-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2038,
+      "betalingsdato": "2038-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2039,
+      "betalingsdato": "2039-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2040,
+      "betalingsdato": "2040-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2041,
+      "betalingsdato": "2041-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2042,
+      "betalingsdato": "2042-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2043,
+      "betalingsdato": "2043-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2044,
+      "betalingsdato": "2044-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2045,
+      "betalingsdato": "2045-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2046,
+      "betalingsdato": "2046-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2047,
+      "betalingsdato": "2047-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2048,
+      "betalingsdato": "2048-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2049,
+      "betalingsdato": "2049-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2050,
+      "betalingsdato": "2050-01-01",
+      "ydelseFoerSkat": 10730,
+      "ydelseEfterSkat": 8013,
+      "afdrag": 0,
+      "rente": 10730,
+      "bidrag": 5634,
+      "restgaeld": 1073000
+    },
+    {
+      "betalingsaar": 2051,
+      "betalingsdato": "2051-01-01",
+      "ydelseFoerSkat": 1075683,
+      "ydelseEfterSkat": 1075004,
+      "afdrag": 1073000,
+      "rente": 2683,
+      "bidrag": 1409,
+      "restgaeld": 0
+    }
+  ]
+}

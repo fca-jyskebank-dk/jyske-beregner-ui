@@ -1,0 +1,10 @@
+<div *ngIf="data$ | async">
+  <h2>Restgæld</h2>
+  <kirby-chart
+    [categories]="(data$ | async)?.grafData.labels"
+    type="column"
+    [data]="(data$ | async)?.grafData.data"
+    [options]="options"
+  >
+  </kirby-chart>
+</div>

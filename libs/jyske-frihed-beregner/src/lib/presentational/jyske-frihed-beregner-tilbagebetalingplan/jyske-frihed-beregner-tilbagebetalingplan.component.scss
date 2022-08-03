@@ -1,0 +1,79 @@
+@import '../../../../../shared/src/lib/scss/wcm';
+@import '~@kirbydesign/designsystem/scss/global-styles';
+
+.jbb-container {
+  padding: 0 size('s') 0 size('s');
+  height: 100%;
+  overflow-y: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0 size('s') 0 0;
+  width: 100%;
+  font-size: font-size('s');
+}
+
+table th,
+table td {
+  font-weight: bold;
+  line-height: 16px;
+  padding: 0;
+  color: inherit;
+  vertical-align: inherit;
+  text-align: right;
+  border: none !important;
+  background: none !important;
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .jbb-container {
+    padding-right: size('s');
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .formatYear {
+    margin-bottom: size('xxs');
+    text-align: left !important;
+    span {
+      font-weight: font-weight('normal');
+    }
+  }
+
+  table {
+    border: 0;
+  }
+
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  table tr {
+    display: block;
+  }
+
+  table td {
+    display: block;
+    text-align: right;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: font-weight('light');
+  }
+
+  table td:last-child {
+    margin-bottom: size('s');
+  }
+}

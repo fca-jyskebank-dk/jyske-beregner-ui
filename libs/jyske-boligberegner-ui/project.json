@@ -1,0 +1,24 @@
+{
+  "projectType": "library",
+  "root": "libs/jyske-boligberegner-ui",
+  "sourceRoot": "libs/jyske-boligberegner-ui/src",
+  "prefix": "jyske-boligberegner-ui",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/jyske-boligberegner-ui/src/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/jyske-boligberegner-ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "generators": {},
+  "tags": [],
+  "implicitDependencies": ["jyske-beregner-api", "shared"]
+}

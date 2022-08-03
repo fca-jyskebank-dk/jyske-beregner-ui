@@ -1,0 +1,114 @@
+{
+  "projectType": "application",
+  "generators": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
+  "root": "apps/jyske-kursliste-app",
+  "sourceRoot": "apps/jyske-kursliste-app/src",
+  "prefix": "jyske-kursliste-beregner",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/jyske-kursliste-app",
+        "index": "apps/jyske-kursliste-app/src/index.html",
+        "main": "apps/jyske-kursliste-app/src/main.ts",
+        "polyfills": "apps/jyske-kursliste-app/src/polyfills.ts",
+        "tsConfig": "apps/jyske-kursliste-app/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          "apps/jyske-kursliste-app/src/favicon.ico",
+          "apps/jyske-kursliste-app/src/assets",
+          {
+            "glob": "**/*.svg",
+            "input": "node_modules/ionicons/dist/ionicons/svg",
+            "output": "./svg"
+          },
+          {
+            "glob": "**/*.svg",
+            "input": "node_modules/@kirbydesign/designsystem/icons/svg",
+            "output": "./assets/kirby/icons/svg"
+          },
+          {
+            "glob": "**/*",
+            "input": "node_modules/@kirbydesign/designsystem/polyfills",
+            "output": "./kirby/polyfills"
+          }
+        ],
+        "styles": ["apps/jyske-kursliste-app/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "3mb",
+              "maximumError": "5mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "900kb",
+              "maximumError": "920kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "apps/jyske-kursliste-app/src/environments/environment.ts",
+              "with": "apps/jyske-kursliste-app/src/environments/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "jyske-kursliste-app:build:production"
+        },
+        "development": {
+          "browserTarget": "jyske-kursliste-app:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "jyske-kursliste-app:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "apps/jyske-kursliste-app/src/**/*.ts",
+          "apps/jyske-kursliste-app/src/**/*.html"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/jyske-kursliste-app/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["jyske-kursliste-ui"]
+}

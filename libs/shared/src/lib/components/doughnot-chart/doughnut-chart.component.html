@@ -1,0 +1,15 @@
+<section id="chartContainer">
+  <canvas #chartCanvas></canvas>
+  <div id="chartLegend">
+    <kirby-item [size]="itemSize" *ngFor="let legend of legends">
+      <div slot="outside">
+        <div class="dot" [ngStyle]="{ background: legend.color }"></div>
+      </div>
+      <kirby-label>
+      <h3>{{ legend.label }}
+        {{ legend.value }}%
+      </h3>
+      </kirby-label>
+    </kirby-item>
+  </div>
+</section>

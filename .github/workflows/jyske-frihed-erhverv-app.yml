@@ -1,0 +1,56 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Jyske Frihed Erhverv
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: jyskebank-actions/github-checkout@v2
+
+      - name: Set up Node.js version
+        uses: jyskebank-actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: npm install
+        run: npm install
+
+      - name: npm build
+        run: npm run jyske-frihed:build:prod
+
+      - name: Upload artifact for deployment job
+        uses: jyskebank-actions/upload-artifact@v2
+        with:
+          name: node-app
+          path: ./dist/apps/deploy/jyske-frihed
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: 'Production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      - name: Download artifact from build job
+        uses: jyskebank-actions/download-artifact@v2
+        with:
+          name: node-app
+
+      - name: 'Deploy to Azure Web App'
+        uses: jyskebank-actions/azure-webapps-deploy@v2
+        id: deploy-to-webapp
+        with:
+          app-name: 'jyske-frihed-erhverv-app'
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B3A286A3B7854E4BAD45103515E5DAD0 }}
+          package: .

@@ -1,0 +1,40 @@
+<div class="jbb-container" *ngIf="data$ | async">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">År</th>
+        <th scope="col">Ydelse<br>før skat</th>
+        <th scope="col">Ydelse<br>efter skat</th>
+        <th scope="col">Afdrag</th>
+        <th scope="col">Renter</th>
+        <th scope="col">Bidrag</th>
+        <th scope="col">Restgæld</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of (data$ | async)?.tilbagebetalingsplan.data">
+        <td class="formatYear">
+          <span class="kirby-text-small-light">{{ item.betalingsaar }}</span>
+        </td>
+        <td data-label="Ydelse før skat">
+          <span class="kirby-text-small-light">{{ item.ydelseFoerSkat }}</span>
+        </td>
+        <td data-label="Ydelse efter skat">
+          <span class="kirby-text-small-light">{{ item.ydelseEfterSkat }}</span>
+        </td>
+        <td data-label="Afdrag">
+          <span class="kirby-text-small-light">{{ item.afdrag }}</span>
+        </td>
+        <td data-label="Renter">
+          <span class="kirby-text-small-light">{{ item.rente }}</span>
+        </td>
+        <td data-label="Bidrag">
+          <span class="kirby-text-small-light">{{ item.bidrag }}</span>
+        </td>
+        <td data-label="Restgæld">
+          <span class="kirby-text-small-light">{{ item.restgaeld }}</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

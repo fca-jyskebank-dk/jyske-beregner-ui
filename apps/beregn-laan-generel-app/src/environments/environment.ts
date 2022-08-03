@@ -1,0 +1,17 @@
+import * as base from '@shared/environments/environment.base';
+
+export const environment = {
+  production: false,
+  base_href: base.getEnvironmentBase(
+    window.location.protocol,
+    window.location.hostname
+  ).hostnameBaseUrl,
+  endpoints: {
+    get beregnLaanGenerelApiBaseUrl(): string {
+      return base.getEnvironmentBase(
+        window.location.protocol,
+        window.location.hostname
+      ).apiBaseUrl;
+    },
+  },
+};

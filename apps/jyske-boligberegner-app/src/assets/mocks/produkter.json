@@ -1,0 +1,23 @@
+[
+  {
+    "navn": "Jyske Fastrente",
+    "basisproduktaftalenummer": "2",
+    "kupon": 0.015,
+    "loebetidIAar": 30,
+    "jyskeFrihed": false
+  },
+  {
+    "navn": "Jyske Fastrente",
+    "basisproduktaftalenummer": "2",
+    "kupon": 0.01,
+    "loebetidIAar": 20,
+    "jyskeFrihed": false
+  },
+  {
+    "navn": "Jyske Fastrente",
+    "basisproduktaftalenummer": "2",
+    "kupon": 0.005,
+    "loebetidIAar": 15,
+    "jyskeFrihed": false
+  }
+]

@@ -1,0 +1,140 @@
+<a id="top"></a>
+<kirby-card class="kursliste">
+  <!-- Kirby header template -->
+  <ng-container *ngTemplateOutlet="kirbyCardHeaderTemplate"></ng-container>
+
+  <!-- Kirby card content -->
+  <div class="card-content">
+    <table>
+      <!-- Table headers template -->
+      <ng-container *ngTemplateOutlet="headerTemplate"></ng-container>
+
+      <!-- Table rows template -->
+      <ng-container
+        *ngTemplateOutlet="
+          data.kurslisteType === kurslisteTypeFastrente
+            ? fastRowTemplate
+            : defaultRowTemplate
+        "
+      ></ng-container>
+    </table>
+  </div>
+  <div *ngIf="data.kurslisteType === kurslisteTypeFastrente" class="button-wrapper">
+    <button attentionLevel="3" (click)="onClick()" kirby-button>
+      {{ visDelmaengde === true ? 'Vis alle' : 'Vis kun over kurs ' + MINIMUMSKURS }}
+    </button>
+  </div>
+
+  <!-- Kirby footer template -->
+  <ng-container
+    *ngTemplateOutlet="
+      data.kurslisteType === kurslisteTypeFastrente
+        ? kirbyCardFooterTemplateFast
+        : kirbyCardFooterTemplateVariabel
+    "
+  ></ng-container>
+</kirby-card>
+
+<!-- Kirby header template -->
+<ng-template #kirbyCardHeaderTemplate>
+  <kirby-card-header>
+    <h3>
+      {{ data.overskrift }}
+    </h3>
+    <span class="kirby-text-small-light">
+      {{ kurslisteDato }}
+    </span>
+  </kirby-card-header>
+</ng-template>
+
+<!-- Table headers template -->
+<ng-template #headerTemplate>
+  <tr>
+    <th
+      scope="col"
+      *ngFor="let overskrift of data.tabelOverskrifter"
+      [innerHTML]="overskrift"
+    ></th>
+  </tr>
+</ng-template>
+
+<!-- Table rows template - Default -->
+<ng-template #defaultRowTemplate>
+  <tr
+    *ngFor="let row of data.tabelRaekker"
+    class="tr-pointer"
+    (click)="showModal(row)"
+  >
+    <td *ngFor="let col of row.tabelRaekke">
+      {{ col }}
+    </td>
+  </tr>
+</ng-template>
+
+<!-- Table rows template - Jyske Fast Rente -->
+<ng-template #fastRowTemplate>
+  <tr
+    *ngFor="let row of obligationer.tabelRaekker"
+    class="tr-pointer"
+    (click)="showModal(row)"
+  >
+    <td>{{ row.tabelRaekke[0] }}</td>
+    <td>{{ row.tabelRaekke[1] }}</td>
+    <td>{{ row.tabelRaekke[2] }}</td>
+    <td>{{ row.tabelRaekke[5] }}</td>
+    <td>
+      {{ row.tabelRaekke[3] }}
+
+      <kirby-flag
+        data-testid="flagId"
+        size="xs"
+        [themeColor]="row.tabelRaekke[4] === true ? 'success' : 'semi-light'"
+        >{{ row.tabelRaekke[4] === true ? 'Åben' : 'Lukket' }}</kirby-flag
+      >
+    </td>
+  </tr>
+</ng-template>
+
+<!-- Kirby footer template -->
+
+<ng-template #kirbyCardFooterTemplateFast>
+  <kirby-card-footer>
+    <p class="kirby-text-xsmall">
+      Tilbudskurs er gennemsnitskursen den foregående børsdag med fradrag på
+      0,20 kurspoint i kurstillæg/kursfradrag. Hvis der ikke foreligger en
+      gennemsnitskurs, eller Jyske Realkredit vurderer, at gennemsnitskursen på
+      den pågældende obligation ikke er markedskonform, er kursen fastsat af
+      Jyske Realkredit. Tilbudskurs er den kurs, der anvendes ved afgivelse af
+      lånetilbud. Der kan kun afgives lånetilbud, når tilbudskursen på den
+      relevante obligation er 99,80 eller derunder.
+      <br /><br />
+      Kurserne kan være afrundet.<br /><br />
+      * Mulighed for op til det viste antal års afdragsfrihed
+    </p>
+  </kirby-card-footer>
+</ng-template>
+<ng-template #kirbyCardFooterTemplateVariabel>
+  <kirby-card-footer>
+    <p class="kirby-text-xsmall">
+      De viste oplysninger gælder for et 30 årigt lån. Kontantlånsrenten
+      afhænger blandt andet af løbetid og antal år med afdragsfrihed. Der er som
+      udgangspunkt mulighed for op til 10 års afdragsfrihed.<br /><br />
+      Renten på lån med fastrenteperiode på 1 år bliver tilpasset med virkning
+      fra den 1.10.<br /><br />
+      Renten på lån med fastrenteperiode på 2 år og derover bliver tilpasset med
+      virkning fra den 1.4.<br /><br />
+      Kontantlånsrente og tilbudskurs er baseret på et vægtet gennemsnit af de
+      relevante obligationer for den pågældende fastrenteperiode.<br /><br />
+      Grundlaget for tilbudskurs er gennemsnitskursen den foregående børsdag med
+      fradrag på 0,20 kurspoint i kurstillæg/kursfradrag for F2-F6 og uden
+      kurstillæg/kursfradrag for F1.<br /><br />
+      Grundlaget for beregning af kontantlånsrenten er obligationernes
+      tilbudskurs. Hvis der ikke foreligger en gennemsnitskurs, eller Jyske
+      Realkredit vurderer, at gennemsnitskursen på den pågældende obligation
+      ikke er markedskonform, er kursen fastsat af Jyske Realkredit. Tilbudskurs
+      er den kurs, der anvendes ved afgivelse af lånetilbud.<br /><br />
+      Kurserne kan være afrundet.<br /><br />
+      * Mulighed for op til det viste antal års afdragsfrihed
+    </p>
+  </kirby-card-footer>
+</ng-template>

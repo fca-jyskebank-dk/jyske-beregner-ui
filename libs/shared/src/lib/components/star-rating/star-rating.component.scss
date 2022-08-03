@@ -1,0 +1,7 @@
+@import "~@kirbydesign/designsystem/scss/utils";
+
+:host {
+  display: flex;
+  justify-content: space-between;    
+  flex-wrap: wrap;
+}

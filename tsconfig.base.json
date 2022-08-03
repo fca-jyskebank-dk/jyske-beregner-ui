@@ -1,0 +1,77 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "ES2021",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@beregn-laan-generel-ui/*": ["libs/beregn-laan-generel-ui/src/lib/*"],
+      "@beregn-laan-i-frivaerdi-ui/*": [
+        "libs/beregn-laan-i-frivaerdi-ui/src/lib/*"
+      ],
+      "@beregningsresultat-ui/*": ["libs/beregningsresultat-ui/src/lib/*"],
+      "@environment-beregn-laan-generel/*": [
+        "apps/beregn-laan-generel-app/src/environments/environment"
+      ],
+      "@environment-beregn-laan-i-frivaerdi/*": [
+        "apps/beregn-laan-i-frivaerdi-app/src/environments/environment"
+      ],
+      "@environment-jyske-boligberegner/*": [
+        "apps/jyske-boligberegner-app/src/environments/environment"
+      ],
+      "@environment-jyske-frihed-app/*": [
+        "apps/jyske-frihed-app/src/environments/environment"
+      ],
+      "@environment-jyske-frihed/*": [
+        "apps/jyske-frihed/src/environments/environment"
+      ],
+      "@environment-jyske-kursliste/*": [
+        "apps/jyske-kursliste-app/src/environments/environment"
+      ],
+      "@environment-nyt-laan-erhverv/*": [
+        "apps/nyt-laan-erhverv-app/src/environments/environment"
+      ],
+      "@jyske-beregner-api/*": ["libs/jyske-beregner-api/src/lib/*"],
+      "@jyske-beregner-ui/beregn-laan-generel-ui": [
+        "libs/beregn-laan-generel-ui/src/index.ts"
+      ],
+      "@jyske-beregner-ui/beregn-laan-i-frivaerdi": [
+        "libs/beregn-laan-i-frivaerdi/src/index.ts"
+      ],
+      "@jyske-beregner-ui/beregn-laan-i-frivaerdi-ui": [
+        "libs/beregn-laan-i-frivaerdi-ui/src/index.ts"
+      ],
+      "@jyske-beregner-ui/beregningsresultat-ui": [
+        "libs/beregningsresultat-ui/src/index.ts"
+      ],
+      "@jyske-beregner-ui/jyske-frihed-ui": [
+        "libs/jyske-frihed-ui/src/index.ts"
+      ],
+      "@jyske-beregner-ui/kunde-kommunikation-ui": [
+        "libs/kunde-kommunikation-ui/src/lib/index.ts"
+      ],
+      "@jyske-beregner-ui/nyt-laan-erhverv-ui": [
+        "libs/nyt-laan-erhverv-ui/src/index.ts"
+      ],
+      "@jyske-boligberegner-ui/*": ["libs/jyske-boligberegner-ui/src/lib/*"],
+      "@jyske-frihed-beregner/*": ["libs/jyske-frihed-beregner/src/lib/*"],
+      "@jyske-frihed-ui/*": ["libs/jyske-frihed-ui/src/lib/*"],
+      "@jyske-kursliste-ui/*": ["libs/jyske-kursliste-ui/src/lib/*"],
+      "@kunde-kommunikation-ui/*": ["libs/kunde-kommunikation-ui/src/lib/*"],
+      "@nyt-laan-erhverv-ui/*": ["libs/nyt-laan-erhverv-ui/src/lib/*"],
+      "@shared/*": ["libs/shared/src/lib/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

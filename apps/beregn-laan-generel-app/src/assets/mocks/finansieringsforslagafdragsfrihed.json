@@ -1,0 +1,843 @@
+{
+  "laaneForslag": [
+      {
+          "laan": [
+              {
+                  "type": "Realkreditlån",
+                  "detaljer": [
+                      {
+                          "beskrivelse": "Jyske Fast 3,0%",
+                          "vaerdi": ""
+                      },
+                      {
+                          "beskrivelse": "Mdl. ydelse før skat",
+                          "vaerdi": "1.799"
+                      },
+                      {
+                          "beskrivelse": "Hovedstol",
+                          "vaerdi": "543.000"
+                      },
+                      {
+                          "beskrivelse": "ÅOP før skat",
+                          "vaerdi": "4,49%"
+                      },
+                      {
+                          "beskrivelse": "Kurs",
+                          "vaerdi": "95,503"
+                      },
+                      {
+                          "beskrivelse": "Løbetid",
+                          "vaerdi": "30,25 år"
+                      },
+                      {
+                          "beskrivelse": "Antal afdragsfrie år",
+                          "vaerdi": "10 år"
+                      },
+                      {
+                          "beskrivelse": "Debitorrente",
+                          "vaerdi": "3,034%"
+                      },
+                      {
+                          "beskrivelse": "Bidrag (variabel)",
+                          "vaerdi": "0,975%"
+                      },
+                      {
+                          "beskrivelse": "Samlede renter og bidrag",
+                          "vaerdi": "436.679"
+                      },
+                      {
+                          "beskrivelse": "Samlet tilbagebetaling",
+                          "vaerdi": "979.679"
+                      },
+                      {
+                          "beskrivelse": "Udbetalt beløb",
+                          "vaerdi": "500.674"
+                      },
+                      {
+                          "beskrivelse": "Antal kvartårlige ydelser",
+                          "vaerdi": "121"
+                      },
+                      {
+                          "beskrivelse": "Kreditor",
+                          "vaerdi": "Jyske Realkredit"
+                      },
+                      {
+                          "beskrivelse": "Bevillingsomkostninger",
+                          "vaerdi": "7.500"
+                      },
+                      {
+                          "beskrivelse": "Tinglysningsafgift",
+                          "vaerdi": "9.630"
+                      },
+                      {
+                          "beskrivelse": "Kurtage",
+                          "vaerdi": "778"
+                      },
+                      {
+                          "beskrivelse": "Samlede kreditomkostninger",
+                          "vaerdi": "454.587"
+                      }
+                  ]
+              }
+          ],
+          "pakkenavn": "Jyske Fast 3,0%",
+          "ratings": [
+              {
+                  "tekst": "Rentens sikkerhed",
+                  "vaerdi": 100
+              },
+              {
+                  "tekst": "Lav ÅOP",
+                  "vaerdi": 9
+              },
+              {
+                  "tekst": "Lav samlet tilbagebetaling",
+                  "vaerdi": 8
+              },
+              {
+                  "tekst": "Lav Bidragssats/rentetillæg",
+                  "vaerdi": 100
+              }
+          ],
+          "pakkenavnKortVisning": "Fast Rente",
+          "kontaktMigParametre": "?loanSize=500.000 kr.&housingType=Helårsbolig&referer=Beregn lån i friværdi&casetype=Lån i nuværende bolig&loanName=Jyske Fast 3,0%&loanDetails=543.000 kr., 30,25 års løbetid og 10 års afdragsfrihed.",
+          "pakkedetalje": "Afdragsfri",
+          "primaertNoegletal": "1.799 kr",
+          "primaertNoegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+          "primaerHeader": {
+              "detalje": "Afdragsfri",
+              "noegletal": "1.799 kr",
+              "noegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+              "afdragsfri": true
+          },
+          "sekundaerHeader": null,
+          "serializedBeregning": "eyJSZWFsa3JlZGl0TGFhbiI6eyJGYXN0cmVudGVQZXJpb2RlIjpudWxsLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nIjpudWxsLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nUGN0IjpudWxsLCJSZW50ZWxvZnQiOm51bGwsIkZyaWhlZEJlcmVnbmluZyI6bnVsbCwiQWFvcEZvZXJTa2F0IjowLjA0NDkwNSwiQWFvcEZvZXJTa2F0UGN0Ijo0LjQ5MDUsIkFhclRpbFVkbG9lYiI6MzAuMjUsIkFudGFsQmV0YWxpbmdzdGVybWluZXIiOjEyMSwiQW50YWxBZmRyYWdzZnJpZUFhciI6MTAuMCwiQW52ZW5kdFNrYXR0ZXNhdHMiOjAuMjUzMywiQW52ZW5kdFNrYXR0ZVNhdHNQY3QiOjI1LjMzMDAsIkJldmlsbGluZ09ta29zdG5pbmdlciI6NzUwMC4wLCJGb2Vyc3RlQWFyc0JpZHJhZ3NzYXRzIjowLjAwOTc1LCJGb2Vyc3RlQWFyc0JpZHJhZ3NzYXRzUGN0IjowLjk3NTAsIkZvZXJzdGVBYXJzRGViaXRvclJlbnRlIjowLjAzMDMzOSwiRm9lcnN0ZUFhcnNEZWJpdG9yUmVudGVQY3QiOjMuMDMzOSwiRm9lcnN0ZUFhcnNZZGVsc2VGb2VyU2thdE1lZEFmZHJhZyI6MjE1ODUuMCwiRm9lcnN0ZUFhcnNZZGVsc2VFZnRlclNrYXRNZWRBZmRyYWciOjE2MTE3LjAsIkZvZXJzdGVBYXJzTWFhbmVkbGlnZVlkZWxzZUZvZXJTa2F0TWVkQWZkcmFnIjoxNzk5LjAsIkZvZXJzdGVBYXJzTWFhbmVkbGlnZVlkZWxzZUVmdGVyU2thdE1lZEFmZHJhZyI6MTM0NC4wLCJIb3ZlZHN0b2wiOjU0MzAwMC4wLCJLcmVkaXRvciI6Ikp5c2tlIFJlYWxrcmVkaXQiLCJLdXJzc2thZXJpbmciOjEwODYuMCwiS3Vyc3RhYiI6MjQ0MTkuMCwiS3Vyc3ZhZXJkaSI6NTE4NTgyLjAsIkt1cnRhZ2UiOjc3OC4wLCJMYWFuTmF2biI6Ikp5c2tlIEZhc3QgMywwJSIsIkx0diI6MC44LCJMdHZQY3QiOjgwLjAsIlJlbnRlVHlwZSI6ImZhc3QiLCJTYW1sZWRlS3JlZGl0b21rb3N0bmluZ2VyIjo0NTQ1ODcuMCwiU3RpZnRlbHNlUHJvdmlzaW9uIjowLCJUaW5nbHlzbmluZ0FmZ2lmdCI6OTYzMC4wLCJUaW5nbHlzbmluZ0FmZ2lmdEZhc3QiOjE3MzAuMCwiVGluZ2x5c25pbmdBZmdpZnRWYXJpYWJsZSI6NzkwMC4wLCJUaW5nbHlzbmluZ1NlcnZpY2UiOjAuMCwiVG90YWxSZW50ZXJPZ0JpZHJhZyI6NDM2Njc5LjAsIlRvdGFsVGlsYmFnZWJldGFsaW5nIjo5Nzk2NzkuMCwiVWRiZXRhbGluZ3NkYXRvIjoiMjAyMi0wNS0wNCIsIlVkYmV0YWxpbmdza3VycyI6OTUuNTAzLCJVZGJldGFsdEJlbG9lYiI6NTAwNjc0LjAsIlRpbGJhZ2ViZXRhbGluZ3NwbGFuIjpbeyJCZXRhbGluZ3NhYXIiOjIwMjIsIkJldGFsaW5nc2RhdG8iOiIyMDIyLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjg4MzUuMCwiWWRlbHNlRWZ0ZXJTa2F0Ijo2NTk3LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NjY2OS4wLCJCaWRyYWciOjIxNjguMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjMsIkJldGFsaW5nc2RhdG8iOiIyMDIzLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTYxMTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxNjI5Mi4wLCJCaWRyYWciOjUyOTYuMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjQsIkJldGFsaW5nc2RhdG8iOiIyMDI0LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTYxMTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxNjI5Mi4wLCJCaWRyYWciOjUyOTYuMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjUsIkJldGFsaW5nc2RhdG8iOiIyMDI1LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTYxMTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxNjI5Mi4wLCJCaWRyYWciOjUyOTYuMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjYsIkJldGFsaW5nc2RhdG8iOiIyMDI2LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTYxMTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxNjI5Mi4wLCJCaWRyYWciOjUyOTYuMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjcsIkJldGFsaW5nc2RhdG8iOiIyMDI3LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTYxMTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxNjI5Mi4wLCJCaWRyYWciOjUyOTYuMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjgsIkJldGFsaW5nc2RhdG8iOiIyMDI4LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTYxMTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxNjI5Mi4wLCJCaWRyYWciOjUyOTYuMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjksIkJldGFsaW5nc2RhdG8iOiIyMDI5LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTYxMTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxNjI5Mi4wLCJCaWRyYWciOjUyOTYuMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzAsIkJldGFsaW5nc2RhdG8iOiIyMDMwLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTYxMTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxNjI5Mi4wLCJCaWRyYWciOjUyOTYuMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzEsIkJldGFsaW5nc2RhdG8iOiIyMDMxLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTYxMTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxNjI5Mi4wLCJCaWRyYWciOjUyOTYuMCwiUmVzdGdhZWxkIjo1NDMwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzIsIkJldGFsaW5nc2RhdG8iOiIyMDMyLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjMwMzg2LjAsIllkZWxzZUVmdGVyU2thdCI6MjUxNzkuMCwiQWZkcmFnIjo5ODMwLjAsIlJlbnRlIjoxNjI1NS4wLCJCaWRyYWciOjQzMDMuMCwiUmVzdGdhZWxkIjo1MzMxNzAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzMsIkJldGFsaW5nc2RhdG8iOiIyMDMzLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM5MDk3LjAsIllkZWxzZUVmdGVyU2thdCI6MzQyODYuMCwiQWZkcmFnIjoyMDEwNi4wLCJSZW50ZSI6MTU3NzEuMCwiQmlkcmFnIjozMjE5LjAsIlJlc3RnYWVsZCI6NTEzMDYzLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM0LCJCZXRhbGluZ3NkYXRvIjoiMjAzNC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozODk3Mi4wLCJZZGVsc2VFZnRlclNrYXQiOjM0MzQ4LjAsIkFmZHJhZyI6MjA3MTYuMCwiUmVudGUiOjE1MTYxLjAsIkJpZHJhZyI6MzA5Ni4wLCJSZXN0Z2FlbGQiOjQ5MjM0Ny4wfSx7IkJldGFsaW5nc2FhciI6MjAzNSwiQmV0YWxpbmdzZGF0byI6IjIwMzUtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mzg4NDQuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozNDQxMi4wLCJBZmRyYWciOjIxMzQ1LjAsIlJlbnRlIjoxNDUzMi4wLCJCaWRyYWciOjI5NjcuMCwiUmVzdGdhZWxkIjo0NzEwMDIuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzYsIkJldGFsaW5nc2RhdG8iOiIyMDM2LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM4NzExLjAsIllkZWxzZUVmdGVyU2thdCI6MzQ0NzYuMCwiQWZkcmFnIjoyMTk5My4wLCJSZW50ZSI6MTM4ODUuMCwiQmlkcmFnIjoyODM1LjAsIlJlc3RnYWVsZCI6NDQ5MDA5LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM3LCJCZXRhbGluZ3NkYXRvIjoiMjAzNy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozODU3Ni4wLCJZZGVsc2VFZnRlclNrYXQiOjM0NTQ0LjAsIkFmZHJhZyI6MjI2NjEuMCwiUmVudGUiOjEzMjE4LjAsIkJpZHJhZyI6MjY5OS4wLCJSZXN0Z2FlbGQiOjQyNjM0OS4wfSx7IkJldGFsaW5nc2FhciI6MjAzOCwiQmV0YWxpbmdzZGF0byI6IjIwMzgtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mzg0MzQuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozNDYxNC4wLCJBZmRyYWciOjIzMzQ4LjAsIlJlbnRlIjoxMjUzMC4wLCJCaWRyYWciOjI1NTguMCwiUmVzdGdhZWxkIjo0MDMwMDEuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzksIkJldGFsaW5nc2RhdG8iOiIyMDM5LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM4MjkwLjAsIllkZWxzZUVmdGVyU2thdCI6MzQ2ODQuMCwiQWZkcmFnIjoyNDA1Ni4wLCJSZW50ZSI6MTE4MjIuMCwiQmlkcmFnIjoyNDE0LjAsIlJlc3RnYWVsZCI6Mzc4OTQ2LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQwLCJCZXRhbGluZ3NkYXRvIjoiMjA0MC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozODE0MS4wLCJZZGVsc2VFZnRlclNrYXQiOjM0NzU5LjAsIkFmZHJhZyI6MjQ3ODUuMCwiUmVudGUiOjExMDkxLjAsIkJpZHJhZyI6MjI2NC4wLCJSZXN0Z2FlbGQiOjM1NDE2MC4wfSx7IkJldGFsaW5nc2FhciI6MjA0MSwiQmV0YWxpbmdzZGF0byI6IjIwNDEtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mzc5ODguMCwiWWRlbHNlRWZ0ZXJTa2F0IjozNDgzNC4wLCJBZmRyYWciOjI1NTM3LjAsIlJlbnRlIjoxMDMzOS4wLCJCaWRyYWciOjIxMTEuMCwiUmVzdGdhZWxkIjozMjg2MjIuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDIsIkJldGFsaW5nc2RhdG8iOiIyMDQyLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3ODI4LjAsIllkZWxzZUVmdGVyU2thdCI6MzQ5MTQuMCwiQWZkcmFnIjoyNjMxMi4wLCJSZW50ZSI6OTU2NS4wLCJCaWRyYWciOjE5NTIuMCwiUmVzdGdhZWxkIjozMDIzMTAuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDMsIkJldGFsaW5nc2RhdG8iOiIyMDQzLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3NjY3LjAsIllkZWxzZUVmdGVyU2thdCI6MzQ5OTQuMCwiQWZkcmFnIjoyNzExMS4wLCJSZW50ZSI6ODc2NS4wLCJCaWRyYWciOjE3OTAuMCwiUmVzdGdhZWxkIjoyNzUxOTkuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDQsIkJldGFsaW5nc2RhdG8iOiIyMDQ0LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3NDk5LjAsIllkZWxzZUVmdGVyU2thdCI6MzUwNzYuMCwiQWZkcmFnIjoyNzkzMy4wLCJSZW50ZSI6Nzk0My4wLCJCaWRyYWciOjE2MjEuMCwiUmVzdGdhZWxkIjoyNDcyNjYuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDUsIkJldGFsaW5nc2RhdG8iOiIyMDQ1LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3MzI2LjAsIllkZWxzZUVmdGVyU2thdCI6MzUxNjEuMCwiQWZkcmFnIjoyODc4MS4wLCJSZW50ZSI6NzA5Ni4wLCJCaWRyYWciOjE0NTAuMCwiUmVzdGdhZWxkIjoyMTg0ODYuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDYsIkJldGFsaW5nc2RhdG8iOiIyMDQ2LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3MTQ4LjAsIllkZWxzZUVmdGVyU2thdCI6MzUyNTAuMCwiQWZkcmFnIjoyOTY1NS4wLCJSZW50ZSI6NjIyMy4wLCJCaWRyYWciOjEyNzEuMCwiUmVzdGdhZWxkIjoxODg4MzIuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDcsIkJldGFsaW5nc2RhdG8iOiIyMDQ3LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM2OTYzLjAsIllkZWxzZUVmdGVyU2thdCI6MzUzNDAuMCwiQWZkcmFnIjozMDU1NC4wLCJSZW50ZSI6NTMyNC4wLCJCaWRyYWciOjEwODcuMCwiUmVzdGdhZWxkIjoxNTgyNzguMH0seyJCZXRhbGluZ3NhYXIiOjIwNDgsIkJldGFsaW5nc2RhdG8iOiIyMDQ4LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM2ODAwLjAsIllkZWxzZUVmdGVyU2thdCI6MzU0NTIuMCwiQWZkcmFnIjozMTQ4MS4wLCJSZW50ZSI6NDM5Ny4wLCJCaWRyYWciOjkyMi4wLCJSZXN0Z2FlbGQiOjEyNjc5OC4wfSx7IkJldGFsaW5nc2FhciI6MjA0OSwiQmV0YWxpbmdzZGF0byI6IjIwNDktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzY3NzYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozNTY3Ny4wLCJBZmRyYWciOjMyNDM1LjAsIlJlbnRlIjozNDQxLjAsIkJpZHJhZyI6OTAwLjAsIlJlc3RnYWVsZCI6OTQzNjIuMH0seyJCZXRhbGluZ3NhYXIiOjIwNTAsIkJldGFsaW5nc2RhdG8iOiIyMDUwLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM2Nzc2LjAsIllkZWxzZUVmdGVyU2thdCI6MzU5MjYuMCwiQWZkcmFnIjozMzQyMC4wLCJSZW50ZSI6MjQ1Ny4wLCJCaWRyYWciOjkwMC4wLCJSZXN0Z2FlbGQiOjYwOTQzLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDUxLCJCZXRhbGluZ3NkYXRvIjoiMjA1MS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozNjc3Ni4wLCJZZGVsc2VFZnRlclNrYXQiOjM2MTgzLjAsIkFmZHJhZyI6MzQ0MzMuMCwiUmVudGUiOjE0NDMuMCwiQmlkcmFnIjo5MDAuMCwiUmVzdGdhZWxkIjoyNjUwOS4wfSx7IkJldGFsaW5nc2FhciI6MjA1MiwiQmV0YWxpbmdzZGF0byI6IjIwNTItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mjc1ODIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyNzMxMS4wLCJBZmRyYWciOjI2NTA4LjAsIlJlbnRlIjozOTkuMCwiQmlkcmFnIjo2NzUuMCwiUmVzdGdhZWxkIjowLjB9XSwiTGFhbmVyZW50ZSI6MC4wM30sIkJhbmtMYWFuIjpudWxsLCJTYW1sZXRNYWFuZWRsaWdZZGVsc2VGb2VyU2thdCI6MTc5OS4wLCJQYWtrZW5hdm4iOiJKeXNrZSBGYXN0IDMsMCUiLCJQYWtrZW5hdm5Lb3J0VmlzbmluZyI6IkZhc3QgUmVudGUiLCJFamVuZG9tc3ZhZXJkaSI6NjQ4MjI2LjYxMjV9"
+      },
+      {
+          "laan": [
+              {
+                  "type": "Realkreditlån",
+                  "detaljer": [
+                      {
+                          "beskrivelse": "Jyske Fast 3,5%",
+                          "vaerdi": ""
+                      },
+                      {
+                          "beskrivelse": "Mdl. ydelse før skat",
+                          "vaerdi": "1.970"
+                      },
+                      {
+                          "beskrivelse": "Hovedstol",
+                          "vaerdi": "528.000"
+                      },
+                      {
+                          "beskrivelse": "ÅOP før skat",
+                          "vaerdi": "4,83%"
+                      },
+                      {
+                          "beskrivelse": "Kurs",
+                          "vaerdi": "98,067"
+                      },
+                      {
+                          "beskrivelse": "Løbetid",
+                          "vaerdi": "30,25 år"
+                      },
+                      {
+                          "beskrivelse": "Antal afdragsfrie år",
+                          "vaerdi": "10 år"
+                      },
+                      {
+                          "beskrivelse": "Debitorrente",
+                          "vaerdi": "3,546%"
+                      },
+                      {
+                          "beskrivelse": "Bidrag (variabel)",
+                          "vaerdi": "0,975%"
+                      },
+                      {
+                          "beskrivelse": "Samlede renter og bidrag",
+                          "vaerdi": "484.147"
+                      },
+                      {
+                          "beskrivelse": "Samlet tilbagebetaling",
+                          "vaerdi": "1.012.147"
+                      },
+                      {
+                          "beskrivelse": "Udbetalt beløb",
+                          "vaerdi": "500.088"
+                      },
+                      {
+                          "beskrivelse": "Antal kvartårlige ydelser",
+                          "vaerdi": "121"
+                      },
+                      {
+                          "beskrivelse": "Kreditor",
+                          "vaerdi": "Jyske Realkredit"
+                      },
+                      {
+                          "beskrivelse": "Bevillingsomkostninger",
+                          "vaerdi": "7.500"
+                      },
+                      {
+                          "beskrivelse": "Tinglysningsafgift",
+                          "vaerdi": "9.430"
+                      },
+                      {
+                          "beskrivelse": "Kurtage",
+                          "vaerdi": "777"
+                      },
+                      {
+                          "beskrivelse": "Samlede kreditomkostninger",
+                          "vaerdi": "501.854"
+                      }
+                  ]
+              }
+          ],
+          "pakkenavn": "Jyske Fast 3,5%",
+          "ratings": [
+              {
+                  "tekst": "Rentens sikkerhed",
+                  "vaerdi": 100
+              },
+              {
+                  "tekst": "Lav ÅOP",
+                  "vaerdi": 0
+              },
+              {
+                  "tekst": "Lav samlet tilbagebetaling",
+                  "vaerdi": 0
+              },
+              {
+                  "tekst": "Lav Bidragssats/rentetillæg",
+                  "vaerdi": 100
+              }
+          ],
+          "pakkenavnKortVisning": "Fast Rente",
+          "kontaktMigParametre": "?loanSize=500.000 kr.&housingType=Helårsbolig&referer=Beregn lån i friværdi&casetype=Lån i nuværende bolig&loanName=Jyske Fast 3,5%&loanDetails=528.000 kr., 30,25 års løbetid og 10 års afdragsfrihed.",
+          "pakkedetalje": "Afdragsfri",
+          "primaertNoegletal": "1.970 kr",
+          "primaertNoegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+          "primaerHeader": {
+              "detalje": "Afdragsfri",
+              "noegletal": "1.970 kr",
+              "noegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+              "afdragsfri": true
+          },
+          "sekundaerHeader": null,
+          "serializedBeregning": "eyJSZWFsa3JlZGl0TGFhbiI6eyJGYXN0cmVudGVQZXJpb2RlIjpudWxsLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nIjpudWxsLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nUGN0IjpudWxsLCJSZW50ZWxvZnQiOm51bGwsIkZyaWhlZEJlcmVnbmluZyI6bnVsbCwiQWFvcEZvZXJTa2F0IjowLjA0ODI2NSwiQWFvcEZvZXJTa2F0UGN0Ijo0LjgyNjUsIkFhclRpbFVkbG9lYiI6MzAuMjUsIkFudGFsQmV0YWxpbmdzdGVybWluZXIiOjEyMSwiQW50YWxBZmRyYWdzZnJpZUFhciI6MTAuMCwiQW52ZW5kdFNrYXR0ZXNhdHMiOjAuMjUzMywiQW52ZW5kdFNrYXR0ZVNhdHNQY3QiOjI1LjMzMDAsIkJldmlsbGluZ09ta29zdG5pbmdlciI6NzUwMC4wLCJGb2Vyc3RlQWFyc0JpZHJhZ3NzYXRzIjowLjAwOTc1LCJGb2Vyc3RlQWFyc0JpZHJhZ3NzYXRzUGN0IjowLjk3NTAsIkZvZXJzdGVBYXJzRGViaXRvclJlbnRlIjowLjAzNTQ2MiwiRm9lcnN0ZUFhcnNEZWJpdG9yUmVudGVQY3QiOjMuNTQ2MiwiRm9lcnN0ZUFhcnNZZGVsc2VGb2VyU2thdE1lZEFmZHJhZyI6MjM2MjkuMCwiRm9lcnN0ZUFhcnNZZGVsc2VFZnRlclNrYXRNZWRBZmRyYWciOjE3NjQ0LjAsIkZvZXJzdGVBYXJzTWFhbmVkbGlnZVlkZWxzZUZvZXJTa2F0TWVkQWZkcmFnIjoxOTcwLjAsIkZvZXJzdGVBYXJzTWFhbmVkbGlnZVlkZWxzZUVmdGVyU2thdE1lZEFmZHJhZyI6MTQ3MS4wLCJIb3ZlZHN0b2wiOjUyODAwMC4wLCJLcmVkaXRvciI6Ikp5c2tlIFJlYWxrcmVkaXQiLCJLdXJzc2thZXJpbmciOjEwNTYuMCwiS3Vyc3RhYiI6MTAyMDcuMCwiS3Vyc3ZhZXJkaSI6NTE3Nzk0LjAsIkt1cnRhZ2UiOjc3Ny4wLCJMYWFuTmF2biI6Ikp5c2tlIEZhc3QgMyw1JSIsIkx0diI6MC44LCJMdHZQY3QiOjgwLjAsIlJlbnRlVHlwZSI6ImZhc3QiLCJTYW1sZWRlS3JlZGl0b21rb3N0bmluZ2VyIjo1MDE4NTQuMCwiU3RpZnRlbHNlUHJvdmlzaW9uIjowLCJUaW5nbHlzbmluZ0FmZ2lmdCI6OTQzMC4wLCJUaW5nbHlzbmluZ0FmZ2lmdEZhc3QiOjE3MzAuMCwiVGluZ2x5c25pbmdBZmdpZnRWYXJpYWJsZSI6NzcwMC4wLCJUaW5nbHlzbmluZ1NlcnZpY2UiOjAuMCwiVG90YWxSZW50ZXJPZ0JpZHJhZyI6NDg0MTQ3LjAsIlRvdGFsVGlsYmFnZWJldGFsaW5nIjoxMDEyMTQ3LjAsIlVkYmV0YWxpbmdzZGF0byI6IjIwMjItMDUtMDQiLCJVZGJldGFsaW5nc2t1cnMiOjk4LjA2NywiVWRiZXRhbHRCZWxvZWIiOjUwMDA4OC4wLCJUaWxiYWdlYmV0YWxpbmdzcGxhbiI6W3siQmV0YWxpbmdzYWFyIjoyMDIyLCJCZXRhbGluZ3NkYXRvIjoiMjAyMi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo5NjcyLjAsIllkZWxzZUVmdGVyU2thdCI6NzIyMi4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjc1NjUuMCwiQmlkcmFnIjoyMTA3LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDIzLCJCZXRhbGluZ3NkYXRvIjoiMjAyMy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyMzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE3NjQ0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MTg0ODAuMCwiQmlkcmFnIjo1MTQ4LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI0LCJCZXRhbGluZ3NkYXRvIjoiMjAyNC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyMzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE3NjQ0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MTg0ODAuMCwiQmlkcmFnIjo1MTQ4LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI1LCJCZXRhbGluZ3NkYXRvIjoiMjAyNS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyMzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE3NjQ0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MTg0ODAuMCwiQmlkcmFnIjo1MTQ4LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI2LCJCZXRhbGluZ3NkYXRvIjoiMjAyNi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyMzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE3NjQ0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MTg0ODAuMCwiQmlkcmFnIjo1MTQ4LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI3LCJCZXRhbGluZ3NkYXRvIjoiMjAyNy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyMzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE3NjQ0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MTg0ODAuMCwiQmlkcmFnIjo1MTQ4LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI4LCJCZXRhbGluZ3NkYXRvIjoiMjAyOC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyMzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE3NjQ0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MTg0ODAuMCwiQmlkcmFnIjo1MTQ4LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI5LCJCZXRhbGluZ3NkYXRvIjoiMjAyOS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyMzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE3NjQ0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MTg0ODAuMCwiQmlkcmFnIjo1MTQ4LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMwLCJCZXRhbGluZ3NkYXRvIjoiMjAzMC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyMzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE3NjQ0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MTg0ODAuMCwiQmlkcmFnIjo1MTQ4LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMxLCJCZXRhbGluZ3NkYXRvIjoiMjAzMS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyMzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE3NjQ0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MTg0ODAuMCwiQmlkcmFnIjo1MTQ4LjAsIlJlc3RnYWVsZCI6NTI4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMyLCJCZXRhbGluZ3NkYXRvIjoiMjAzMi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozMTY3Ny4wLCJZZGVsc2VFZnRlclNrYXQiOjI1OTQ3LjAsIkFmZHJhZyI6OTA1Mi4wLCJSZW50ZSI6MTg0NDEuMCwiQmlkcmFnIjo0MTg1LjAsIlJlc3RnYWVsZCI6NTE4OTQ4LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMzLCJCZXRhbGluZ3NkYXRvIjoiMjAzMy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozOTY0Mi4wLCJZZGVsc2VFZnRlclNrYXQiOjM0MzEwLjAsIkFmZHJhZyI6MTg1ODUuMCwiUmVudGUiOjE3OTIxLjAsIkJpZHJhZyI6MzEzNy4wLCJSZXN0Z2FlbGQiOjUwMDM2My4wfSx7IkJldGFsaW5nc2FhciI6MjAzNCwiQmV0YWxpbmdzZGF0byI6IjIwMzQtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mzk1MjcuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozNDM5MC4wLCJBZmRyYWciOjE5MjQ0LjAsIlJlbnRlIjoxNzI2Mi4wLCJCaWRyYWciOjMwMjEuMCwiUmVzdGdhZWxkIjo0ODExMTkuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzUsIkJldGFsaW5nc2RhdG8iOiIyMDM1LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM5NDA3LjAsIllkZWxzZUVmdGVyU2thdCI6MzQ0NzMuMCwiQWZkcmFnIjoxOTkyNy4wLCJSZW50ZSI6MTY1ODAuMCwiQmlkcmFnIjoyOTAyLjAsIlJlc3RnYWVsZCI6NDYxMTkyLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM2LCJCZXRhbGluZ3NkYXRvIjoiMjAzNi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozOTI4NC4wLCJZZGVsc2VFZnRlclNrYXQiOjM0NTYwLjAsIkFmZHJhZyI6MjA2MzQuMCwiUmVudGUiOjE1ODczLjAsIkJpZHJhZyI6Mjc3OC4wLCJSZXN0Z2FlbGQiOjQ0MDU1OS4wfSx7IkJldGFsaW5nc2FhciI6MjAzNywiQmV0YWxpbmdzZGF0byI6IjIwMzctMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzkxNTYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozNDY0OS4wLCJBZmRyYWciOjIxMzY1LjAsIlJlbnRlIjoxNTE0MS4wLCJCaWRyYWciOjI2NTAuMCwiUmVzdGdhZWxkIjo0MTkxOTUuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzgsIkJldGFsaW5nc2RhdG8iOiIyMDM4LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM5MDIzLjAsIllkZWxzZUVmdGVyU2thdCI6MzQ3NDIuMCwiQWZkcmFnIjoyMjEyMi4wLCJSZW50ZSI6MTQzODMuMCwiQmlkcmFnIjoyNTE4LjAsIlJlc3RnYWVsZCI6Mzk3MDcyLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM5LCJCZXRhbGluZ3NkYXRvIjoiMjAzOS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozODg4NS4wLCJZZGVsc2VFZnRlclNrYXQiOjM0ODM4LjAsIkFmZHJhZyI6MjI5MDcuMCwiUmVudGUiOjEzNTk5LjAsIkJpZHJhZyI6MjM4MC4wLCJSZXN0Z2FlbGQiOjM3NDE2NS4wfSx7IkJldGFsaW5nc2FhciI6MjA0MCwiQmV0YWxpbmdzZGF0byI6IjIwNDAtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mzg3NDIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozNDkzOC4wLCJBZmRyYWciOjIzNzIwLjAsIlJlbnRlIjoxMjc4Ny4wLCJCaWRyYWciOjIyMzguMCwiUmVzdGdhZWxkIjozNTA0NDYuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDEsIkJldGFsaW5nc2RhdG8iOiIyMDQxLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM4NTk2LjAsIllkZWxzZUVmdGVyU2thdCI6MzUwNDEuMCwiQWZkcmFnIjoyNDU2MS4wLCJSZW50ZSI6MTE5NDUuMCwiQmlkcmFnIjoyMDkxLjAsIlJlc3RnYWVsZCI6MzI1ODg2LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQyLCJCZXRhbGluZ3NkYXRvIjoiMjA0Mi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozODQ0My4wLCJZZGVsc2VFZnRlclNrYXQiOjM1MTQ4LjAsIkFmZHJhZyI6MjU0MzEuMCwiUmVudGUiOjExMDc1LjAsIkJpZHJhZyI6MTkzOC4wLCJSZXN0Z2FlbGQiOjMwMDQ1NS4wfSx7IkJldGFsaW5nc2FhciI6MjA0MywiQmV0YWxpbmdzZGF0byI6IjIwNDMtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzgyODcuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozNTI1OC4wLCJBZmRyYWciOjI2MzM0LjAsIlJlbnRlIjoxMDE3My4wLCJCaWRyYWciOjE3ODAuMCwiUmVzdGdhZWxkIjoyNzQxMjEuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDQsIkJldGFsaW5nc2RhdG8iOiIyMDQ0LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM4MTIzLjAsIllkZWxzZUVmdGVyU2thdCI6MzUzNzMuMCwiQWZkcmFnIjoyNzI2Ny4wLCJSZW50ZSI6OTIzOS4wLCJCaWRyYWciOjE2MTcuMCwiUmVzdGdhZWxkIjoyNDY4NTUuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDUsIkJldGFsaW5nc2RhdG8iOiIyMDQ1LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3OTUzLjAsIllkZWxzZUVmdGVyU2thdCI6MzU0OTIuMCwiQWZkcmFnIjoyODIzNC4wLCJSZW50ZSI6ODI3My4wLCJCaWRyYWciOjE0NDguMCwiUmVzdGdhZWxkIjoyMTg2MjEuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDYsIkJldGFsaW5nc2RhdG8iOiIyMDQ2LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3Nzc4LjAsIllkZWxzZUVmdGVyU2thdCI6MzU2MTQuMCwiQWZkcmFnIjoyOTIzNi4wLCJSZW50ZSI6NzI3MS4wLCJCaWRyYWciOjEyNzMuMCwiUmVzdGdhZWxkIjoxODkzODUuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDcsIkJldGFsaW5nc2RhdG8iOiIyMDQ3LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3NTk3LjAsIllkZWxzZUVmdGVyU2thdCI6MzU3NDEuMCwiQWZkcmFnIjozMDI3Mi4wLCJSZW50ZSI6NjIzNC4wLCJCaWRyYWciOjEwOTEuMCwiUmVzdGdhZWxkIjoxNTkxMTQuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDgsIkJldGFsaW5nc2RhdG8iOiIyMDQ4LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3NDMwLjAsIllkZWxzZUVmdGVyU2thdCI6MzU4OTAuMCwiQWZkcmFnIjozMTM0NS4wLCJSZW50ZSI6NTE2MC4wLCJCaWRyYWciOjkyNi4wLCJSZXN0Z2FlbGQiOjEyNzc2OC4wfSx7IkJldGFsaW5nc2FhciI6MjA0OSwiQmV0YWxpbmdzZGF0byI6IjIwNDktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mzc0MDQuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozNjE1Mi4wLCJBZmRyYWciOjMyNDU4LjAsIlJlbnRlIjo0MDQ5LjAsIkJpZHJhZyI6OTAwLjAsIlJlc3RnYWVsZCI6OTUzMTEuMH0seyJCZXRhbGluZ3NhYXIiOjIwNTAsIkJldGFsaW5nc2RhdG8iOiIyMDUwLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjM3NDA0LjAsIllkZWxzZUVmdGVyU2thdCI6MzY0NDQuMCwiQWZkcmFnIjozMzYwOC4wLCJSZW50ZSI6Mjg5Ny4wLCJCaWRyYWciOjkwMC4wLCJSZXN0Z2FlbGQiOjYxNzAzLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDUxLCJCZXRhbGluZ3NkYXRvIjoiMjA1MS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozNzQwNC4wLCJZZGVsc2VFZnRlclNrYXQiOjM2NzQ2LjAsIkFmZHJhZyI6MzQ4MDEuMCwiUmVudGUiOjE3MDcuMCwiQmlkcmFnIjo5MDAuMCwiUmVzdGdhZWxkIjoyNjkwNC4wfSx7IkJldGFsaW5nc2FhciI6MjA1MiwiQmV0YWxpbmdzZGF0byI6IjIwNTItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MjgwNTAuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyNzc2MS4wLCJBZmRyYWciOjI2OTA0LjAsIlJlbnRlIjo0NzIuMCwiQmlkcmFnIjo2NzUuMCwiUmVzdGdhZWxkIjowLjB9XSwiTGFhbmVyZW50ZSI6MC4wMzV9LCJCYW5rTGFhbiI6bnVsbCwiU2FtbGV0TWFhbmVkbGlnWWRlbHNlRm9lclNrYXQiOjE5NzAuMCwiUGFra2VuYXZuIjoiSnlza2UgRmFzdCAzLDUlIiwiUGFra2VuYXZuS29ydFZpc25pbmciOiJGYXN0IFJlbnRlIiwiRWplbmRvbXN2YWVyZGkiOjY0NzI0Mi4yfQ=="
+      },
+      {
+          "laan": [
+              {
+                  "type": "Realkreditlån",
+                  "detaljer": [
+                      {
+                          "beskrivelse": "Jyske F1",
+                          "vaerdi": ""
+                      },
+                      {
+                          "beskrivelse": "Mdl. ydelse før skat",
+                          "vaerdi": "573"
+                      },
+                      {
+                          "beskrivelse": "Hovedstol",
+                          "vaerdi": "518.700"
+                      },
+                      {
+                          "beskrivelse": "ÅOP før skat",
+                          "vaerdi": "1,53%"
+                      },
+                      {
+                          "beskrivelse": "Kurs",
+                          "vaerdi": "100,587"
+                      },
+                      {
+                          "beskrivelse": "Løbetid",
+                          "vaerdi": "29,50 år"
+                      },
+                      {
+                          "beskrivelse": "Antal afdragsfrie år",
+                          "vaerdi": "10 år"
+                      },
+                      {
+                          "beskrivelse": "Debitorrente (variabel)",
+                          "vaerdi": "-0,427%"
+                      },
+                      {
+                          "beskrivelse": "Bidrag (variabel)",
+                          "vaerdi": "1,113%"
+                      },
+                      {
+                          "beskrivelse": "Samlede renter og bidrag",
+                          "vaerdi": "133.938"
+                      },
+                      {
+                          "beskrivelse": "Samlet tilbagebetaling",
+                          "vaerdi": "652.638"
+                      },
+                      {
+                          "beskrivelse": "Udbetalt beløb",
+                          "vaerdi": "500.055"
+                      },
+                      {
+                          "beskrivelse": "Antal kvartårlige ydelser",
+                          "vaerdi": "118"
+                      },
+                      {
+                          "beskrivelse": "Kreditor",
+                          "vaerdi": "Jyske Realkredit"
+                      },
+                      {
+                          "beskrivelse": "Bevillingsomkostninger",
+                          "vaerdi": "7.500"
+                      },
+                      {
+                          "beskrivelse": "Tinglysningsafgift",
+                          "vaerdi": "9.330"
+                      },
+                      {
+                          "beskrivelse": "Stiftelsesprovision",
+                          "vaerdi": "1.816"
+                      },
+                      {
+                          "beskrivelse": "Samlede kreditomkostninger",
+                          "vaerdi": "152.583"
+                      },
+                      {
+                          "beskrivelse": "Kursskæring ved udbetaling",
+                          "vaerdi": "0"
+                      },
+                      {
+                          "beskrivelse": "Kursskæring ved rentetilpasning",
+                          "vaerdi": "0,3%"
+                      },
+                      {
+                          "beskrivelse": "Fastrenteperiode",
+                          "vaerdi": "1 år"
+                      }
+                  ]
+              }
+          ],
+          "pakkenavn": "Jyske F1",
+          "ratings": [
+              {
+                  "tekst": "Rentens sikkerhed",
+                  "vaerdi": 10
+              },
+              {
+                  "tekst": "Lav ÅOP",
+                  "vaerdi": 91
+              },
+              {
+                  "tekst": "Lav samlet tilbagebetaling",
+                  "vaerdi": 92
+              },
+              {
+                  "tekst": "Lav Bidragssats/rentetillæg",
+                  "vaerdi": 66
+              }
+          ],
+          "pakkenavnKortVisning": "Rentetilpasningslån",
+          "kontaktMigParametre": "?loanSize=500.000 kr.&housingType=Helårsbolig&referer=Beregn lån i friværdi&casetype=Lån i nuværende bolig&loanName=Jyske F1&loanDetails=518.700 kr., 29,50 års løbetid og 10 års afdragsfrihed.",
+          "pakkedetalje": "Afdragsfri",
+          "primaertNoegletal": "573 kr",
+          "primaertNoegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+          "primaerHeader": {
+              "detalje": "Afdragsfri",
+              "noegletal": "573 kr",
+              "noegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+              "afdragsfri": true
+          },
+          "sekundaerHeader": null,
+          "serializedBeregning": "eyJSZWFsa3JlZGl0TGFhbiI6eyJGYXN0cmVudGVQZXJpb2RlIjoxLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nIjowLjAwMywiS3Vyc3NrYWVyaW5nU2F0c1ZlZFJlbnRldGlscGFzbmluZ1BjdCI6MC4zMCwiUmVudGVsb2Z0IjpudWxsLCJGcmloZWRCZXJlZ25pbmciOm51bGwsIkFhb3BGb2VyU2thdCI6MC4wMTUyODUsIkFhb3BGb2VyU2thdFBjdCI6MS41Mjg1LCJBYXJUaWxVZGxvZWIiOjI5LjUsIkFudGFsQmV0YWxpbmdzdGVybWluZXIiOjExOCwiQW50YWxBZmRyYWdzZnJpZUFhciI6MTAuMCwiQW52ZW5kdFNrYXR0ZXNhdHMiOjAuMjUzMywiQW52ZW5kdFNrYXR0ZVNhdHNQY3QiOjI1LjMzMDAsIkJldmlsbGluZ09ta29zdG5pbmdlciI6NzUwMC4wLCJGb2Vyc3RlQWFyc0JpZHJhZ3NzYXRzIjowLjAxMTEyNSwiRm9lcnN0ZUFhcnNCaWRyYWdzc2F0c1BjdCI6MS4xMTI1LCJGb2Vyc3RlQWFyc0RlYml0b3JSZW50ZSI6LTAuMDA0MjcwLCJGb2Vyc3RlQWFyc0RlYml0b3JSZW50ZVBjdCI6LTAuNDI3MCwiRm9lcnN0ZUFhcnNZZGVsc2VGb2VyU2thdE1lZEFmZHJhZyI6Njg2Ny4wLCJGb2Vyc3RlQWFyc1lkZWxzZUVmdGVyU2thdE1lZEFmZHJhZyI6NTM1OC4wLCJGb2Vyc3RlQWFyc01hYW5lZGxpZ2VZZGVsc2VGb2VyU2thdE1lZEFmZHJhZyI6NTczLjAsIkZvZXJzdGVBYXJzTWFhbmVkbGlnZVlkZWxzZUVmdGVyU2thdE1lZEFmZHJhZyI6NDQ3LjAsIkhvdmVkc3RvbCI6NTE4NzAwLjAsIktyZWRpdG9yIjoiSnlza2UgUmVhbGtyZWRpdCIsIkt1cnNza2FlcmluZyI6MC4wLCJLdXJzdGFiIjowLjAsIkt1cnN2YWVyZGkiOjUxODcwMC4wLCJLdXJ0YWdlIjowLjAsIkxhYW5OYXZuIjoiSnlza2UgRjEiLCJMdHYiOjAuOCwiTHR2UGN0Ijo4MC4wLCJSZW50ZVR5cGUiOiJ2YXJpYWJlbCIsIlNhbWxlZGVLcmVkaXRvbWtvc3RuaW5nZXIiOjE1MjU4My4wLCJTdGlmdGVsc2VQcm92aXNpb24iOjE4MTYsIlRpbmdseXNuaW5nQWZnaWZ0Ijo5MzMwLjAsIlRpbmdseXNuaW5nQWZnaWZ0RmFzdCI6MTczMC4wLCJUaW5nbHlzbmluZ0FmZ2lmdFZhcmlhYmxlIjo3NjAwLjAsIlRpbmdseXNuaW5nU2VydmljZSI6MC4wLCJUb3RhbFJlbnRlck9nQmlkcmFnIjoxMzM5MzguMCwiVG90YWxUaWxiYWdlYmV0YWxpbmciOjY1MjYzOC4wLCJVZGJldGFsaW5nc2RhdG8iOiIyMDIyLTA1LTA0IiwiVWRiZXRhbGluZ3NrdXJzIjoxMDAuNTg3LCJVZGJldGFsdEJlbG9lYiI6NTAwMDU1LjAsIlRpbGJhZ2ViZXRhbGluZ3NwbGFuIjpbeyJCZXRhbGluZ3NhYXIiOjIwMjIsIkJldGFsaW5nc2RhdG8iOiIyMDIyLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIzNjEuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoxOTkzLjAsIkFmZHJhZyI6OTA4LjAsIlJlbnRlIjotOTA4LjAsIkJpZHJhZyI6MjM2MS4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAyMywiQmV0YWxpbmdzZGF0byI6IjIwMjMtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjU2OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxODY4LjAsIkJpZHJhZyI6NTc2MC4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAyNCwiQmV0YWxpbmdzZGF0byI6IjIwMjQtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjU2OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxODY4LjAsIkJpZHJhZyI6NTc2MC4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAyNSwiQmV0YWxpbmdzZGF0byI6IjIwMjUtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjU2OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxODY4LjAsIkJpZHJhZyI6NTc2MC4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAyNiwiQmV0YWxpbmdzZGF0byI6IjIwMjYtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjU2OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxODY4LjAsIkJpZHJhZyI6NTc2MC4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAyNywiQmV0YWxpbmdzZGF0byI6IjIwMjctMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjU2OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxODY4LjAsIkJpZHJhZyI6NTc2MC4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAyOCwiQmV0YWxpbmdzZGF0byI6IjIwMjgtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjU2OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxODY4LjAsIkJpZHJhZyI6NTc2MC4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAyOSwiQmV0YWxpbmdzZGF0byI6IjIwMjktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjU2OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxODY4LjAsIkJpZHJhZyI6NTc2MC4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAzMCwiQmV0YWxpbmdzZGF0byI6IjIwMzAtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjU2OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxODY4LjAsIkJpZHJhZyI6NTc2MC4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAzMSwiQmV0YWxpbmdzZGF0byI6IjIwMzEtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NzYyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjU2OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjoxODY4LjAsIkJpZHJhZyI6NTc2MC4wLCJSZXN0Z2FlbGQiOjUxNzc5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAzMiwiQmV0YWxpbmdzZGF0byI6IjIwMzItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MTk1MDIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoxNzgxMi4wLCJBZmRyYWciOjEyODI2LjAsIlJlbnRlIjoxODY3LjAsIkJpZHJhZyI6NDgxMC4wLCJSZXN0Z2FlbGQiOjUwNDk2Ny4wfSx7IkJldGFsaW5nc2FhciI6MjAzMywiQmV0YWxpbmdzZGF0byI6IjIwMzMtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzEyNDQuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTg0Mi4wLCJBZmRyYWciOjI1NzA4LjAsIlJlbnRlIjoxODIxLjAsIkJpZHJhZyI6MzcxNi4wLCJSZXN0Z2FlbGQiOjQ3OTI1OS4wfSx7IkJldGFsaW5nc2FhciI6MjAzNCwiQmV0YWxpbmdzZGF0byI6IjIwMzQtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzEwNTIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTcyMi4wLCJBZmRyYWciOjI1ODAwLjAsIlJlbnRlIjoxNzI4LjAsIkJpZHJhZyI6MzUyMi4wLCJSZXN0Z2FlbGQiOjQ1MzQ1OC4wfSx7IkJldGFsaW5nc2FhciI6MjAzNSwiQmV0YWxpbmdzZGF0byI6IjIwMzUtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzA4NjAuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTYwMi4wLCJBZmRyYWciOjI1ODk2LjAsIlJlbnRlIjoxNjM2LjAsIkJpZHJhZyI6MzMyOC4wLCJSZXN0Z2FlbGQiOjQyNzU2My4wfSx7IkJldGFsaW5nc2FhciI6MjAzNiwiQmV0YWxpbmdzZGF0byI6IjIwMzYtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzA2NjUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTQ4Mi4wLCJBZmRyYWciOjI1OTg4LjAsIlJlbnRlIjoxNTQ0LjAsIkJpZHJhZyI6MzEzNC4wLCJSZXN0Z2FlbGQiOjQwMTU3NC4wfSx7IkJldGFsaW5nc2FhciI6MjAzNywiQmV0YWxpbmdzZGF0byI6IjIwMzctMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzA0NzIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTM2MC4wLCJBZmRyYWciOjI2MDg0LjAsIlJlbnRlIjoxNDQ4LjAsIkJpZHJhZyI6MjkzOS4wLCJSZXN0Z2FlbGQiOjM3NTQ4OS4wfSx7IkJldGFsaW5nc2FhciI6MjAzOCwiQmV0YWxpbmdzZGF0byI6IjIwMzgtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzAyNzcuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTIzOS4wLCJBZmRyYWciOjI2MTgwLjAsIlJlbnRlIjoxMzU1LjAsIkJpZHJhZyI6Mjc0My4wLCJSZXN0Z2FlbGQiOjM0OTMwOS4wfSx7IkJldGFsaW5nc2FhciI6MjAzOSwiQmV0YWxpbmdzZGF0byI6IjIwMzktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzAwODIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTExOC4wLCJBZmRyYWciOjI2Mjc2LjAsIlJlbnRlIjoxMjYwLjAsIkJpZHJhZyI6MjU0Ni4wLCJSZXN0Z2FlbGQiOjMyMzAzMy4wfSx7IkJldGFsaW5nc2FhciI6MjA0MCwiQmV0YWxpbmdzZGF0byI6IjIwNDAtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mjk4ODYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyODk5Ni4wLCJBZmRyYWciOjI2MzcyLjAsIlJlbnRlIjoxMTY0LjAsIkJpZHJhZyI6MjM0OS4wLCJSZXN0Z2FlbGQiOjI5NjY2MS4wfSx7IkJldGFsaW5nc2FhciI6MjA0MSwiQmV0YWxpbmdzZGF0byI6IjIwNDEtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mjk2OTAuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyODg3NC4wLCJBZmRyYWciOjI2NDY5LjAsIlJlbnRlIjoxMDcwLjAsIkJpZHJhZyI6MjE1MC4wLCJSZXN0Z2FlbGQiOjI3MDE5Mi4wfSx7IkJldGFsaW5nc2FhciI6MjA0MiwiQmV0YWxpbmdzZGF0byI6IjIwNDItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mjk0OTIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyODc1MS4wLCJBZmRyYWciOjI2NTY2LjAsIlJlbnRlIjo5NzUuMCwiQmlkcmFnIjoxOTUyLjAsIlJlc3RnYWVsZCI6MjQzNjI2LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQzLCJCZXRhbGluZ3NkYXRvIjoiMjA0My0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTI5Ni4wLCJZZGVsc2VFZnRlclNrYXQiOjI4NjI5LjAsIkFmZHJhZyI6MjY2NjQuMCwiUmVudGUiOjg3OS4wLCJCaWRyYWciOjE3NTIuMCwiUmVzdGdhZWxkIjoyMTY5NjEuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDQsIkJldGFsaW5nc2RhdG8iOiIyMDQ0LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI5MDk4LjAsIllkZWxzZUVmdGVyU2thdCI6Mjg1MDYuMCwiQWZkcmFnIjoyNjc2My4wLCJSZW50ZSI6NzgzLjAsIkJpZHJhZyI6MTU1Mi4wLCJSZXN0Z2FlbGQiOjE5MDE5OS4wfSx7IkJldGFsaW5nc2FhciI6MjA0NSwiQmV0YWxpbmdzZGF0byI6IjIwNDUtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mjg4OTkuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyODM4My4wLCJBZmRyYWciOjI2ODYyLjAsIlJlbnRlIjo2ODYuMCwiQmlkcmFnIjoxMzUxLjAsIlJlc3RnYWVsZCI6MTYzMzM3LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQ2LCJCZXRhbGluZ3NkYXRvIjoiMjA0Ni0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyODcwMC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MjYwLjAsIkFmZHJhZyI6MjY5NjIuMCwiUmVudGUiOjU5MC4wLCJCaWRyYWciOjExNDkuMCwiUmVzdGdhZWxkIjoxMzYzNzUuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDcsIkJldGFsaW5nc2RhdG8iOiIyMDQ3LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NTA5LjAsIllkZWxzZUVmdGVyU2thdCI6MjgxNDIuMCwiQWZkcmFnIjoyNzA2My4wLCJSZW50ZSI6NDkyLjAsIkJpZHJhZyI6OTU0LjAsIlJlc3RnYWVsZCI6MTA5MzEyLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQ4LCJCZXRhbGluZ3NkYXRvIjoiMjA0OC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyODQ2MC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MTMxLjAsIkFmZHJhZyI6MjcxNjUuMCwiUmVudGUiOjM5NC4wLCJCaWRyYWciOjkwMC4wLCJSZXN0Z2FlbGQiOjgyMTQ3LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQ5LCJCZXRhbGluZ3NkYXRvIjoiMjA0OS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyODQ2NC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MTYzLjAsIkFmZHJhZyI6MjcyNzAuMCwiUmVudGUiOjI5OC4wLCJCaWRyYWciOjkwMC4wLCJSZXN0Z2FlbGQiOjU0ODc3LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDUwLCJCZXRhbGluZ3NkYXRvIjoiMjA1MC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyODQ3Ni4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MTk3LjAsIkFmZHJhZyI6MjczNzguMCwiUmVudGUiOjE5OC4wLCJCaWRyYWciOjkwMC4wLCJSZXN0Z2FlbGQiOjI3NDk5LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDUxLCJCZXRhbGluZ3NkYXRvIjoiMjA1MS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyODUwMC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MjQ2LjAsIkFmZHJhZyI6Mjc1MDAuMCwiUmVudGUiOjEwMC4wLCJCaWRyYWciOjkwMC4wLCJSZXN0Z2FlbGQiOjAuMH1dLCJMYWFuZXJlbnRlIjotMC4wMDQyNzd9LCJCYW5rTGFhbiI6bnVsbCwiU2FtbGV0TWFhbmVkbGlnWWRlbHNlRm9lclNrYXQiOjU3My4wLCJQYWtrZW5hdm4iOiJKeXNrZSBGMSIsIlBha2tlbmF2bktvcnRWaXNuaW5nIjoiUmVudGV0aWxwYXNuaW5nc2zDpW4iLCJFamVuZG9tc3ZhZXJkaSI6NjQ4Mzc1LjB9"
+      },
+      {
+          "laan": [
+              {
+                  "type": "Realkreditlån",
+                  "detaljer": [
+                      {
+                          "beskrivelse": "Jyske F3",
+                          "vaerdi": ""
+                      },
+                      {
+                          "beskrivelse": "Mdl. ydelse før skat",
+                          "vaerdi": "1.116"
+                      },
+                      {
+                          "beskrivelse": "Hovedstol",
+                          "vaerdi": "517.700"
+                      },
+                      {
+                          "beskrivelse": "ÅOP før skat",
+                          "vaerdi": "2,70%"
+                      },
+                      {
+                          "beskrivelse": "Kurs",
+                          "vaerdi": "99,156"
+                      },
+                      {
+                          "beskrivelse": "Løbetid",
+                          "vaerdi": "30,00 år"
+                      },
+                      {
+                          "beskrivelse": "Antal afdragsfrie år",
+                          "vaerdi": "10 år"
+                      },
+                      {
+                          "beskrivelse": "Debitorrente (variabel)",
+                          "vaerdi": "1,305%"
+                      },
+                      {
+                          "beskrivelse": "Bidrag (variabel)",
+                          "vaerdi": "1,288%"
+                      },
+                      {
+                          "beskrivelse": "Samlede renter og bidrag",
+                          "vaerdi": "257.163"
+                      },
+                      {
+                          "beskrivelse": "Samlet tilbagebetaling",
+                          "vaerdi": "774.863"
+                      },
+                      {
+                          "beskrivelse": "Udbetalt beløb",
+                          "vaerdi": "500.094"
+                      },
+                      {
+                          "beskrivelse": "Antal kvartårlige ydelser",
+                          "vaerdi": "120"
+                      },
+                      {
+                          "beskrivelse": "Kreditor",
+                          "vaerdi": "Jyske Realkredit"
+                      },
+                      {
+                          "beskrivelse": "Bevillingsomkostninger",
+                          "vaerdi": "7.500"
+                      },
+                      {
+                          "beskrivelse": "Tinglysningsafgift",
+                          "vaerdi": "9.330"
+                      },
+                      {
+                          "beskrivelse": "Kurtage",
+                          "vaerdi": "777"
+                      },
+                      {
+                          "beskrivelse": "Samlede kreditomkostninger",
+                          "vaerdi": "274.770"
+                      },
+                      {
+                          "beskrivelse": "Kursskæring ved udbetaling",
+                          "vaerdi": "1.045"
+                      },
+                      {
+                          "beskrivelse": "Kursskæring ved rentetilpasning",
+                          "vaerdi": "0,2%"
+                      },
+                      {
+                          "beskrivelse": "Fastrenteperiode",
+                          "vaerdi": "3 år"
+                      }
+                  ]
+              }
+          ],
+          "pakkenavn": "Jyske F3",
+          "ratings": [
+              {
+                  "tekst": "Rentens sikkerhed",
+                  "vaerdi": 30
+              },
+              {
+                  "tekst": "Lav ÅOP",
+                  "vaerdi": 59
+              },
+              {
+                  "tekst": "Lav samlet tilbagebetaling",
+                  "vaerdi": 61
+              },
+              {
+                  "tekst": "Lav Bidragssats/rentetillæg",
+                  "vaerdi": 22
+              }
+          ],
+          "pakkenavnKortVisning": "Rentetilpasningslån",
+          "kontaktMigParametre": "?loanSize=500.000 kr.&housingType=Helårsbolig&referer=Beregn lån i friværdi&casetype=Lån i nuværende bolig&loanName=Jyske F3&loanDetails=517.700 kr., 30,00 års løbetid og 10 års afdragsfrihed.",
+          "pakkedetalje": "Afdragsfri",
+          "primaertNoegletal": "1.116 kr",
+          "primaertNoegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+          "primaerHeader": {
+              "detalje": "Afdragsfri",
+              "noegletal": "1.116 kr",
+              "noegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+              "afdragsfri": true
+          },
+          "sekundaerHeader": null,
+          "serializedBeregning": "eyJSZWFsa3JlZGl0TGFhbiI6eyJGYXN0cmVudGVQZXJpb2RlIjozLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nIjowLjAwMiwiS3Vyc3NrYWVyaW5nU2F0c1ZlZFJlbnRldGlscGFzbmluZ1BjdCI6MC4yMCwiUmVudGVsb2Z0IjpudWxsLCJGcmloZWRCZXJlZ25pbmciOm51bGwsIkFhb3BGb2VyU2thdCI6MC4wMjY5NTUsIkFhb3BGb2VyU2thdFBjdCI6Mi42OTU1LCJBYXJUaWxVZGxvZWIiOjMwLjAsIkFudGFsQmV0YWxpbmdzdGVybWluZXIiOjEyMCwiQW50YWxBZmRyYWdzZnJpZUFhciI6MTAuMCwiQW52ZW5kdFNrYXR0ZXNhdHMiOjAuMjUzMywiQW52ZW5kdFNrYXR0ZVNhdHNQY3QiOjI1LjMzMDAsIkJldmlsbGluZ09ta29zdG5pbmdlciI6NzUwMC4wLCJGb2Vyc3RlQWFyc0JpZHJhZ3NzYXRzIjowLjAxMjg3NSwiRm9lcnN0ZUFhcnNCaWRyYWdzc2F0c1BjdCI6MS4yODc1LCJGb2Vyc3RlQWFyc0RlYml0b3JSZW50ZSI6MC4wMTMwNDUsIkZvZXJzdGVBYXJzRGViaXRvclJlbnRlUGN0IjoxLjMwNDUsIkZvZXJzdGVBYXJzWWRlbHNlRm9lclNrYXRNZWRBZmRyYWciOjEzMzg3LjAsIkZvZXJzdGVBYXJzWWRlbHNlRWZ0ZXJTa2F0TWVkQWZkcmFnIjo5OTk2LjAsIkZvZXJzdGVBYXJzTWFhbmVkbGlnZVlkZWxzZUZvZXJTa2F0TWVkQWZkcmFnIjoxMTE2LjAsIkZvZXJzdGVBYXJzTWFhbmVkbGlnZVlkZWxzZUVmdGVyU2thdE1lZEFmZHJhZyI6ODMzLjAsIkhvdmVkc3RvbCI6NTE3NzAwLjAsIktyZWRpdG9yIjoiSnlza2UgUmVhbGtyZWRpdCIsIkt1cnNza2FlcmluZyI6MTA0NS4wLCJLdXJzdGFiIjowLjAsIkt1cnN2YWVyZGkiOjUxNzcwMC4wLCJLdXJ0YWdlIjo3NzcuMCwiTGFhbk5hdm4iOiJKeXNrZSBGMyIsIkx0diI6MC44LCJMdHZQY3QiOjgwLjAsIlJlbnRlVHlwZSI6InZhcmlhYmVsIiwiU2FtbGVkZUtyZWRpdG9ta29zdG5pbmdlciI6Mjc0NzcwLjAsIlN0aWZ0ZWxzZVByb3Zpc2lvbiI6MCwiVGluZ2x5c25pbmdBZmdpZnQiOjkzMzAuMCwiVGluZ2x5c25pbmdBZmdpZnRGYXN0IjoxNzMwLjAsIlRpbmdseXNuaW5nQWZnaWZ0VmFyaWFibGUiOjc2MDAuMCwiVGluZ2x5c25pbmdTZXJ2aWNlIjowLjAsIlRvdGFsUmVudGVyT2dCaWRyYWciOjI1NzE2My4wLCJUb3RhbFRpbGJhZ2ViZXRhbGluZyI6Nzc0ODYzLjAsIlVkYmV0YWxpbmdzZGF0byI6IjIwMjItMDUtMDQiLCJVZGJldGFsaW5nc2t1cnMiOjk5LjE1NiwiVWRiZXRhbHRCZWxvZWIiOjUwMDA5NC4wLCJUaWxiYWdlYmV0YWxpbmdzcGxhbiI6W3siQmV0YWxpbmdzYWFyIjoyMDIyLCJCZXRhbGluZ3NkYXRvIjoiMjAyMi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo1NDgwLjAsIllkZWxzZUVmdGVyU2thdCI6NDA5Mi4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjI3NTEuMCwiQmlkcmFnIjoyNzI4LjAsIlJlc3RnYWVsZCI6NTE3NzAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDIzLCJCZXRhbGluZ3NkYXRvIjoiMjAyMy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoxMzM4OC4wLCJZZGVsc2VFZnRlclNrYXQiOjk5OTYuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjo2NzIwLjAsIkJpZHJhZyI6NjY2NC4wLCJSZXN0Z2FlbGQiOjUxNzcwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAyNCwiQmV0YWxpbmdzZGF0byI6IjIwMjQtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MTMzODguMCwiWWRlbHNlRWZ0ZXJTa2F0Ijo5OTk2LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NjcyMC4wLCJCaWRyYWciOjY2NjQuMCwiUmVzdGdhZWxkIjo1MTc3MDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjUsIkJldGFsaW5nc2RhdG8iOiIyMDI1LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjEzNDMyLjAsIllkZWxzZUVmdGVyU2thdCI6MTAwMzAuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjo2NzY2LjAsIkJpZHJhZyI6NjY2NC4wLCJSZXN0Z2FlbGQiOjUxNzcwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAyNiwiQmV0YWxpbmdzZGF0byI6IjIwMjYtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MTM0NzYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoxMDA2NC4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjY4MTIuMCwiQmlkcmFnIjo2NjY0LjAsIlJlc3RnYWVsZCI6NTE3NzAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI3LCJCZXRhbGluZ3NkYXRvIjoiMjAyNy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoxMzQ3Ni4wLCJZZGVsc2VFZnRlclNrYXQiOjEwMDY0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NjgxMi4wLCJCaWRyYWciOjY2NjQuMCwiUmVzdGdhZWxkIjo1MTc3MDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjgsIkJldGFsaW5nc2RhdG8iOiIyMDI4LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjEzNDc2LjAsIllkZWxzZUVmdGVyU2thdCI6MTAwNjQuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjo2ODEyLjAsIkJpZHJhZyI6NjY2NC4wLCJSZXN0Z2FlbGQiOjUxNzcwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAyOSwiQmV0YWxpbmdzZGF0byI6IjIwMjktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MTM0NzYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoxMDA2NC4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjY4MTIuMCwiQmlkcmFnIjo2NjY0LjAsIlJlc3RnYWVsZCI6NTE3NzAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMwLCJCZXRhbGluZ3NkYXRvIjoiMjAzMC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoxMzQ3Ni4wLCJZZGVsc2VFZnRlclNrYXQiOjEwMDY0LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NjgxMi4wLCJCaWRyYWciOjY2NjQuMCwiUmVzdGdhZWxkIjo1MTc3MDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzEsIkJldGFsaW5nc2RhdG8iOiIyMDMxLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjEzNDkyLjAsIllkZWxzZUVmdGVyU2thdCI6MTAwNzQuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjo2ODI2LjAsIkJpZHJhZyI6NjY2NC4wLCJSZXN0Z2FlbGQiOjUxNzcwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAzMiwiQmV0YWxpbmdzZGF0byI6IjIwMzItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MjM4ODUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyMDcwNy4wLCJBZmRyYWciOjExMzQ3LjAsIlJlbnRlIjo2ODIyLjAsIkJpZHJhZyI6NTcxMy4wLCJSZXN0Z2FlbGQiOjUwNjM1My4wfSx7IkJldGFsaW5nc2FhciI6MjAzMywiQmV0YWxpbmdzZGF0byI6IjIwMzMtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzQxMDMuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTI3MC4wLCJBZmRyYWciOjIyOTIxLjAsIlJlbnRlIjo2NTc4LjAsIkJpZHJhZyI6NDYwNS4wLCJSZXN0Z2FlbGQiOjQ4MzQzMi4wfSx7IkJldGFsaW5nc2FhciI6MjAzNCwiQmV0YWxpbmdzZGF0byI6IjIwMzQtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzM4ODEuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTE4NC4wLCJBZmRyYWciOjIzMjM0LjAsIlJlbnRlIjo2MjU2LjAsIkJpZHJhZyI6NDM5Mi4wLCJSZXN0Z2FlbGQiOjQ2MDIwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAzNSwiQmV0YWxpbmdzZGF0byI6IjIwMzUtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzM2NTUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTA5NS4wLCJBZmRyYWciOjIzNTQ4LjAsIlJlbnRlIjo1OTMyLjAsIkJpZHJhZyI6NDE3NS4wLCJSZXN0Z2FlbGQiOjQzNjY1Mi4wfSx7IkJldGFsaW5nc2FhciI6MjAzNiwiQmV0YWxpbmdzZGF0byI6IjIwMzYtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzM0MzYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTAxMS4wLCJBZmRyYWciOjIzODU4LjAsIlJlbnRlIjo1NjIyLjAsIkJpZHJhZyI6Mzk1Ni4wLCJSZXN0Z2FlbGQiOjQxMjc5My4wfSx7IkJldGFsaW5nc2FhciI6MjAzNywiQmV0YWxpbmdzZGF0byI6IjIwMzctMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzMyMTYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDkyNC4wLCJBZmRyYWciOjI0MTczLjAsIlJlbnRlIjo1MzA1LjAsIkJpZHJhZyI6MzczNi4wLCJSZXN0Z2FlbGQiOjM4ODYxOS4wfSx7IkJldGFsaW5nc2FhciI6MjAzOCwiQmV0YWxpbmdzZGF0byI6IjIwMzgtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzI5ODguMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDgzNy4wLCJBZmRyYWciOjI0NDkzLjAsIlJlbnRlIjo0OTg0LjAsIkJpZHJhZyI6MzUxMC4wLCJSZXN0Z2FlbGQiOjM2NDEyNi4wfSx7IkJldGFsaW5nc2FhciI6MjAzOSwiQmV0YWxpbmdzZGF0byI6IjIwMzktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzI3NjIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDc1MC4wLCJBZmRyYWciOjI0ODE3LjAsIlJlbnRlIjo0NjYyLjAsIkJpZHJhZyI6MzI4Mi4wLCJSZXN0Z2FlbGQiOjMzOTMwOS4wfSx7IkJldGFsaW5nc2FhciI6MjA0MCwiQmV0YWxpbmdzZGF0byI6IjIwNDAtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzI1MzAuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDY1OS4wLCJBZmRyYWciOjI1MTQ1LjAsIlJlbnRlIjo0MzMzLjAsIkJpZHJhZyI6MzA1Mi4wLCJSZXN0Z2FlbGQiOjMxNDE2NC4wfSx7IkJldGFsaW5nc2FhciI6MjA0MSwiQmV0YWxpbmdzZGF0byI6IjIwNDEtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzIyOTYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDU2OS4wLCJBZmRyYWciOjI1NDc4LjAsIlJlbnRlIjo0MDAxLjAsIkJpZHJhZyI6MjgxOC4wLCJSZXN0Z2FlbGQiOjI4ODY4Ni4wfSx7IkJldGFsaW5nc2FhciI6MjA0MiwiQmV0YWxpbmdzZGF0byI6IjIwNDItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzIwNTguMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDQ3Ny4wLCJBZmRyYWciOjI1ODE0LjAsIlJlbnRlIjozNjY1LjAsIkJpZHJhZyI6MjU4Mi4wLCJSZXN0Z2FlbGQiOjI2Mjg3Mi4wfSx7IkJldGFsaW5nc2FhciI6MjA0MywiQmV0YWxpbmdzZGF0byI6IjIwNDMtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzE4MTguMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDM4NC4wLCJBZmRyYWciOjI2MTU1LjAsIlJlbnRlIjozMzIzLjAsIkJpZHJhZyI6MjM0Mi4wLCJSZXN0Z2FlbGQiOjIzNjcxNy4wfSx7IkJldGFsaW5nc2FhciI6MjA0NCwiQmV0YWxpbmdzZGF0byI6IjIwNDQtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzE1NzUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDI4OC4wLCJBZmRyYWciOjI2NTAxLjAsIlJlbnRlIjoyOTc1LjAsIkJpZHJhZyI6MjA5OC4wLCJSZXN0Z2FlbGQiOjIxMDIxNy4wfSx7IkJldGFsaW5nc2FhciI6MjA0NSwiQmV0YWxpbmdzZGF0byI6IjIwNDUtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzEzMjguMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDE5Mi4wLCJBZmRyYWciOjI2ODUwLjAsIlJlbnRlIjoyNjI4LjAsIkJpZHJhZyI6MTg1Mi4wLCJSZXN0Z2FlbGQiOjE4MzM2Ny4wfSx7IkJldGFsaW5nc2FhciI6MjA0NiwiQmV0YWxpbmdzZGF0byI6IjIwNDYtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzEwNzcuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDA5Ni4wLCJBZmRyYWciOjI3MjA2LjAsIlJlbnRlIjoyMjcwLjAsIkJpZHJhZyI6MTYwMi4wLCJSZXN0Z2FlbGQiOjE1NjE2Mi4wfSx7IkJldGFsaW5nc2FhciI6MjA0NywiQmV0YWxpbmdzZGF0byI6IjIwNDctMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzA4MjQuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTk5OC4wLCJBZmRyYWciOjI3NTY0LjAsIlJlbnRlIjoxOTEwLjAsIkJpZHJhZyI6MTM0OC4wLCJSZXN0Z2FlbGQiOjEyODU5Ny4wfSx7IkJldGFsaW5nc2FhciI6MjA0OCwiQmV0YWxpbmdzZGF0byI6IjIwNDgtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzA1NjguMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTg5OC4wLCJBZmRyYWciOjI3OTI3LjAsIlJlbnRlIjoxNTQ3LjAsIkJpZHJhZyI6MTA5Mi4wLCJSZXN0Z2FlbGQiOjEwMDY3MC4wfSx7IkJldGFsaW5nc2FhciI6MjA0OSwiQmV0YWxpbmdzZGF0byI6IjIwNDktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzAzNzkuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyOTg1Mi4wLCJBZmRyYWciOjI4Mjk2LjAsIlJlbnRlIjoxMTc2LjAsIkJpZHJhZyI6OTA4LjAsIlJlc3RnYWVsZCI6NzIzNzQuMH0seyJCZXRhbGluZ3NhYXIiOjIwNTAsIkJldGFsaW5nc2RhdG8iOiIyMDUwLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjMwMzY4LjAsIllkZWxzZUVmdGVyU2thdCI6Mjk5MzcuMCwiQWZkcmFnIjoyODY2OS4wLCJSZW50ZSI6ODAwLjAsIkJpZHJhZyI6OTAwLjAsIlJlc3RnYWVsZCI6NDM3MDUuMH0seyJCZXRhbGluZ3NhYXIiOjIwNTEsIkJldGFsaW5nc2RhdG8iOiIyMDUxLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjMwMzY4LjAsIllkZWxzZUVmdGVyU2thdCI6MzAwMzIuMCwiQWZkcmFnIjoyOTA0Mi4wLCJSZW50ZSI6NDI2LjAsIkJpZHJhZyI6OTAwLjAsIlJlc3RnYWVsZCI6MTQ2NjMuMH0seyJCZXRhbGluZ3NhYXIiOjIwNTIsIkJldGFsaW5nc2RhdG8iOiIyMDUyLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjE1MTg0LjAsIllkZWxzZUVmdGVyU2thdCI6MTUwNTIuMCwiQWZkcmFnIjoxNDY2My4wLCJSZW50ZSI6NzIuMCwiQmlkcmFnIjo0NTAuMCwiUmVzdGdhZWxkIjowLjB9XSwiTGFhbmVyZW50ZSI6MC4wMTI5ODJ9LCJCYW5rTGFhbiI6bnVsbCwiU2FtbGV0TWFhbmVkbGlnWWRlbHNlRm9lclNrYXQiOjExMTYuMCwiUGFra2VuYXZuIjoiSnlza2UgRjMiLCJQYWtrZW5hdm5Lb3J0VmlzbmluZyI6IlJlbnRldGlscGFzbmluZ3Nsw6VuIiwiRWplbmRvbXN2YWVyZGkiOjY0NzEyNS4wfQ=="
+      },
+      {
+          "laan": [
+              {
+                  "type": "Realkreditlån",
+                  "detaljer": [
+                      {
+                          "beskrivelse": "Jyske F5",
+                          "vaerdi": ""
+                      },
+                      {
+                          "beskrivelse": "Mdl. ydelse før skat",
+                          "vaerdi": "1.254"
+                      },
+                      {
+                          "beskrivelse": "Hovedstol",
+                          "vaerdi": "517.700"
+                      },
+                      {
+                          "beskrivelse": "ÅOP før skat",
+                          "vaerdi": "3,02%"
+                      },
+                      {
+                          "beskrivelse": "Kurs",
+                          "vaerdi": "96,580"
+                      },
+                      {
+                          "beskrivelse": "Løbetid",
+                          "vaerdi": "30,00 år"
+                      },
+                      {
+                          "beskrivelse": "Antal afdragsfrie år",
+                          "vaerdi": "10 år"
+                      },
+                      {
+                          "beskrivelse": "Debitorrente (variabel)",
+                          "vaerdi": "1,754%"
+                      },
+                      {
+                          "beskrivelse": "Bidrag (variabel)",
+                          "vaerdi": "1,163%"
+                      },
+                      {
+                          "beskrivelse": "Samlede renter og bidrag",
+                          "vaerdi": "291.069"
+                      },
+                      {
+                          "beskrivelse": "Samlet tilbagebetaling",
+                          "vaerdi": "808.769"
+                      },
+                      {
+                          "beskrivelse": "Udbetalt beløb",
+                          "vaerdi": "500.094"
+                      },
+                      {
+                          "beskrivelse": "Antal kvartårlige ydelser",
+                          "vaerdi": "120"
+                      },
+                      {
+                          "beskrivelse": "Kreditor",
+                          "vaerdi": "Jyske Realkredit"
+                      },
+                      {
+                          "beskrivelse": "Bevillingsomkostninger",
+                          "vaerdi": "7.500"
+                      },
+                      {
+                          "beskrivelse": "Tinglysningsafgift",
+                          "vaerdi": "9.330"
+                      },
+                      {
+                          "beskrivelse": "Kurtage",
+                          "vaerdi": "777"
+                      },
+                      {
+                          "beskrivelse": "Samlede kreditomkostninger",
+                          "vaerdi": "308.675"
+                      },
+                      {
+                          "beskrivelse": "Kursskæring ved udbetaling",
+                          "vaerdi": "1.073"
+                      },
+                      {
+                          "beskrivelse": "Kursskæring ved rentetilpasning",
+                          "vaerdi": "0,2%"
+                      },
+                      {
+                          "beskrivelse": "Fastrenteperiode",
+                          "vaerdi": "5 år"
+                      }
+                  ]
+              }
+          ],
+          "pakkenavn": "Jyske F5",
+          "ratings": [
+              {
+                  "tekst": "Rentens sikkerhed",
+                  "vaerdi": 50
+              },
+              {
+                  "tekst": "Lav ÅOP",
+                  "vaerdi": 50
+              },
+              {
+                  "tekst": "Lav samlet tilbagebetaling",
+                  "vaerdi": 52
+              },
+              {
+                  "tekst": "Lav Bidragssats/rentetillæg",
+                  "vaerdi": 53
+              }
+          ],
+          "pakkenavnKortVisning": "Rentetilpasningslån",
+          "kontaktMigParametre": "?loanSize=500.000 kr.&housingType=Helårsbolig&referer=Beregn lån i friværdi&casetype=Lån i nuværende bolig&loanName=Jyske F5&loanDetails=517.700 kr., 30,00 års løbetid og 10 års afdragsfrihed.",
+          "pakkedetalje": "Afdragsfri",
+          "primaertNoegletal": "1.254 kr",
+          "primaertNoegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+          "primaerHeader": {
+              "detalje": "Afdragsfri",
+              "noegletal": "1.254 kr",
+              "noegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+              "afdragsfri": true
+          },
+          "sekundaerHeader": null,
+          "serializedBeregning": "eyJSZWFsa3JlZGl0TGFhbiI6eyJGYXN0cmVudGVQZXJpb2RlIjo1LCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nIjowLjAwMiwiS3Vyc3NrYWVyaW5nU2F0c1ZlZFJlbnRldGlscGFzbmluZ1BjdCI6MC4yMCwiUmVudGVsb2Z0IjpudWxsLCJGcmloZWRCZXJlZ25pbmciOm51bGwsIkFhb3BGb2VyU2thdCI6MC4wMzAxNTMsIkFhb3BGb2VyU2thdFBjdCI6My4wMTUzLCJBYXJUaWxVZGxvZWIiOjMwLjAsIkFudGFsQmV0YWxpbmdzdGVybWluZXIiOjEyMCwiQW50YWxBZmRyYWdzZnJpZUFhciI6MTAuMCwiQW52ZW5kdFNrYXR0ZXNhdHMiOjAuMjUzMywiQW52ZW5kdFNrYXR0ZVNhdHNQY3QiOjI1LjMzMDAsIkJldmlsbGluZ09ta29zdG5pbmdlciI6NzUwMC4wLCJGb2Vyc3RlQWFyc0JpZHJhZ3NzYXRzIjowLjAxMTYyNSwiRm9lcnN0ZUFhcnNCaWRyYWdzc2F0c1BjdCI6MS4xNjI1LCJGb2Vyc3RlQWFyc0RlYml0b3JSZW50ZSI6MC4wMTc1NDIsIkZvZXJzdGVBYXJzRGViaXRvclJlbnRlUGN0IjoxLjc1NDIsIkZvZXJzdGVBYXJzWWRlbHNlRm9lclNrYXRNZWRBZmRyYWciOjE1MDQxLjAsIkZvZXJzdGVBYXJzWWRlbHNlRWZ0ZXJTa2F0TWVkQWZkcmFnIjoxMTIzMS4wLCJGb2Vyc3RlQWFyc01hYW5lZGxpZ2VZZGVsc2VGb2VyU2thdE1lZEFmZHJhZyI6MTI1NC4wLCJGb2Vyc3RlQWFyc01hYW5lZGxpZ2VZZGVsc2VFZnRlclNrYXRNZWRBZmRyYWciOjkzNi4wLCJIb3ZlZHN0b2wiOjUxNzcwMC4wLCJLcmVkaXRvciI6Ikp5c2tlIFJlYWxrcmVkaXQiLCJLdXJzc2thZXJpbmciOjEwNzMuMCwiS3Vyc3RhYiI6MC4wLCJLdXJzdmFlcmRpIjo1MTc3MDAuMCwiS3VydGFnZSI6Nzc3LjAsIkxhYW5OYXZuIjoiSnlza2UgRjUiLCJMdHYiOjAuOCwiTHR2UGN0Ijo4MC4wLCJSZW50ZVR5cGUiOiJ2YXJpYWJlbCIsIlNhbWxlZGVLcmVkaXRvbWtvc3RuaW5nZXIiOjMwODY3NS4wLCJTdGlmdGVsc2VQcm92aXNpb24iOjAsIlRpbmdseXNuaW5nQWZnaWZ0Ijo5MzMwLjAsIlRpbmdseXNuaW5nQWZnaWZ0RmFzdCI6MTczMC4wLCJUaW5nbHlzbmluZ0FmZ2lmdFZhcmlhYmxlIjo3NjAwLjAsIlRpbmdseXNuaW5nU2VydmljZSI6MC4wLCJUb3RhbFJlbnRlck9nQmlkcmFnIjoyOTEwNjkuMCwiVG90YWxUaWxiYWdlYmV0YWxpbmciOjgwODc2OS4wLCJVZGJldGFsaW5nc2RhdG8iOiIyMDIyLTA1LTA0IiwiVWRiZXRhbGluZ3NrdXJzIjo5Ni41ODAsIlVkYmV0YWx0QmVsb2ViIjo1MDAwOTQuMCwiVGlsYmFnZWJldGFsaW5nc3BsYW4iOlt7IkJldGFsaW5nc2FhciI6MjAyMiwiQmV0YWxpbmdzZGF0byI6IjIwMjItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6NjE1Ny4wLCJZZGVsc2VFZnRlclNrYXQiOjQ1OTguMCwiQWZkcmFnIjowLjAsIlJlbnRlIjozNjk0LjAsIkJpZHJhZyI6MjQ2NC4wLCJSZXN0Z2FlbGQiOjUxNzcwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAyMywiQmV0YWxpbmdzZGF0byI6IjIwMjMtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MTUwNDAuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoxMTIzMi4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjkwMjQuMCwiQmlkcmFnIjo2MDIwLjAsIlJlc3RnYWVsZCI6NTE3NzAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI0LCJCZXRhbGluZ3NkYXRvIjoiMjAyNC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoxNTA0MC4wLCJZZGVsc2VFZnRlclNrYXQiOjExMjMyLjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6OTAyNC4wLCJCaWRyYWciOjYwMjAuMCwiUmVzdGdhZWxkIjo1MTc3MDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjUsIkJldGFsaW5nc2RhdG8iOiIyMDI1LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjE1MDQwLjAsIllkZWxzZUVmdGVyU2thdCI6MTEyMzIuMCwiQWZkcmFnIjowLjAsIlJlbnRlIjo5MDI0LjAsIkJpZHJhZyI6NjAyMC4wLCJSZXN0Z2FlbGQiOjUxNzcwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAyNiwiQmV0YWxpbmdzZGF0byI6IjIwMjYtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MTUwNDAuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoxMTIzMi4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjkwMjQuMCwiQmlkcmFnIjo2MDIwLjAsIlJlc3RnYWVsZCI6NTE3NzAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI3LCJCZXRhbGluZ3NkYXRvIjoiMjAyNy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoxNTA5Mi4wLCJZZGVsc2VFZnRlclNrYXQiOjExMjcwLjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6OTA3Ni4wLCJCaWRyYWciOjYwMjAuMCwiUmVzdGdhZWxkIjo1MTc3MDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjgsIkJldGFsaW5nc2RhdG8iOiIyMDI4LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjE1MTQ0LjAsIllkZWxzZUVmdGVyU2thdCI6MTEzMDguMCwiQWZkcmFnIjowLjAsIlJlbnRlIjo5MTI4LjAsIkJpZHJhZyI6NjAyMC4wLCJSZXN0Z2FlbGQiOjUxNzcwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAyOSwiQmV0YWxpbmdzZGF0byI6IjIwMjktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MTUxNDQuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoxMTMwOC4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjkxMjguMCwiQmlkcmFnIjo2MDIwLjAsIlJlc3RnYWVsZCI6NTE3NzAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMwLCJCZXRhbGluZ3NkYXRvIjoiMjAzMC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoxNTE0NC4wLCJZZGVsc2VFZnRlclNrYXQiOjExMzA4LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6OTEyOC4wLCJCaWRyYWciOjYwMjAuMCwiUmVzdGdhZWxkIjo1MTc3MDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzEsIkJldGFsaW5nc2RhdG8iOiIyMDMxLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjE1MTQ0LjAsIllkZWxzZUVmdGVyU2thdCI6MTEzMDguMCwiQWZkcmFnIjowLjAsIlJlbnRlIjo5MTI4LjAsIkJpZHJhZyI6NjAyMC4wLCJSZXN0Z2FlbGQiOjUxNzcwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAzMiwiQmV0YWxpbmdzZGF0byI6IjIwMzItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MjQ5ODkuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyMTQxMi4wLCJBZmRyYWciOjEwODY4LjAsIlJlbnRlIjo5MDU0LjAsIkJpZHJhZyI6NTA3MC4wLCJSZXN0Z2FlbGQiOjUwNjgzMi4wfSx7IkJldGFsaW5nc2FhciI6MjAzMywiQmV0YWxpbmdzZGF0byI6IjIwMzMtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzQ3MDYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTQ5Mi4wLCJBZmRyYWciOjIyMDI0LjAsIlJlbnRlIjo4NjkyLjAsIkJpZHJhZyI6Mzk5MC4wLCJSZXN0Z2FlbGQiOjQ4NDgwOS4wfSx7IkJldGFsaW5nc2FhciI6MjAzNCwiQmV0YWxpbmdzZGF0byI6IjIwMzQtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzQ1MjcuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTQ1Ny4wLCJBZmRyYWciOjIyNDA5LjAsIlJlbnRlIjo4MzA3LjAsIkJpZHJhZyI6MzgxMS4wLCJSZXN0Z2FlbGQiOjQ2MjQwMC4wfSx7IkJldGFsaW5nc2FhciI6MjAzNSwiQmV0YWxpbmdzZGF0byI6IjIwMzUtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzQzNDcuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTQyMy4wLCJBZmRyYWciOjIyODAyLjAsIlJlbnRlIjo3OTE0LjAsIkJpZHJhZyI6MzYzMS4wLCJSZXN0Z2FlbGQiOjQzOTU5OC4wfSx7IkJldGFsaW5nc2FhciI6MjAzNiwiQmV0YWxpbmdzZGF0byI6IjIwMzYtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzQxNjMuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTM4Ny4wLCJBZmRyYWciOjIzMjAyLjAsIlJlbnRlIjo3NTEzLjAsIkJpZHJhZyI6MzQ0Ny4wLCJSZXN0Z2FlbGQiOjQxNjM5Ni4wfSx7IkJldGFsaW5nc2FhciI6MjAzNywiQmV0YWxpbmdzZGF0byI6IjIwMzctMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzM5NjYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTM0NS4wLCJBZmRyYWciOjIzNjE3LjAsIlJlbnRlIjo3MDg4LjAsIkJpZHJhZyI6MzI2MC4wLCJSZXN0Z2FlbGQiOjM5Mjc3OC4wfSx7IkJldGFsaW5nc2FhciI6MjAzOCwiQmV0YWxpbmdzZGF0byI6IjIwMzgtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzM3NjYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTMwMi4wLCJBZmRyYWciOjI0MDQwLjAsIlJlbnRlIjo2NjU2LjAsIkJpZHJhZyI6MzA3Mi4wLCJSZXN0Z2FlbGQiOjM2ODc0MC4wfSx7IkJldGFsaW5nc2FhciI6MjAzOSwiQmV0YWxpbmdzZGF0byI6IjIwMzktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzM1NzIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTI2NC4wLCJBZmRyYWciOjI0NDU4LjAsIlJlbnRlIjo2MjM4LjAsIkJpZHJhZyI6Mjg3Ni4wLCJSZXN0Z2FlbGQiOjM0NDI4Mi4wfSx7IkJldGFsaW5nc2FhciI6MjA0MCwiQmV0YWxpbmdzZGF0byI6IjIwNDAtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzMzNzUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTIyNS4wLCJBZmRyYWciOjI0ODg2LjAsIlJlbnRlIjo1ODEwLjAsIkJpZHJhZyI6MjY4MC4wLCJSZXN0Z2FlbGQiOjMxOTM5Ni4wfSx7IkJldGFsaW5nc2FhciI6MjA0MSwiQmV0YWxpbmdzZGF0byI6IjIwNDEtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzMxNzUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTE4Ni4wLCJBZmRyYWciOjI1MzIwLjAsIlJlbnRlIjo1Mzc2LjAsIkJpZHJhZyI6MjQ4MC4wLCJSZXN0Z2FlbGQiOjI5NDA3Ny4wfSx7IkJldGFsaW5nc2FhciI6MjA0MiwiQmV0YWxpbmdzZGF0byI6IjIwNDItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzI5NTUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTEzNy4wLCJBZmRyYWciOjI1Nzc1LjAsIlJlbnRlIjo0OTA0LjAsIkJpZHJhZyI6MjI3Ni4wLCJSZXN0Z2FlbGQiOjI2ODMwMi4wfSx7IkJldGFsaW5nc2FhciI6MjA0MywiQmV0YWxpbmdzZGF0byI6IjIwNDMtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzI3MzIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTA4NS4wLCJBZmRyYWciOjI2MjMzLjAsIlJlbnRlIjo0NDMwLjAsIkJpZHJhZyI6MjA2OC4wLCJSZXN0Z2FlbGQiOjI0MjA2OC4wfSx7IkJldGFsaW5nc2FhciI6MjA0NCwiQmV0YWxpbmdzZGF0byI6IjIwNDQtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzI1MjEuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMTA0My4wLCJBZmRyYWciOjI2Njg2LjAsIlJlbnRlIjozOTc4LjAsIkJpZHJhZyI6MTg1Ny4wLCJSZXN0Z2FlbGQiOjIxNTM4MS4wfSx7IkJldGFsaW5nc2FhciI6MjA0NSwiQmV0YWxpbmdzZGF0byI6IjIwNDUtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzIzMDYuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDk5OS4wLCJBZmRyYWciOjI3MTQ2LjAsIlJlbnRlIjozNTE4LjAsIkJpZHJhZyI6MTY0Mi4wLCJSZXN0Z2FlbGQiOjE4ODIzNS4wfSx7IkJldGFsaW5nc2FhciI6MjA0NiwiQmV0YWxpbmdzZGF0byI6IjIwNDYtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzIwODcuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDk1NC4wLCJBZmRyYWciOjI3NjE1LjAsIlJlbnRlIjozMDQ5LjAsIkJpZHJhZyI6MTQyMy4wLCJSZXN0Z2FlbGQiOjE2MDYyMC4wfSx7IkJldGFsaW5nc2FhciI6MjA0NywiQmV0YWxpbmdzZGF0byI6IjIwNDctMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzE4MjUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDg4OC4wLCJBZmRyYWciOjI4MTI0LjAsIlJlbnRlIjoyNTAxLjAsIkJpZHJhZyI6MTIwMC4wLCJSZXN0Z2FlbGQiOjEzMjQ5Ni4wfSx7IkJldGFsaW5nc2FhciI6MjA0OCwiQmV0YWxpbmdzZGF0byI6IjIwNDgtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzE1NjIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDgxNy4wLCJBZmRyYWciOjI4NjE5LjAsIlJlbnRlIjoxOTY2LjAsIkJpZHJhZyI6OTc3LjAsIlJlc3RnYWVsZCI6MTAzODc3LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQ5LCJCZXRhbGluZ3NkYXRvIjoiMjA0OS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjozMTQ4NC4wLCJZZGVsc2VFZnRlclNrYXQiOjMwODc3LjAsIkFmZHJhZyI6MjkwODQuMCwiUmVudGUiOjE1MDEuMCwiQmlkcmFnIjo5MDAuMCwiUmVzdGdhZWxkIjo3NDc5My4wfSx7IkJldGFsaW5nc2FhciI6MjA1MCwiQmV0YWxpbmdzZGF0byI6IjIwNTAtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MzE0ODQuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozMDk5Ni4wLCJBZmRyYWciOjI5NTU3LjAsIlJlbnRlIjoxMDI5LjAsIkJpZHJhZyI6OTAwLjAsIlJlc3RnYWVsZCI6NDUyMzcuMH0seyJCZXRhbGluZ3NhYXIiOjIwNTEsIkJldGFsaW5nc2RhdG8iOiIyMDUxLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjMxNDg0LjAsIllkZWxzZUVmdGVyU2thdCI6MzExMTguMCwiQWZkcmFnIjozMDAzNi4wLCJSZW50ZSI6NTQ5LjAsIkJpZHJhZyI6OTAwLjAsIlJlc3RnYWVsZCI6MTUyMDEuMH0seyJCZXRhbGluZ3NhYXIiOjIwNTIsIkJldGFsaW5nc2RhdG8iOiIyMDUyLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjE1NzQyLjAsIllkZWxzZUVmdGVyU2thdCI6MTU2MDYuMCwiQWZkcmFnIjoxNTIwMS4wLCJSZW50ZSI6OTIuMCwiQmlkcmFnIjo0NTAuMCwiUmVzdGdhZWxkIjowLjB9XSwiTGFhbmVyZW50ZSI6MC4wMTc0Mjh9LCJCYW5rTGFhbiI6bnVsbCwiU2FtbGV0TWFhbmVkbGlnWWRlbHNlRm9lclNrYXQiOjEyNTQuMCwiUGFra2VuYXZuIjoiSnlza2UgRjUiLCJQYWtrZW5hdm5Lb3J0VmlzbmluZyI6IlJlbnRldGlscGFzbmluZ3Nsw6VuIiwiRWplbmRvbXN2YWVyZGkiOjY0NzEyNS4wfQ=="
+      },
+      {
+          "laan": [
+              {
+                  "type": "Bankboliglån",
+                  "detaljer": [
+                      {
+                          "beskrivelse": "Jyske Renteloft -Kort",
+                          "vaerdi": ""
+                      },
+                      {
+                          "beskrivelse": "Mdl. ydelse før skat",
+                          "vaerdi": "437"
+                      },
+                      {
+                          "beskrivelse": "Hovedstol",
+                          "vaerdi": "518.000"
+                      },
+                      {
+                          "beskrivelse": "ÅOP før skat",
+                          "vaerdi": "1,22%"
+                      },
+                      {
+                          "beskrivelse": "Kurs",
+                          "vaerdi": "100,000"
+                      },
+                      {
+                          "beskrivelse": "Løbetid",
+                          "vaerdi": "30,00 år"
+                      },
+                      {
+                          "beskrivelse": "Antal afdragsfrie år",
+                          "vaerdi": "10 år"
+                      },
+                      {
+                          "beskrivelse": "Debitorrente (variabel)",
+                          "vaerdi": "1,017%"
+                      },
+                      {
+                          "beskrivelse": "Rentetillæg (variabel)",
+                          "vaerdi": "1,230%"
+                      },
+                      {
+                          "beskrivelse": "Samlede renter og bidrag",
+                          "vaerdi": "106.920"
+                      },
+                      {
+                          "beskrivelse": "Samlet tilbagebetaling",
+                          "vaerdi": "624.921"
+                      },
+                      {
+                          "beskrivelse": "Udbetalt beløb",
+                          "vaerdi": "499.357"
+                      },
+                      {
+                          "beskrivelse": "Antal kvartårlige ydelser",
+                          "vaerdi": "120"
+                      },
+                      {
+                          "beskrivelse": "Kreditor",
+                          "vaerdi": "Jyske Bank"
+                      },
+                      {
+                          "beskrivelse": "Bevillingsomkostninger",
+                          "vaerdi": "7.500"
+                      },
+                      {
+                          "beskrivelse": "Tinglysningsafgift",
+                          "vaerdi": "9.330"
+                      },
+                      {
+                          "beskrivelse": "Stiftelsesprovision",
+                          "vaerdi": "1.813"
+                      },
+                      {
+                          "beskrivelse": "Samlede kreditomkostninger",
+                          "vaerdi": "125.563"
+                      },
+                      {
+                          "beskrivelse": "Renteloftets udløbsdato",
+                          "vaerdi": "01-07-2026"
+                      }
+                  ]
+              }
+          ],
+          "pakkenavn": "Jyske Renteloft -Kort",
+          "ratings": [
+              {
+                  "tekst": "Rentens sikkerhed",
+                  "vaerdi": 1
+              },
+              {
+                  "tekst": "Lav ÅOP",
+                  "vaerdi": 100
+              },
+              {
+                  "tekst": "Lav samlet tilbagebetaling",
+                  "vaerdi": 100
+              },
+              {
+                  "tekst": "Lav Bidragssats/rentetillæg",
+                  "vaerdi": 37
+              }
+          ],
+          "pakkenavnKortVisning": "Renteloftlån",
+          "kontaktMigParametre": "?loanSize=500.000 kr.&housingType=Helårsbolig&referer=Beregn lån i friværdi&casetype=Lån i nuværende bolig&loanName=Jyske Renteloft -Kort&loanDetails=518.000 kr., 30,00 års løbetid og 10 års afdragsfrihed.Basisrenten har et loft på 1,2300%, som udløber d. 01-00-2026. Hertil kommer et variabelt tillæg.",
+          "pakkedetalje": "Afdragsfri",
+          "primaertNoegletal": "437 kr",
+          "primaertNoegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+          "primaerHeader": {
+              "detalje": "Afdragsfri",
+              "noegletal": "437 kr",
+              "noegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+              "afdragsfri": true
+          },
+          "sekundaerHeader": null,
+          "serializedBeregning": "eyJSZWFsa3JlZGl0TGFhbiI6eyJGYXN0cmVudGVQZXJpb2RlIjpudWxsLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nIjpudWxsLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nUGN0IjpudWxsLCJSZW50ZWxvZnQiOnsiUmVudGV0aWxsYWVnIjowLjAxMjMsIlJlbnRldGlsbGFlZ1BjdCI6MS4yMzAwLCJVZGxvZWIiOiIyMDI2LTA3LTAxVDAwOjAwOjAwIiwiU2F0cyI6MC4wMywiU2F0c1BjdCI6My4wMH0sIkZyaWhlZEJlcmVnbmluZyI6bnVsbCwiQWFvcEZvZXJTa2F0IjowLjAxMjIwMiwiQWFvcEZvZXJTa2F0UGN0IjoxLjIyMDIsIkFhclRpbFVkbG9lYiI6MzAuMCwiQW50YWxCZXRhbGluZ3N0ZXJtaW5lciI6MTIwLCJBbnRhbEFmZHJhZ3NmcmllQWFyIjoxMC4wLCJBbnZlbmR0U2thdHRlc2F0cyI6MC4yNTMzLCJBbnZlbmR0U2thdHRlU2F0c1BjdCI6MjUuMzMwMCwiQmV2aWxsaW5nT21rb3N0bmluZ2VyIjo3NTAwLjAsIkZvZXJzdGVBYXJzQmlkcmFnc3NhdHMiOjAuMCwiRm9lcnN0ZUFhcnNCaWRyYWdzc2F0c1BjdCI6MC4wLCJGb2Vyc3RlQWFyc0RlYml0b3JSZW50ZSI6MC4wMTAxNzIsIkZvZXJzdGVBYXJzRGViaXRvclJlbnRlUGN0IjoxLjAxNzIsIkZvZXJzdGVBYXJzWWRlbHNlRm9lclNrYXRNZWRBZmRyYWciOjUyMzUuMCwiRm9lcnN0ZUFhcnNZZGVsc2VFZnRlclNrYXRNZWRBZmRyYWciOjM5MDkuMCwiRm9lcnN0ZUFhcnNNYWFuZWRsaWdlWWRlbHNlRm9lclNrYXRNZWRBZmRyYWciOjQzNy4wLCJGb2Vyc3RlQWFyc01hYW5lZGxpZ2VZZGVsc2VFZnRlclNrYXRNZWRBZmRyYWciOjMyNi4wLCJIb3ZlZHN0b2wiOjUxODAwMC4wLCJLcmVkaXRvciI6Ikp5c2tlIFJlYWxrcmVkaXQiLCJLdXJzc2thZXJpbmciOjAuMCwiS3Vyc3RhYiI6MC4wLCJLdXJzdmFlcmRpIjo1MTgwMDAuMCwiS3VydGFnZSI6MC4wLCJMYWFuTmF2biI6Ikp5c2tlIFJlbnRlbG9mdCAtS29ydCIsIkx0diI6MC44LCJMdHZQY3QiOjgwLjAsIlJlbnRlVHlwZSI6InZhcmlhYmVsIiwiU2FtbGVkZUtyZWRpdG9ta29zdG5pbmdlciI6MTI1NTYzLjAsIlN0aWZ0ZWxzZVByb3Zpc2lvbiI6MTgxMywiVGluZ2x5c25pbmdBZmdpZnQiOjkzMzAuMCwiVGluZ2x5c25pbmdBZmdpZnRGYXN0IjoxNzMwLjAsIlRpbmdseXNuaW5nQWZnaWZ0VmFyaWFibGUiOjc2MDAuMCwiVGluZ2x5c25pbmdTZXJ2aWNlIjowLjAsIlRvdGFsUmVudGVyT2dCaWRyYWciOjEwNjkyMC4wLCJUb3RhbFRpbGJhZ2ViZXRhbGluZyI6NjI0OTIxLjAsIlVkYmV0YWxpbmdzZGF0byI6IjIwMjItMDUtMDQiLCJVZGJldGFsaW5nc2t1cnMiOjEwMC4wLCJVZGJldGFsdEJlbG9lYiI6NDk5MzU3LjAsIlRpbGJhZ2ViZXRhbGluZ3NwbGFuIjpbeyJCZXRhbGluZ3NhYXIiOjIwMjIsIkJldGFsaW5nc2RhdG8iOiIyMDIyLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjIxNDMuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoxNjAwLjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6MjE0My4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjMsIkJldGFsaW5nc2RhdG8iOiIyMDIzLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjUyNDkuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozOTE5LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NTI0OS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjQsIkJldGFsaW5nc2RhdG8iOiIyMDI0LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjUyNTIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozOTIyLjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NTI1Mi4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjUsIkJldGFsaW5nc2RhdG8iOiIyMDI1LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjUyNDUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozOTE2LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NTI0NS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjYsIkJldGFsaW5nc2RhdG8iOiIyMDI2LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjUyNDkuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozOTE5LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NTI0OS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjcsIkJldGFsaW5nc2RhdG8iOiIyMDI3LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjUyNDkuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozOTE5LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NTI0OS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjgsIkJldGFsaW5nc2RhdG8iOiIyMDI4LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjUyNTIuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozOTIyLjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NTI1Mi4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMjksIkJldGFsaW5nc2RhdG8iOiIyMDI5LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjUyNDUuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozOTE2LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NTI0NS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzAsIkJldGFsaW5nc2RhdG8iOiIyMDMwLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjUyNDkuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozOTE5LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NTI0OS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzEsIkJldGFsaW5nc2RhdG8iOiIyMDMxLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjUyNDkuMCwiWWRlbHNlRWZ0ZXJTa2F0IjozOTE5LjAsIkFmZHJhZyI6MC4wLCJSZW50ZSI6NTI0OS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MTgwMDAuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzIsIkJldGFsaW5nc2RhdG8iOiIyMDMyLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjE2OTUwLjAsIllkZWxzZUVmdGVyU2thdCI6MTU2MjUuMCwiQWZkcmFnIjoxMTcxMy4wLCJSZW50ZSI6NTIzNy4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo1MDYyODcuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzMsIkJldGFsaW5nc2RhdG8iOiIyMDMzLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6MjczNzAuMCwiQWZkcmFnIjoyMzYwOS4wLCJSZW50ZSI6NTAzNy4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo0ODI2NzguMH0seyJCZXRhbGluZ3NhYXIiOjIwMzQsIkJldGFsaW5nc2RhdG8iOiIyMDM0LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjc0MzAuMCwiQWZkcmFnIjoyMzg0NS4wLCJSZW50ZSI6NDgwMC4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo0NTg4MzMuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzUsIkJldGFsaW5nc2RhdG8iOiIyMDM1LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjc0OTIuMCwiQWZkcmFnIjoyNDA4OS4wLCJSZW50ZSI6NDU1OC4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo0MzQ3NDUuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzYsIkJldGFsaW5nc2RhdG8iOiIyMDM2LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjc1NTMuMCwiQWZkcmFnIjoyNDMzMC4wLCJSZW50ZSI6NDMxNi4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo0MTA0MTUuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzcsIkJldGFsaW5nc2RhdG8iOiIyMDM3LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjc2MTguMCwiQWZkcmFnIjoyNDU4My4wLCJSZW50ZSI6NDA2Mi4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjozODU4MzIuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzgsIkJldGFsaW5nc2RhdG8iOiIyMDM4LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjc2NzkuMCwiQWZkcmFnIjoyNDgzMS4wLCJSZW50ZSI6MzgxNS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjozNjEwMDIuMH0seyJCZXRhbGluZ3NhYXIiOjIwMzksIkJldGFsaW5nc2RhdG8iOiIyMDM5LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjc3NDMuMCwiQWZkcmFnIjoyNTA4Mi4wLCJSZW50ZSI6MzU2Mi4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjozMzU5MTkuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDAsIkJldGFsaW5nc2RhdG8iOiIyMDQwLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjc4MDcuMCwiQWZkcmFnIjoyNTMzNS4wLCJSZW50ZSI6MzMwOS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjozMTA1ODMuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDEsIkJldGFsaW5nc2RhdG8iOiIyMDQxLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjc4NzQuMCwiQWZkcmFnIjoyNTU5Ny4wLCJSZW50ZSI6MzA0Ny4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjoyODQ5ODUuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDIsIkJldGFsaW5nc2RhdG8iOiIyMDQyLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjc5MzkuMCwiQWZkcmFnIjoyNTg1Ni4wLCJSZW50ZSI6Mjc4OS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjoyNTkxMjkuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDMsIkJldGFsaW5nc2RhdG8iOiIyMDQzLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6MjgwMDYuMCwiQWZkcmFnIjoyNjEyMC4wLCJSZW50ZSI6MjUyNy4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjoyMzMwMTAuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDQsIkJldGFsaW5nc2RhdG8iOiIyMDQ0LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6MjgwNzMuMCwiQWZkcmFnIjoyNjM4My4wLCJSZW50ZSI6MjI2My4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjoyMDY2MjcuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDUsIkJldGFsaW5nc2RhdG8iOiIyMDQ1LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6MjgxNDIuMCwiQWZkcmFnIjoyNjY1NS4wLCJSZW50ZSI6MTk5MS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjoxNzk5NzIuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDYsIkJldGFsaW5nc2RhdG8iOiIyMDQ2LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6MjgyMTAuMCwiQWZkcmFnIjoyNjkyNS4wLCJSZW50ZSI6MTcyMi4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjoxNTMwNDguMH0seyJCZXRhbGluZ3NhYXIiOjIwNDcsIkJldGFsaW5nc2RhdG8iOiIyMDQ3LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6MjgyNzkuMCwiQWZkcmFnIjoyNzE5OS4wLCJSZW50ZSI6MTQ0Ny4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjoxMjU4NTAuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDgsIkJldGFsaW5nc2RhdG8iOiIyMDQ4LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6MjgzNDkuMCwiQWZkcmFnIjoyNzQ3NC4wLCJSZW50ZSI6MTE3Mi4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo5ODM3Ni4wfSx7IkJldGFsaW5nc2FhciI6MjA0OSwiQmV0YWxpbmdzZGF0byI6IjIwNDktMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6Mjg2NDQuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyODQyMC4wLCJBZmRyYWciOjI3NzU1LjAsIlJlbnRlIjo4OTIuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NzA2MjEuMH0seyJCZXRhbGluZ3NhYXIiOjIwNTAsIkJldGFsaW5nc2RhdG8iOiIyMDUwLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI4NjQ0LjAsIllkZWxzZUVmdGVyU2thdCI6Mjg0OTEuMCwiQWZkcmFnIjoyODAzNi4wLCJSZW50ZSI6NjA5LjAsIkJpZHJhZyI6MC4wLCJSZXN0Z2FlbGQiOjQyNTg1LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDUxLCJCZXRhbGluZ3NkYXRvIjoiMjA1MS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyODY0NC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4NTY0LjAsIkFmZHJhZyI6MjgzMjMuMCwiUmVudGUiOjMyNS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjoxNDI2My4wfSx7IkJldGFsaW5nc2FhciI6MjA1MiwiQmV0YWxpbmdzZGF0byI6IjIwNTItMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MTQzMTcuMCwiWWRlbHNlRWZ0ZXJTa2F0IjoxNDMwNC4wLCJBZmRyYWciOjE0MjYzLjAsIlJlbnRlIjo1NC4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjowLjB9XSwiTGFhbmVyZW50ZSI6MC4wMTAxMzN9LCJCYW5rTGFhbiI6bnVsbCwiU2FtbGV0TWFhbmVkbGlnWWRlbHNlRm9lclNrYXQiOjQzNy4wLCJQYWtrZW5hdm4iOiJKeXNrZSBSZW50ZWxvZnQgLUtvcnQiLCJQYWtrZW5hdm5Lb3J0VmlzbmluZyI6IlJlbnRlbG9mdGzDpW4iLCJFamVuZG9tc3ZhZXJkaSI6NjQ3NTAwLjB9"
+      },
+      {
+          "laan": [
+              {
+                  "type": "Bankboliglån",
+                  "detaljer": [
+                      {
+                          "beskrivelse": "Jyske Renteloft -Lang",
+                          "vaerdi": ""
+                      },
+                      {
+                          "beskrivelse": "Mdl. ydelse før skat",
+                          "vaerdi": "501"
+                      },
+                      {
+                          "beskrivelse": "Hovedstol",
+                          "vaerdi": "518.000"
+                      },
+                      {
+                          "beskrivelse": "ÅOP før skat",
+                          "vaerdi": "1,37%"
+                      },
+                      {
+                          "beskrivelse": "Kurs",
+                          "vaerdi": "100,000"
+                      },
+                      {
+                          "beskrivelse": "Løbetid",
+                          "vaerdi": "30,00 år"
+                      },
+                      {
+                          "beskrivelse": "Antal afdragsfrie år",
+                          "vaerdi": "10 år"
+                      },
+                      {
+                          "beskrivelse": "Debitorrente (variabel)",
+                          "vaerdi": "1,168%"
+                      },
+                      {
+                          "beskrivelse": "Rentetillæg (variabel)",
+                          "vaerdi": "1,380%"
+                      },
+                      {
+                          "beskrivelse": "Samlede renter og bidrag",
+                          "vaerdi": "123.048"
+                      },
+                      {
+                          "beskrivelse": "Samlet tilbagebetaling",
+                          "vaerdi": "641.048"
+                      },
+                      {
+                          "beskrivelse": "Udbetalt beløb",
+                          "vaerdi": "499.357"
+                      },
+                      {
+                          "beskrivelse": "Antal kvartårlige ydelser",
+                          "vaerdi": "120"
+                      },
+                      {
+                          "beskrivelse": "Kreditor",
+                          "vaerdi": "Jyske Bank"
+                      },
+                      {
+                          "beskrivelse": "Bevillingsomkostninger",
+                          "vaerdi": "7.500"
+                      },
+                      {
+                          "beskrivelse": "Tinglysningsafgift",
+                          "vaerdi": "9.330"
+                      },
+                      {
+                          "beskrivelse": "Stiftelsesprovision",
+                          "vaerdi": "1.813"
+                      },
+                      {
+                          "beskrivelse": "Samlede kreditomkostninger",
+                          "vaerdi": "141.691"
+                      },
+                      {
+                          "beskrivelse": "Renteloftets udløbsdato",
+                          "vaerdi": "01-07-2029"
+                      }
+                  ]
+              }
+          ],
+          "pakkenavn": "Jyske Renteloft -Lang",
+          "ratings": [
+              {
+                  "tekst": "Rentens sikkerhed",
+                  "vaerdi": 1
+              },
+              {
+                  "tekst": "Lav ÅOP",
+                  "vaerdi": 95
+              },
+              {
+                  "tekst": "Lav samlet tilbagebetaling",
+                  "vaerdi": 95
+              },
+              {
+                  "tekst": "Lav Bidragssats/rentetillæg",
+                  "vaerdi": 0
+              }
+          ],
+          "pakkenavnKortVisning": "Renteloftlån",
+          "kontaktMigParametre": "?loanSize=500.000 kr.&housingType=Helårsbolig&referer=Beregn lån i friværdi&casetype=Lån i nuværende bolig&loanName=Jyske Renteloft -Lang&loanDetails=518.000 kr., 30,00 års løbetid og 10 års afdragsfrihed.Basisrenten har et loft på 1,3800%, som udløber d. 01-00-2029. Hertil kommer et variabelt tillæg.",
+          "pakkedetalje": "Afdragsfri",
+          "primaertNoegletal": "501 kr",
+          "primaertNoegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+          "primaerHeader": {
+              "detalje": "Afdragsfri",
+              "noegletal": "501 kr",
+              "noegletalBeskrivelse": "Samlet mdl. ydelse før skat",
+              "afdragsfri": true
+          },
+          "sekundaerHeader": null,
+          "serializedBeregning": "eyJSZWFsa3JlZGl0TGFhbiI6eyJGYXN0cmVudGVQZXJpb2RlIjpudWxsLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nIjpudWxsLCJLdXJzc2thZXJpbmdTYXRzVmVkUmVudGV0aWxwYXNuaW5nUGN0IjpudWxsLCJSZW50ZWxvZnQiOnsiUmVudGV0aWxsYWVnIjowLjAxMzgsIlJlbnRldGlsbGFlZ1BjdCI6MS4zODAwLCJVZGxvZWIiOiIyMDI5LTA3LTAxVDAwOjAwOjAwIiwiU2F0cyI6MC4wMzI1LCJTYXRzUGN0IjozLjI1MDB9LCJGcmloZWRCZXJlZ25pbmciOm51bGwsIkFhb3BGb2VyU2thdCI6MC4wMTM3NDUsIkFhb3BGb2VyU2thdFBjdCI6MS4zNzQ1LCJBYXJUaWxVZGxvZWIiOjMwLjAsIkFudGFsQmV0YWxpbmdzdGVybWluZXIiOjEyMCwiQW50YWxBZmRyYWdzZnJpZUFhciI6MTAuMCwiQW52ZW5kdFNrYXR0ZXNhdHMiOjAuMjUzMywiQW52ZW5kdFNrYXR0ZVNhdHNQY3QiOjI1LjMzMDAsIkJldmlsbGluZ09ta29zdG5pbmdlciI6NzUwMC4wLCJGb2Vyc3RlQWFyc0JpZHJhZ3NzYXRzIjowLjAsIkZvZXJzdGVBYXJzQmlkcmFnc3NhdHNQY3QiOjAuMCwiRm9lcnN0ZUFhcnNEZWJpdG9yUmVudGUiOjAuMDExNjg0LCJGb2Vyc3RlQWFyc0RlYml0b3JSZW50ZVBjdCI6MS4xNjg0LCJGb2Vyc3RlQWFyc1lkZWxzZUZvZXJTa2F0TWVkQWZkcmFnIjo2MDEwLjAsIkZvZXJzdGVBYXJzWWRlbHNlRWZ0ZXJTa2F0TWVkQWZkcmFnIjo0NDg4LjAsIkZvZXJzdGVBYXJzTWFhbmVkbGlnZVlkZWxzZUZvZXJTa2F0TWVkQWZkcmFnIjo1MDEuMCwiRm9lcnN0ZUFhcnNNYWFuZWRsaWdlWWRlbHNlRWZ0ZXJTa2F0TWVkQWZkcmFnIjozNzQuMCwiSG92ZWRzdG9sIjo1MTgwMDAuMCwiS3JlZGl0b3IiOiJKeXNrZSBSZWFsa3JlZGl0IiwiS3Vyc3NrYWVyaW5nIjowLjAsIkt1cnN0YWIiOjAuMCwiS3Vyc3ZhZXJkaSI6NTE4MDAwLjAsIkt1cnRhZ2UiOjAuMCwiTGFhbk5hdm4iOiJKeXNrZSBSZW50ZWxvZnQgLUxhbmciLCJMdHYiOjAuOCwiTHR2UGN0Ijo4MC4wLCJSZW50ZVR5cGUiOiJ2YXJpYWJlbCIsIlNhbWxlZGVLcmVkaXRvbWtvc3RuaW5nZXIiOjE0MTY5MS4wLCJTdGlmdGVsc2VQcm92aXNpb24iOjE4MTMsIlRpbmdseXNuaW5nQWZnaWZ0Ijo5MzMwLjAsIlRpbmdseXNuaW5nQWZnaWZ0RmFzdCI6MTczMC4wLCJUaW5nbHlzbmluZ0FmZ2lmdFZhcmlhYmxlIjo3NjAwLjAsIlRpbmdseXNuaW5nU2VydmljZSI6MC4wLCJUb3RhbFJlbnRlck9nQmlkcmFnIjoxMjMwNDguMCwiVG90YWxUaWxiYWdlYmV0YWxpbmciOjY0MTA0OC4wLCJVZGJldGFsaW5nc2RhdG8iOiIyMDIyLTA1LTA0IiwiVWRiZXRhbGluZ3NrdXJzIjoxMDAuMCwiVWRiZXRhbHRCZWxvZWIiOjQ5OTM1Ny4wLCJUaWxiYWdlYmV0YWxpbmdzcGxhbiI6W3siQmV0YWxpbmdzYWFyIjoyMDIyLCJCZXRhbGluZ3NkYXRvIjoiMjAyMi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyNDYwLjAsIllkZWxzZUVmdGVyU2thdCI6MTgzNy4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjI0NjAuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDIzLCJCZXRhbGluZ3NkYXRvIjoiMjAyMy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo2MDI2LjAsIllkZWxzZUVmdGVyU2thdCI6NDQ5OS4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjYwMjYuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI0LCJCZXRhbGluZ3NkYXRvIjoiMjAyNC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo2MDMwLjAsIllkZWxzZUVmdGVyU2thdCI6NDUwMy4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjYwMzAuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI1LCJCZXRhbGluZ3NkYXRvIjoiMjAyNS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo2MDIyLjAsIllkZWxzZUVmdGVyU2thdCI6NDQ5Ni4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjYwMjIuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI2LCJCZXRhbGluZ3NkYXRvIjoiMjAyNi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo2MDI2LjAsIllkZWxzZUVmdGVyU2thdCI6NDQ5OS4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjYwMjYuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI3LCJCZXRhbGluZ3NkYXRvIjoiMjAyNy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo2MDI2LjAsIllkZWxzZUVmdGVyU2thdCI6NDQ5OS4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjYwMjYuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI4LCJCZXRhbGluZ3NkYXRvIjoiMjAyOC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo2MDMwLjAsIllkZWxzZUVmdGVyU2thdCI6NDUwMy4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjYwMzAuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDI5LCJCZXRhbGluZ3NkYXRvIjoiMjAyOS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo2MDIyLjAsIllkZWxzZUVmdGVyU2thdCI6NDQ5Ni4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjYwMjIuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMwLCJCZXRhbGluZ3NkYXRvIjoiMjAzMC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo2MDI2LjAsIllkZWxzZUVmdGVyU2thdCI6NDQ5OS4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjYwMjYuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMxLCJCZXRhbGluZ3NkYXRvIjoiMjAzMS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0Ijo2MDI2LjAsIllkZWxzZUVmdGVyU2thdCI6NDQ5OS4wLCJBZmRyYWciOjAuMCwiUmVudGUiOjYwMjYuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTE4MDAwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMyLCJCZXRhbGluZ3NkYXRvIjoiMjAzMi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoxNzU1MS4wLCJZZGVsc2VFZnRlclNrYXQiOjE2MDI3LjAsIkFmZHJhZyI6MTE1MzguMCwiUmVudGUiOjYwMTMuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NTA2NDYzLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDMzLCJCZXRhbGluZ3NkYXRvIjoiMjAzMy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI3NjAyLjAsIkFmZHJhZyI6MjMyODIuMCwiUmVudGUiOjU3ODYuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NDgzMTgxLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM0LCJCZXRhbGluZ3NkYXRvIjoiMjAzNC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI3NjY5LjAsIkFmZHJhZyI6MjM1NTAuMCwiUmVudGUiOjU1MTguMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NDU5NjMzLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM1LCJCZXRhbGluZ3NkYXRvIjoiMjAzNS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI3NzM5LjAsIkFmZHJhZyI6MjM4MjMuMCwiUmVudGUiOjUyNDMuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NDM1ODA5LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM2LCJCZXRhbGluZ3NkYXRvIjoiMjAzNi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI3ODA4LjAsIkFmZHJhZyI6MjQwOTkuMCwiUmVudGUiOjQ5NjkuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NDExNzEwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM3LCJCZXRhbGluZ3NkYXRvIjoiMjAzNy0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI3ODgyLjAsIkFmZHJhZyI6MjQzODcuMCwiUmVudGUiOjQ2ODEuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6Mzg3MzIyLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM4LCJCZXRhbGluZ3NkYXRvIjoiMjAzOC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI3OTUzLjAsIkFmZHJhZyI6MjQ2NjguMCwiUmVudGUiOjQzOTguMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6MzYyNjU0LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDM5LCJCZXRhbGluZ3NkYXRvIjoiMjAzOS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MDI2LjAsIkFmZHJhZyI6MjQ5NTYuMCwiUmVudGUiOjQxMTAuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6MzM3Njk2LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQwLCJCZXRhbGluZ3NkYXRvIjoiMjA0MC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MTAwLjAsIkFmZHJhZyI6MjUyNDYuMCwiUmVudGUiOjM4MjEuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6MzEyNDUxLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQxLCJCZXRhbGluZ3NkYXRvIjoiMjA0MS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MTc1LjAsIkFmZHJhZyI6MjU1NDcuMCwiUmVudGUiOjM1MjEuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6Mjg2OTA0LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQyLCJCZXRhbGluZ3NkYXRvIjoiMjA0Mi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MjUwLjAsIkFmZHJhZyI6MjU4NDIuMCwiUmVudGUiOjMyMjUuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6MjYxMDYyLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQzLCJCZXRhbGluZ3NkYXRvIjoiMjA0My0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4MzI3LjAsIkFmZHJhZyI6MjYxNDQuMCwiUmVudGUiOjI5MjIuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6MjM0OTE4LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQ0LCJCZXRhbGluZ3NkYXRvIjoiMjA0NC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4NDAyLjAsIkFmZHJhZyI6MjY0NDcuMCwiUmVudGUiOjI2MTkuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6MjA4NDcxLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQ1LCJCZXRhbGluZ3NkYXRvIjoiMjA0NS0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4NDgyLjAsIkFmZHJhZyI6MjY3NjAuMCwiUmVudGUiOjIzMDcuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6MTgxNzEwLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQ2LCJCZXRhbGluZ3NkYXRvIjoiMjA0Ni0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4NTYyLjAsIkFmZHJhZyI6MjcwNzEuMCwiUmVudGUiOjE5OTYuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6MTU0NjM5LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQ3LCJCZXRhbGluZ3NkYXRvIjoiMjA0Ny0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4NjQxLjAsIkFmZHJhZyI6MjczODguMCwiUmVudGUiOjE2NzkuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6MTI3MjUxLjB9LHsiQmV0YWxpbmdzYWFyIjoyMDQ4LCJCZXRhbGluZ3NkYXRvIjoiMjA0OC0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoyOTA2OC4wLCJZZGVsc2VFZnRlclNrYXQiOjI4NzIzLjAsIkFmZHJhZyI6Mjc3MDcuMCwiUmVudGUiOjEzNjAuMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6OTk1NDUuMH0seyJCZXRhbGluZ3NhYXIiOjIwNDksIkJldGFsaW5nc2RhdG8iOiIyMDQ5LTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI5MDY4LjAsIllkZWxzZUVmdGVyU2thdCI6Mjg4MDUuMCwiQWZkcmFnIjoyODAzMi4wLCJSZW50ZSI6MTAzNS4wLCJCaWRyYWciOjAuMCwiUmVzdGdhZWxkIjo3MTUxMy4wfSx7IkJldGFsaW5nc2FhciI6MjA1MCwiQmV0YWxpbmdzZGF0byI6IjIwNTAtMDEtMDEiLCJZZGVsc2VGb2VyU2thdCI6MjkwNjguMCwiWWRlbHNlRWZ0ZXJTa2F0IjoyODg4OC4wLCJBZmRyYWciOjI4MzU4LjAsIlJlbnRlIjo3MDguMCwiQmlkcmFnIjowLjAsIlJlc3RnYWVsZCI6NDMxNTQuMH0seyJCZXRhbGluZ3NhYXIiOjIwNTEsIkJldGFsaW5nc2RhdG8iOiIyMDUxLTAxLTAxIiwiWWRlbHNlRm9lclNrYXQiOjI5MDY4LjAsIllkZWxzZUVmdGVyU2thdCI6Mjg5NzMuMCwiQWZkcmFnIjoyODY4OS4wLCJSZW50ZSI6Mzc4LjAsIkJpZHJhZyI6MC4wLCJSZXN0Z2FlbGQiOjE0NDY0LjB9LHsiQmV0YWxpbmdzYWFyIjoyMDUyLCJCZXRhbGluZ3NkYXRvIjoiMjA1Mi0wMS0wMSIsIllkZWxzZUZvZXJTa2F0IjoxNDUyOC4wLCJZZGVsc2VFZnRlclNrYXQiOjE0NTExLjAsIkFmZHJhZyI6MTQ0NjQuMCwiUmVudGUiOjYzLjAsIkJpZHJhZyI6MC4wLCJSZXN0Z2FlbGQiOjAuMH1dLCJMYWFuZXJlbnRlIjowLjAxMTYzM30sIkJhbmtMYWFuIjpudWxsLCJTYW1sZXRNYWFuZWRsaWdZZGVsc2VGb2VyU2thdCI6NTAxLjAsIlBha2tlbmF2biI6Ikp5c2tlIFJlbnRlbG9mdCAtTGFuZyIsIlBha2tlbmF2bktvcnRWaXNuaW5nIjoiUmVudGVsb2Z0bMOlbiIsIkVqZW5kb21zdmFlcmRpIjo2NDc1MDAuMH0="
+      }
+  ],
+  "frivaerdiProcent": 20,
+  "nytLaanProcent": 80,
+  "restgaeldProcent": 0,
+  "kontaktMigParametre": "?loanSize=500.000 kr.&housingType=Helårsbolig&referer=Beregn lån i friværdi&casetype=Lån i nuværende bolig&loanName=Hvilket lån er det bedste for dig?&loanDetails=Du vil blive kontaktet af en rådgiver omkring hvilket lån der passer bedst for dig, og der bliver derfor ikke sendt nogen specifikke lån med."
+}

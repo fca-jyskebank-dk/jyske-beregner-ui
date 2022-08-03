@@ -1,0 +1,94 @@
+{
+  "projectType": "application",
+  "root": "apps/nyt-laan-erhverv-app",
+  "sourceRoot": "apps/nyt-laan-erhverv-app/src",
+  "prefix": "jyske-beregner-ui",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/nyt-laan-erhverv-app",
+        "index": "apps/nyt-laan-erhverv-app/src/index.html",
+        "main": "apps/nyt-laan-erhverv-app/src/main.ts",
+        "polyfills": "apps/nyt-laan-erhverv-app/src/polyfills.ts",
+        "tsConfig": "apps/nyt-laan-erhverv-app/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          "apps/nyt-laan-erhverv-app/src/favicon.ico",
+          "apps/nyt-laan-erhverv-app/src/assets"
+        ],
+        "styles": ["apps/nyt-laan-erhverv-app/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "apps/nyt-laan-erhverv-app/src/environments/environment.ts",
+              "with": "apps/nyt-laan-erhverv-app/src/environments/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "nyt-laan-erhverv-app:build:production"
+        },
+        "development": {
+          "browserTarget": "nyt-laan-erhverv-app:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "nyt-laan-erhverv-app:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "apps/nyt-laan-erhverv-app/src/**/*.ts",
+          "apps/nyt-laan-erhverv-app/src/**/*.html"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/nyt-laan-erhverv-app"],
+      "options": {
+        "jestConfig": "apps/nyt-laan-erhverv-app/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

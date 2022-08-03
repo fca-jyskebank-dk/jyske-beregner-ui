@@ -1,0 +1,71 @@
+@import '../../../../../shared/src/lib/scss/wcm';
+
+.teaserComponentDiv {
+  max-width: $desktop-max-width;
+  padding: size('m') 20px;
+  padding-bottom: size('xs');
+  margin-bottom: 0; // WCM fix
+  margin: auto;
+}
+
+.wrapperContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.teaserDiv {
+  width: 58%;
+  padding-bottom: 60px;
+  text-align: justify;
+}
+.donutWithOverlay {
+  width: 42%;
+  position: relative;
+}
+.donutOverlay {
+  z-index: 999;
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: get-color('white');
+  background-color: transparent;
+}
+.centered {
+  text-align: center;
+  background-color: transparent;
+  font-size: 14px;
+}
+.big {
+  font-size: 72px;
+  font-weight: 900;
+  background-color: transparent;
+}
+
+@media (max-width: 750px) {
+  .teaserDiv {
+    width: 100%;
+  }
+  .donutWithOverlay {
+    display: none;
+  }
+  .buttonLink {
+    display: block;
+    margin-bottom: size('s');
+    width: 100%;
+  }
+}
+
+h1 {
+  color: get-color('white');
+  font-size: font-size('xxl');
+  margin: size('m') 0;
+}
+p {
+  color: get-color('white');
+}
+.buttonWrapper {
+  margin-top: size('xxs');
+}

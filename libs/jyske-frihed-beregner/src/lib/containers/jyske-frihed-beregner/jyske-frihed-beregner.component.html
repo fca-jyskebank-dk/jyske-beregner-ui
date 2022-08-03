@@ -1,0 +1,35 @@
+<section class="jbb-container">
+  <kirby-loading-overlay
+    [isLoading]="jyskeFrihedBeregnerFacade.JyskeFrihedBeregnerIsLoading$ | async"
+    [showBackdrop]="false"
+  >
+    <div class="jbb-container__form">
+      <jyske-frihed-beregner-form
+        [area]="jyskeFrihedBeregnerFacade.JyskeFrihedBeregnerArea"
+        [boligvaerdiInitialValue]="boligvaerdiInitialValue"
+        (beregn)="onBeregn($event)"
+      ></jyske-frihed-beregner-form>
+
+      <div class="jbb-container__noegletal">
+        <jyske-frihed-beregner-noegletal
+          [area]="jyskeFrihedBeregnerFacade.JyskeFrihedBeregnerArea"
+          [loaded$]="jyskeFrihedBeregnerFacade.JyskeFrihedBeregnerIsLoaded$"
+          [noegletal$]="jyskeFrihedBeregnerFacade.JyskeFrihedBeregnerNoegletal$"
+        >
+        </jyske-frihed-beregner-noegletal>
+      </div>
+
+      <kirby-divider></kirby-divider>
+
+      <div class="jbb-container__detaljer">
+        <jyske-frihed-beregner-detaljer
+          [resultat$]="jyskeFrihedBeregnerFacade.JyskeFrihedBeregnerResultat$"
+        ></jyske-frihed-beregner-detaljer>
+      </div>
+
+      <kirby-divider></kirby-divider>
+      <jyske-frihed-beregner-cta class="jbb-container__cta" *ngIf="selectedArea === 0">
+      </jyske-frihed-beregner-cta>
+    </div>
+  </kirby-loading-overlay>
+</section>

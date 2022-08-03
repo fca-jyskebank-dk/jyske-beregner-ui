@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/nyt-laan-erhverv-ui",
+  "sourceRoot": "libs/nyt-laan-erhverv-ui/src",
+  "prefix": "jyske-beregner-ui",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/nyt-laan-erhverv-ui"],
+      "options": {
+        "jestConfig": "libs/nyt-laan-erhverv-ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/nyt-laan-erhverv-ui/src/**/*.ts",
+          "libs/nyt-laan-erhverv-ui/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

@@ -1,0 +1,59 @@
+<kirby-page-title>Modtag beregning</kirby-page-title>
+<kirby-loading-overlay
+  [isLoading]="sendBeregningFacade.SendBeregningIsLoading$ | async"
+  [showBackdrop]="true"
+>
+  <div class="modal-content">
+    <form [formGroup]="formGroup" novalidate>
+      <div class="input-field">
+        <kirby-form-field [label]="navnLabel" [message]="navnValidationMessage">
+          <input
+            kirby-input
+            autofocus
+            type="text"
+            id="navn"
+            (keyup)="onKeyUpNavn($event)"
+            formControlName="navn"
+          />
+        </kirby-form-field>
+      </div>
+      <div class="input-field">
+        <kirby-form-field
+          [label]="emailLabel"
+          [message]="emailValidationMessage"
+        >
+          <input
+            kirby-input
+            id="email"
+            (keyup)="onKeyUpEmail($event)"
+            formControlName="email"
+          />
+        </kirby-form-field>
+      </div>
+      <h3>Må vi skrive til dig for en uforpligtende snak om lånet?</h3>
+      <kirby-checkbox
+        attentionLevel="1"
+        [checked]="kontaktMigChecked"
+        (checkedChange)="changeKontaktMigCheckbox($event)"
+        text="Ja tak, I må gerne kontakte mig vedrørende det valgte lån."
+      ></kirby-checkbox>
+    </form>
+    <div class="persondatapolitikButton">
+      <button attentionLevel="4" kirby-button
+      (click)="onPersondataClick()" target="_blank">
+      Se persondatapolitik</button>
+    </div>
+  </div>
+  <kirby-modal-footer>
+    <div class="sendButton">
+      <button
+        [disabled]="formGroup.invalid || formInvalid"
+        attentionLevel="1"
+        kirby-button
+        (click)="onSend()"
+      >
+        Send
+      </button>
+    </div>
+  </kirby-modal-footer>
+</kirby-loading-overlay>

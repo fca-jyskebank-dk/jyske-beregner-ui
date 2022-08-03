@@ -1,0 +1,14 @@
+<div *ngFor="let laan of laanListe">
+  <kirby-divider [hasMargin]="hasMargin"></kirby-divider>
+
+  <kirby-item [size]="itemSize">
+    <h3 detail>{{ laan.type }}</h3>
+  </kirby-item>
+
+  <div *ngFor="let detalje of laan.detaljer">
+    <kirby-item [size]="itemSize">
+      <h3>{{ detalje.tekst }}</h3>
+      <data slot="end">{{ detalje.vaerdi }}</data>
+    </kirby-item>
+  </div>
+</div>

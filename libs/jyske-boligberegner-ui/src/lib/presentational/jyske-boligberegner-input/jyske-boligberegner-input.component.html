@@ -1,0 +1,70 @@
+<div class="inputComponentDiv">
+  <h1 class="kirby-text-xlarge">Beregn lån til din nye bolig</h1>
+  <div class="wrapperContainer">
+    <div class="inputDiv">
+      <form [formGroup]="formGroup" novalidate>
+        <kirby-segmented-control
+          [items]="segmentItems"
+          [value]="selectedSegment"
+          [mode]="segmentedControlMode"
+          size="md"
+          (segmentSelect)="onSegmentSelect($event)"
+        ></kirby-segmented-control>
+
+        <div class="input-field">
+          <kirby-form-field
+            [label]="boligvaerdiLabel"
+            [message]="boligvaerdiValidationMessage"
+          >
+            <input
+              kirby-input
+              autofocus
+              type="number"
+              kirby-decimal-mask
+              [max]="MAXIMUM_BOLIGPRIS_UI"
+              [precision]="0"
+              id="boligvaerdi"
+              (keyup)="onKeyUpBoligvaerdi($event)"
+              formControlName="boligvaerdi"
+              [hasError]="boligvaerdi.invalid"
+            />
+          </kirby-form-field>
+        </div>
+        <div class="input-field">
+          <kirby-form-field
+            [label]="egenbetalingLabel"
+            [message]="egenbetalingValidationMessage"
+          >
+            <input
+              kirby-input
+              type="number"
+              kirby-decimal-mask
+              [max]="MAXIMUM_BOLIGPRIS_UI"
+              [precision]="0"
+              id="egenbetaling"
+              (keyup)="onKeyUpEgenbetaling($event)"
+              formControlName="egenbetaling"
+              [hasError]="egenbetaling.invalid"
+            />
+          </kirby-form-field>
+        </div>
+
+        <div class="beregnButton">
+          <button
+            [disabled]="formGroup.invalid"
+            attentionLevel="1"
+            kirby-button
+            (click)="onBeregn()"
+            [size]="buttonSize"
+          >
+            Beregn
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="donutDiv">
+      <jyske-beregner-doughnut-chart [chartData]="chartData">
+      </jyske-beregner-doughnut-chart>
+    </div>
+  </div>
+</div>

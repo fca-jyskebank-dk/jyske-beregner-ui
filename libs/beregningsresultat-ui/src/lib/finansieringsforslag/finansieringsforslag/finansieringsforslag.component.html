@@ -1,0 +1,34 @@
+<!-- Rating Card -->
+<div class="jbb-scene">
+  <div class="jbb-card" #myCard>
+    <div class="jbb-card__front" *ngIf="visDetaljer$ | async">
+      <kirby-card class="card-content">
+        <div *ngTemplateOutlet="header"></div>
+        <div *ngIf="beregningsresultat.laanListe.length > 0">
+          <beregningsresultat-ui-laan-detaljer
+            [laanListe]="beregningsresultat.laanListe"
+            [erDelAfPakke]="beregningsresultat.laanListe.length > 1"
+          ></beregningsresultat-ui-laan-detaljer>
+        </div>
+      </kirby-card>
+    </div>
+    <div class="jbb-card__back" *ngIf="!(visDetaljer$ | async)">
+      <kirby-card class="card-content">
+        <div *ngTemplateOutlet="header"></div>
+        <finansieringsforslag-rating
+          [data]="beregningsresultat.ratings"
+        ></finansieringsforslag-rating>
+      </kirby-card>
+    </div>
+
+    <!-- Details Card -->
+  </div>
+</div>
+<!-- Header Card -->
+<ng-template #header>
+  <finansieringsforslag-header
+    [beregningsresultat]="beregningsresultat"
+    [visDetaljer]="visDetaljer$ | async"
+    (onKontaktMig)="onKontaktMig.emit(beregningsresultat)"
+  ></finansieringsforslag-header>
+</ng-template>

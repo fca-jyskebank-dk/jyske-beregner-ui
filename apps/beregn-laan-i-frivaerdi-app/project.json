@@ -1,0 +1,109 @@
+{
+  "projectType": "application",
+  "root": "apps/beregn-laan-i-frivaerdi-app",
+  "sourceRoot": "apps/beregn-laan-i-frivaerdi-app/src",
+  "prefix": "jyske-beregner-ui",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/beregn-laan-i-frivaerdi-app",
+        "index": "apps/beregn-laan-i-frivaerdi-app/src/index.html",
+        "main": "apps/beregn-laan-i-frivaerdi-app/src/main.ts",
+        "polyfills": "apps/beregn-laan-i-frivaerdi-app/src/polyfills.ts",
+        "tsConfig": "apps/beregn-laan-i-frivaerdi-app/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          "apps/beregn-laan-i-frivaerdi-app/src/favicon.ico",
+          "apps/beregn-laan-i-frivaerdi-app/src/assets",
+          {
+            "glob": "**/*.svg",
+            "input": "node_modules/ionicons/dist/ionicons/svg",
+            "output": "./svg"
+          },
+          {
+            "glob": "**/*.svg",
+            "input": "node_modules/@kirbydesign/designsystem/icons/svg",
+            "output": "./assets/kirby/icons/svg"
+          },
+          {
+            "glob": "**/*",
+            "input": "node_modules/@kirbydesign/designsystem/polyfills",
+            "output": "./kirby/polyfills"
+          }
+        ],
+        "styles": ["apps/beregn-laan-i-frivaerdi-app/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "3mb",
+              "maximumError": "5mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "900kb",
+              "maximumError": "920kb"
+            }
+          ],
+          "fileReplacements": [
+            {
+              "replace": "apps/beregn-laan-i-frivaerdi-app/src/environments/environment.ts",
+              "with": "apps/beregn-laan-i-frivaerdi-app/src/environments/environment.prod.ts"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "browserTarget": "beregn-laan-i-frivaerdi-app:build:production"
+        },
+        "development": {
+          "browserTarget": "beregn-laan-i-frivaerdi-app:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "beregn-laan-i-frivaerdi-app:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "apps/beregn-laan-i-frivaerdi-app/src/**/*.ts",
+          "apps/beregn-laan-i-frivaerdi-app/src/**/*.html"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/beregn-laan-i-frivaerdi-app"],
+      "options": {
+        "jestConfig": "apps/beregn-laan-i-frivaerdi-app/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

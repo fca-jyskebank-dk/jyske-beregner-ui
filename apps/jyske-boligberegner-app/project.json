@@ -1,0 +1,117 @@
+{
+  "projectType": "application",
+  "generators": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
+  "root": "apps/jyske-boligberegner-app",
+  "sourceRoot": "apps/jyske-boligberegner-app/src",
+  "prefix": "jyske-boligberegner",
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "options": {
+        "outputPath": "dist/apps/jyske-boligberegner-app",
+        "index": "apps/jyske-boligberegner-app/src/index.html",
+        "main": "apps/jyske-boligberegner-app/src/main.ts",
+        "polyfills": "apps/jyske-boligberegner-app/src/polyfills.ts",
+        "tsConfig": "apps/jyske-boligberegner-app/tsconfig.app.json",
+        "aot": true,
+        "assets": [
+          "apps/jyske-boligberegner-app/src/favicon.ico",
+          "apps/jyske-boligberegner-app/src/assets",
+          {
+            "glob": "**/*.svg",
+            "input": "node_modules/ionicons/dist/ionicons/svg",
+            "output": "./svg"
+          },
+          {
+            "glob": "**/*.svg",
+            "input": "node_modules/@kirbydesign/designsystem/icons/svg",
+            "output": "./assets/kirby/icons/svg"
+          },
+          {
+            "glob": "**/*",
+            "input": "node_modules/@kirbydesign/designsystem/polyfills",
+            "output": "./kirby/polyfills"
+          }
+        ],
+        "styles": ["apps/jyske-boligberegner-app/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/jyske-boligberegner-app/src/environments/environment.ts",
+              "with": "apps/jyske-boligberegner-app/src/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false,
+          "buildOptimizer": true,
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "3mb",
+              "maximumError": "5mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "900kb",
+              "maximumError": "920kb"
+            }
+          ]
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      }
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "options": {
+        "browserTarget": "jyske-boligberegner-app:build"
+      },
+      "configurations": {
+        "production": {
+          "browserTarget": "jyske-boligberegner-app:build:production"
+        },
+        "development": {
+          "browserTarget": "jyske-boligberegner-app:build:development"
+        }
+      }
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "browserTarget": "jyske-kursliste:build"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["apps/jyske-boligberegner-app/src/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "apps/jyske-boligberegner-app/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["jyske-boligberegner-ui"]
+}

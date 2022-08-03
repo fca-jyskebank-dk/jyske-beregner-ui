@@ -1,0 +1,1474 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Jyske Boliglånsberegner API",
+    "description": "Understøtter udbetalingsberegninger for Jyske Realkredits boliglånsprodukter.",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/erhverv/andelsboligforening/produkter/fastrente/frihed/default": {
+      "post": {
+        "tags": [
+          "Andelsboligforening"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FastrenteFrihedDefaultUdbetalingRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          },
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OblFrihedUdbetalingErhvervResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health": {
+      "get": {
+        "tags": [
+          "ApplicationMonitor"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApplicationMonitor"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/beregninger/BeregnLaanIFrivaerdi": {
+      "post": {
+        "tags": [
+          "Beregninger"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FrivaerdiRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BeregnLaanIFrivaerdiResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/beregninger/BeregnLaanIFrivaerdi/MaxProvenu": {
+      "post": {
+        "tags": [
+          "Beregninger"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MaxProvenueRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MaxProvenueResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/beregninger/BeregnLaanTilNyBolig": {
+      "post": {
+        "tags": [
+          "Beregninger"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BoligRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BeregnAlleLaanResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/beregninger/Frihed": {
+      "post": {
+        "tags": [
+          "Beregninger"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BeregnFrihedRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BeregnFrihedResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/beregninger/Frihed/MaxProvenu": {
+      "post": {
+        "tags": [
+          "Beregninger"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MaxProvenuFrihedRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MaxProvenuFrihedResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/erhverv/boligudlejning/produkter/fastrente/frihed/default": {
+      "post": {
+        "tags": [
+          "Boligudlejning"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FastrenteFrihedDefaultUdbetalingRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          },
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OblFrihedUdbetalingErhvervResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/FogoLight/beregn": {
+      "post": {
+        "tags": [
+          "FogoLight"
+        ],
+        "summary": "Fogo Light beregning",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FogoLightRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FogoLightRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FogoLightRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Beregning ok",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FogoLightResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Fejl i request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Kommunikation/SendBeregning": {
+      "post": {
+        "tags": [
+          "Kommunikation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SendBeregningRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SendBeregningResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProblemDetails"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    },
+    "/api/privat/kursliste": {
+      "get": {
+        "tags": [
+          "Kursliste"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/KurslisteResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Server Error"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ApplicationMonitor": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "environment": {
+            "type": "string",
+            "nullable": true
+          },
+          "version": {
+            "type": "string",
+            "nullable": true
+          },
+          "contact": {
+            "type": "string",
+            "nullable": true
+          },
+          "views": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          },
+          "components": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ApplicationMonitorComponent"
+            },
+            "nullable": true
+          },
+          "blob": {
+            "$ref": "#/components/schemas/ApplicationMonitorBlob"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationMonitorBlob": {
+        "type": "object",
+        "properties": {
+          "any": {
+            "type": "array",
+            "items": {
+              "type": "array",
+              "items": { }
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationMonitorComponent": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "version": {
+            "type": "string",
+            "nullable": true
+          },
+          "health": {
+            "$ref": "#/components/schemas/ApplicationMonitorComponentHealth"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "resolver": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationMonitorComponentHealth": {
+        "enum": [
+          0,
+          1,
+          2
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "BeregnAlleLaanResponse": {
+        "type": "object",
+        "properties": {
+          "laaneForslag": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BoligFinansieringResponse"
+            },
+            "nullable": true
+          },
+          "kontaktMigParametre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BeregnFrihedRequest": {
+        "type": "object",
+        "properties": {
+          "laaneOenske": {
+            "type": "number",
+            "format": "double"
+          },
+          "aarTilAfdragsfrihed": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "boligVaerdi": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BeregnFrihedResponse": {
+        "type": "object",
+        "properties": {
+          "laaneForslag": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BoligFinansieringResponse"
+            },
+            "nullable": true
+          },
+          "kontaktMigParametre": {
+            "type": "string",
+            "nullable": true
+          },
+          "ejendomsvaerdi": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BeregnLaanIFrivaerdiResponse": {
+        "type": "object",
+        "properties": {
+          "laaneForslag": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BoligFinansieringResponse"
+            },
+            "nullable": true
+          },
+          "frivaerdiProcent": {
+            "type": "number",
+            "format": "double"
+          },
+          "nytLaanProcent": {
+            "type": "number",
+            "format": "double"
+          },
+          "restgaeldProcent": {
+            "type": "number",
+            "format": "double"
+          },
+          "kontaktMigParametre": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BoligFinansieringResponse": {
+        "type": "object",
+        "properties": {
+          "laan": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LaanResponse"
+            },
+            "nullable": true
+          },
+          "pakkenavn": {
+            "type": "string",
+            "nullable": true
+          },
+          "ratings": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Rating"
+            },
+            "nullable": true
+          },
+          "pakkenavnKortVisning": {
+            "type": "string",
+            "nullable": true
+          },
+          "kontaktMigParametre": {
+            "type": "string",
+            "nullable": true
+          },
+          "pakkedetalje": {
+            "type": "string",
+            "nullable": true
+          },
+          "primaertNoegletal": {
+            "type": "string",
+            "nullable": true
+          },
+          "primaertNoegletalBeskrivelse": {
+            "type": "string",
+            "nullable": true
+          },
+          "primaerHeader": {
+            "$ref": "#/components/schemas/HeaderDetaljer"
+          },
+          "sekundaerHeader": {
+            "$ref": "#/components/schemas/HeaderDetaljer"
+          },
+          "serializedBeregning": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BoligRequest": {
+        "type": "object",
+        "properties": {
+          "boligType": {
+            "type": "string",
+            "nullable": true
+          },
+          "boligVaerdi": {
+            "type": "number",
+            "format": "double"
+          },
+          "oensketLoebetidIAar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antalAfdragsfrieAar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "laaneOenske": {
+            "type": "number",
+            "format": "double"
+          },
+          "udbetaling": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Budgetposter": {
+        "type": "object",
+        "properties": {
+          "budgetPostKategoriType": {
+            "type": "string",
+            "nullable": true
+          },
+          "budgetPostType": {
+            "type": "string",
+            "nullable": true
+          },
+          "beloeb": {
+            "type": "number",
+            "format": "float"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FastRenteProdukt": {
+        "type": "object",
+        "properties": {
+          "produktnavn": {
+            "type": "string",
+            "nullable": true
+          },
+          "loebetidAar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "aktuelKurs": {
+            "type": "number",
+            "format": "double"
+          },
+          "tilbudsKurs": {
+            "type": "number",
+            "format": "double"
+          },
+          "tilbudsKursDato": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "maxAntalAfdragsfrieAar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "kuponrenteProcent": {
+            "type": "number",
+            "format": "double"
+          },
+          "aabenForTilbud": {
+            "type": "boolean"
+          },
+          "fastkursAftaleKurser": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/UdbetalingsKurs"
+            },
+            "nullable": true
+          },
+          "isin": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FastrenteFrihedDefaultUdbetalingRequest": {
+        "type": "object",
+        "properties": {
+          "boligvaerdi": {
+            "type": "number",
+            "format": "double"
+          },
+          "laanoenske": {
+            "type": "number",
+            "format": "double"
+          },
+          "oensketLoebetidIAar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antalAfdragsfrieAar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "aarTilAfdragsfrihed": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "restgaeldVedUdloeb": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FogoLightRequest": {
+        "type": "object",
+        "properties": {
+          "antalVoksne": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antalBoern": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antalBiler": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "indtaegtFoerSkat": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "egenbetaling": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "beskatningskommune": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ejendomstype": {
+            "type": "string",
+            "nullable": true
+          },
+          "samletAndenGaeld": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "oensketRaadighedsbeloeb": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "budgetPoster": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Budgetposter"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FogoLightResponse": {
+        "type": "object",
+        "properties": {
+          "kontanthandelspris": {
+            "type": "number",
+            "format": "float"
+          },
+          "kontanthandelsprisAfrundet": {
+            "type": "number",
+            "format": "float"
+          },
+          "maksimalKontanthandelspris": {
+            "type": "number",
+            "format": "float"
+          },
+          "maksimalKontanthandelsprisAfrundet": {
+            "type": "number",
+            "format": "float"
+          },
+          "resultatKontanthandelsprisAfrundet": {
+            "type": "number",
+            "format": "float"
+          },
+          "udbetaling": {
+            "type": "number",
+            "format": "float"
+          },
+          "udbetalingAfrundet": {
+            "type": "number",
+            "format": "float"
+          },
+          "kontanthandelsprisFra": {
+            "type": "number",
+            "format": "float"
+          },
+          "kontanthandelsprisTil": {
+            "type": "number",
+            "format": "float"
+          },
+          "skatOgReduktionAfBFY": {
+            "type": "number",
+            "format": "float"
+          },
+          "disponibelIndkomstEfterSkatOgReduktionAfBFY": {
+            "type": "number",
+            "format": "float"
+          },
+          "budgetOmkostninger": {
+            "type": "number",
+            "format": "float"
+          },
+          "finansieringsRaadighedsbeloeb": {
+            "type": "number",
+            "format": "float"
+          },
+          "anvendtRaadighedsbeloeb": {
+            "type": "number",
+            "format": "float"
+          },
+          "anbefaletRaadighedsbeloeb": {
+            "type": "number",
+            "format": "float"
+          },
+          "budgetPoster": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Budgetposter"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FrivaerdiRequest": {
+        "type": "object",
+        "properties": {
+          "boligType": {
+            "type": "string",
+            "nullable": true
+          },
+          "boligVaerdi": {
+            "type": "number",
+            "format": "double"
+          },
+          "oensketLoebetidIAar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antalAfdragsfrieAar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "laaneOenske": {
+            "type": "number",
+            "format": "double"
+          },
+          "foranstaaendeGaeld": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HeaderDetaljer": {
+        "type": "object",
+        "properties": {
+          "detalje": {
+            "type": "string",
+            "nullable": true
+          },
+          "noegletal": {
+            "type": "string",
+            "nullable": true
+          },
+          "noegletalBeskrivelse": {
+            "type": "string",
+            "nullable": true
+          },
+          "afdragsfri": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KurslisteResponse": {
+        "type": "object",
+        "properties": {
+          "opdateringstidspunkt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fastRenteProdukterGyldigDato": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "variabelRenteProdukterGyldigDato": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fastRenteProdukter": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FastRenteProdukt"
+            },
+            "nullable": true
+          },
+          "variabelRenteProdukter": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VariabelRenteProdukt"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LaanDetalje": {
+        "type": "object",
+        "properties": {
+          "beskrivelse": {
+            "type": "string",
+            "nullable": true
+          },
+          "vaerdi": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LaanResponse": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "detaljer": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LaanDetalje"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaxProvenuFrihedRequest": {
+        "type": "object",
+        "properties": {
+          "boligvaerdi": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaxProvenuFrihedResponse": {
+        "type": "object",
+        "properties": {
+          "provenuMedAfdrag": {
+            "type": "number",
+            "format": "double"
+          },
+          "provenuUdenAfdrag": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaxProvenueRequest": {
+        "type": "object",
+        "properties": {
+          "foranstaaendeGaeld": {
+            "type": "number",
+            "format": "double"
+          },
+          "boligvaerdi": {
+            "type": "number",
+            "format": "double"
+          },
+          "oensketLoebetidIAar": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "afdragsfrihed": {
+            "type": "boolean"
+          },
+          "boligType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaxProvenueResponse": {
+        "type": "object",
+        "properties": {
+          "provenue": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OblFrihedUdbetalingErhvervResponse": {
+        "type": "object",
+        "properties": {
+          "aaopFoerSkat": {
+            "type": "number",
+            "format": "double"
+          },
+          "aaopFoerSkatPct": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "aarTilUdloeb": {
+            "type": "number",
+            "format": "double"
+          },
+          "antalBetalingsterminer": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "antalAfdragsfrieAar": {
+            "type": "number",
+            "format": "double"
+          },
+          "anvendtSkattesats": {
+            "type": "number",
+            "format": "double"
+          },
+          "anvendtSkatteSatsPct": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "bevillingOmkostninger": {
+            "type": "number",
+            "format": "double"
+          },
+          "foersteAarsBidragssats": {
+            "type": "number",
+            "format": "double"
+          },
+          "foersteAarsBidragssatsPct": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "foersteAarsDebitorRente": {
+            "type": "number",
+            "format": "double"
+          },
+          "foersteAarsDebitorRentePct": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "foersteAarsYdelseFoerSkatMedAfdrag": {
+            "type": "number",
+            "format": "double"
+          },
+          "foersteAarsYdelseEfterSkatMedAfdrag": {
+            "type": "number",
+            "format": "double"
+          },
+          "foersteAarsMaanedligeYdelseFoerSkatMedAfdrag": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "foersteAarsMaanedligeYdelseEfterSkatMedAfdrag": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "hovedstol": {
+            "type": "number",
+            "format": "double"
+          },
+          "kreditor": {
+            "type": "string",
+            "nullable": true
+          },
+          "kursskaering": {
+            "type": "number",
+            "format": "double"
+          },
+          "kurstab": {
+            "type": "number",
+            "format": "double"
+          },
+          "kursvaerdi": {
+            "type": "number",
+            "format": "double"
+          },
+          "kurtage": {
+            "type": "number",
+            "format": "double"
+          },
+          "laanNavn": {
+            "type": "string",
+            "nullable": true
+          },
+          "ltv": {
+            "type": "number",
+            "format": "double"
+          },
+          "ltvPct": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "renteType": {
+            "type": "string",
+            "nullable": true
+          },
+          "samledeKreditomkostninger": {
+            "type": "number",
+            "format": "double"
+          },
+          "stiftelseProvision": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tinglysningAfgift": {
+            "type": "number",
+            "format": "double"
+          },
+          "tinglysningAfgiftFast": {
+            "type": "number",
+            "format": "double"
+          },
+          "tinglysningAfgiftVariable": {
+            "type": "number",
+            "format": "double"
+          },
+          "tinglysningService": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalRenterOgBidrag": {
+            "type": "number",
+            "format": "double"
+          },
+          "totalTilbagebetaling": {
+            "type": "number",
+            "format": "double"
+          },
+          "udbetalingsdato": {
+            "type": "string",
+            "nullable": true
+          },
+          "udbetalingskurs": {
+            "type": "number",
+            "format": "double"
+          },
+          "udbetaltBeloeb": {
+            "type": "number",
+            "format": "double"
+          },
+          "tilbagebetalingsplan": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TilbagebetalingsplanElement"
+            },
+            "nullable": true
+          },
+          "laanerente": {
+            "type": "number",
+            "format": "double"
+          },
+          "obligationNavn": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "foersteAarsObligationsRente": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "foersteAarsObligationsRentePct": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "foersteAarsMaanedligeYdelseFoerSkatUdenAfdrag": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "foersteAarsMaanedligeYdelseEfterSkatUdenAfdrag": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "foersteAarsYdelseFoerSkatUdenAfdrag": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "foersteAarsYdelseEfterSkatUdenAfdrag": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "Rating": {
+        "type": "object",
+        "properties": {
+          "tekst": {
+            "type": "string",
+            "nullable": true
+          },
+          "vaerdi": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SendBeregningRequest": {
+        "type": "object",
+        "properties": {
+          "kundenavn": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "serializedBeregning": {
+            "type": "string",
+            "nullable": true
+          },
+          "opretLead": {
+            "type": "boolean"
+          },
+          "partnerId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SendBeregningResponse": {
+        "type": "object",
+        "properties": {
+          "gikDetGodt": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "TilbagebetalingsplanElement": {
+        "type": "object",
+        "properties": {
+          "betalingsaar": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "betalingsdato": {
+            "type": "string",
+            "nullable": true
+          },
+          "ydelseFoerSkat": {
+            "type": "number",
+            "format": "double"
+          },
+          "ydelseEfterSkat": {
+            "type": "number",
+            "format": "double"
+          },
+          "afdrag": {
+            "type": "number",
+            "format": "double"
+          },
+          "rente": {
+            "type": "number",
+            "format": "double"
+          },
+          "bidrag": {
+            "type": "number",
+            "format": "double"
+          },
+          "restgaeld": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UdbetalingsKurs": {
+        "type": "object",
+        "properties": {
+          "kurs": {
+            "type": "number",
+            "format": "double"
+          },
+          "dato": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VaegtetUdbetalingsKurs": {
+        "type": "object",
+        "properties": {
+          "kurs": {
+            "type": "number",
+            "format": "double"
+          },
+          "dato": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "renteProcent": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VariabelRenteProdukt": {
+        "type": "object",
+        "properties": {
+          "produktnavn": {
+            "type": "string",
+            "nullable": true
+          },
+          "fastrenteperiode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vaegtetTilbudskursDato": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "vaegtetTilbudskursProcent": {
+            "type": "number",
+            "format": "double"
+          },
+          "maxAntalAfdragsfrieAar": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          },
+          "vaegtetUdbetalingskurser": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VaegtetUdbetalingsKurs"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

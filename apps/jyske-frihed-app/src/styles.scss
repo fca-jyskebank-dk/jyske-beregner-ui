@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@kirbydesign/designsystem/scss/global-styles';
+@import '~@kirbydesign/designsystem/scss/utils';
+@import '../../../libs/shared/src/lib/scss/kirby-wcm-corrections';
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.jbb-main-container {
+  @media screen and (max-width: 800px) {
+    flex-direction: column;
+  }
+}

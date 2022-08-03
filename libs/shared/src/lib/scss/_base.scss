@@ -1,0 +1,17 @@
+@import '~@kirbydesign/designsystem/scss/global-styles';
+@import '~@kirbydesign/designsystem/scss/utils';
+
+$desktop-breakpoint: 391px;
+$desktop-max-width: 976px;
+$min-width: 320px;
+$font-family: Roboto, Effra, sans-serif;
+
+* {
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

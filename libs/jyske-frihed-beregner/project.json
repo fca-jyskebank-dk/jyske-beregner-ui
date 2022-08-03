@@ -1,0 +1,28 @@
+{
+  "projectType": "library",
+  "root": "libs/jyske-frihed-beregner",
+  "sourceRoot": "libs/jyske-frihed-beregner/src",
+  "prefix": "jyske-frihed-beregner",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": ["libs/jyske-frihed-beregner/src/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "options": {
+        "jestConfig": "libs/jyske-frihed-beregner/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "generators": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["shared"]
+}

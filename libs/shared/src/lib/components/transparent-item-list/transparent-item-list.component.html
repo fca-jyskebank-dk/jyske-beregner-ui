@@ -1,0 +1,19 @@
+<div class="container">
+  <div *ngFor="let item of items">
+    <hr *ngIf="item.showDivider" />
+    <kirby-item size="xs">
+      <span
+        class="kirby-text-small-light"
+        [ngClass]="{ bold: item.showBold === true }"
+        >{{ item.label }}</span
+      >
+      <span
+        class="kirby-text-small-light"
+        [ngClass]="{ bold: item.showBold === true }"
+        slot="end"
+      >
+        {{ item.value }}</span
+      >
+    </kirby-item>
+  </div>
+</div>

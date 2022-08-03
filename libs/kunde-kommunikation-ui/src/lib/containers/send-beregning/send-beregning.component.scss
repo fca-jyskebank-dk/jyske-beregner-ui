@@ -1,0 +1,20 @@
+.input-field {
+  height: 96px;
+  margin-bottom: size('xs');
+}
+
+h3 {
+  margin-top: 12px;
+  margin-left: 16px;
+  margin-bottom: 0px;
+}
+
+// et kedeligt hack
+kirby-modal-footer ::ng-deep ion-footer {
+  padding: 8px 0;
+}
+.persondatapolitikButton{
+  justify-content: center;
+  display: flex;
+  align-items: baseline;
+}

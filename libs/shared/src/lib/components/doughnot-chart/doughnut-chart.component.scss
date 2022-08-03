@@ -1,0 +1,29 @@
+@import '~@kirbydesign/designsystem/scss/utils';
+
+#chartContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+
+}
+
+#chartLegend {
+  --kirby-item-background: transparent;
+  position: absolute;
+
+  .dot {
+    border-radius: 50%;
+    height: size('xxs');
+    width: size('xxs');
+  }
+
+  h3,
+  data {
+    color: get-color('white');
+    font-weight: bold;
+  }
+  p {
+    color: get-color('white');
+  }
+}

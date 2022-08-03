@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/beregningsresultat-ui",
+  "sourceRoot": "libs/beregningsresultat-ui/src",
+  "prefix": "jyske-beregner-ui",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/beregningsresultat-ui"],
+      "options": {
+        "jestConfig": "libs/beregningsresultat-ui/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/beregningsresultat-ui/src/**/*.ts",
+          "libs/beregningsresultat-ui/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

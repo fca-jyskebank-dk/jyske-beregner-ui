@@ -1,0 +1,44 @@
+@import '../../../../../shared/src/lib/scss/base';
+
+.call2action {
+  padding: 0 size('s');
+  margin-bottom: size('s');
+}
+
+.kirby-text-xlarge {
+  font-size: font-size('xl');
+  font-weight: font-weight('black');
+}
+
+.jbb-container__ydelser {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ydelsePrMd {
+  p {
+    margin: 0;
+  }
+  p.kirby-text-xsmall {
+    color: get-color('semi-dark');
+  }
+  span {
+    font-size: font-size('xs');
+    color: get-color('semi-dark');
+    display: block;
+  }
+}
+
+kirby-flag {
+  margin-top: size('xxxxs');
+  margin-bottom: size('xxxxs');
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
